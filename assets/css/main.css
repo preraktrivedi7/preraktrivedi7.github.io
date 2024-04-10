@@ -7,6 +7,32 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+
+
+
+
+/* For demonstration purposes only: */
+body { font-size: 0.5em }
+h1 { font-size: 0.5em }
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -34,8 +60,8 @@ body {
 	
 }
 
-ol, ul {
-	list-style: none;
+ol, ul.a {
+	list-style-type: circle;
 }
 
 blockquote, q {
@@ -178,7 +204,7 @@ input, select, textarea {
 
 	p {
 		text-align: justify;
-		margin: 0 0 2rem 0;
+		margin: 0 0 1.25rem 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -187,7 +213,7 @@ input, select, textarea {
 		line-height: 1.5;
 		letter-spacing: 0.075em;
 		text-transform: uppercase;
-		margin: 0 0 1rem 0;
+		margin: 0 0 1.25rem 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -278,6 +304,11 @@ input, select, textarea {
 
 	.align-left {
 		text-align: left;
+	}
+
+	.align-justify {
+		text-align: justify;
+		text-justify: inter-word;
 	}
 
 	.align-center {
@@ -2869,7 +2900,7 @@ input, select, textarea {
 		padding-left: 1rem;
 	}
 
-		ul li {
+		ul.li {
 			padding-left: 0.5rem;
 			display:flex
 		}
