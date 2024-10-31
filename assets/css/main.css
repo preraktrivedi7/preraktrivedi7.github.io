@@ -29,7 +29,7 @@
 /* Container for the blog feed */
 #blog-feed {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: 20px;
 	padding: 20px;
 	max-width: 1200px;
@@ -43,60 +43,69 @@
 	padding: 16px;
 	background-color: #fff;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	text-align: center;
 	display: flex;
 	flex-direction: column;
-	height: 100%;
 	justify-content: space-between;
+	text-align: left;
   }
   
   /* Title of the blog article */
   #blog-feed article h3 {
-	font-size: 1.1em;
-	margin-bottom: 10px;
+	font-size: 1.2em;
 	color: #333;
+	margin-bottom: 0.5em;
+  }
+  
+  #blog-feed article h3 a {
+	color: #333;
+	text-decoration: none;
+  }
+  
+  #blog-feed article h3 a:hover {
+	color: #18bfef;
   }
   
   /* Date styling */
   #blog-feed article .date {
 	font-size: 0.9em;
 	color: #777;
-	margin-bottom: 10px;
+	margin-bottom: 1em;
   }
   
   /* Blog description styling */
   #blog-feed article p {
-	font-size: 0.9em;
+	font-size: 0.95em;
 	color: #555;
-	margin-bottom: 20px;
+	margin-bottom: 1.5em;
   }
   
   /* Read on Medium button styling */
   #blog-feed .button {
-	background-color: transparent;
-	box-shadow: inset 0 0 0 2px #212931;
-	color: #212931 !important;
+	background-color: #212931;
+	color: #fff !important;
 	border-radius: 4px;
 	padding: 10px 20px;
 	font-weight: bold;
+	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	transition: all 0.3s;
-	margin-top: auto;
+	transition: background-color 0.3s, color 0.3s;
+	width: fit-content;
+	align-self: center;
   }
   
   #blog-feed .button:hover {
-	box-shadow: inset 0 0 0 2px #18bfef;
-	color: #18bfef !important;
+	background-color: #18bfef;
+	color: #fff !important;
   }
   
   /* Responsive adjustments for smaller screens */
   @media (max-width: 768px) {
 	#blog-feed {
-	  grid-template-columns: 1fr; /* Single column on smaller screens */
+	  grid-template-columns: 1fr;
 	}
   }
-  
+	
   
 
 
