@@ -26,7 +26,87 @@
   100% { transform: rotate( 0.0deg) }
 }
 
-
+/* Container for the blog feed */
+#blog-feed {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	padding: 20px;
+	max-width: 1200px;
+	margin: auto;
+  }
+  
+  /* Individual blog card styling */
+  #blog-feed article {
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 16px;
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-between;
+  }
+  
+  /* Title of the blog article */
+  #blog-feed article h3 {
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	color: #333;
+  }
+  
+  /* Date styling */
+  #blog-feed article .date {
+	font-size: 0.9em;
+	color: #777;
+	margin-bottom: 10px;
+  }
+  
+  /* Blog image styling */
+  #blog-feed article .image.fit img {
+	width: 100%;
+	height: 180px; /* Restrict image height for uniformity */
+	object-fit: cover; /* Crop the image to fit within the bounds */
+	border-radius: 4px;
+	display: block;
+	margin: 0 auto;
+  }
+  
+  /* Blog description styling */
+  #blog-feed article p {
+	font-size: 0.9em;
+	color: #555;
+	margin-bottom: 20px;
+  }
+  
+  /* Read on Medium button styling */
+  #blog-feed .button {
+	background-color: transparent;
+	box-shadow: inset 0 0 0 2px #212931;
+	color: #212931 !important;
+	border-radius: 4px;
+	padding: 10px 20px;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	transition: all 0.3s;
+	margin-top: auto;
+  }
+  
+  #blog-feed .button:hover {
+	box-shadow: inset 0 0 0 2px #18bfef;
+	color: #18bfef !important;
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+	#blog-feed {
+	  grid-template-columns: 1fr; /* Single column on smaller screens */
+	}
+  }
+  
 
 
 /* For demonstration purposes only: */
@@ -2262,7 +2342,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #212931;
+				background-color: #212931;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
