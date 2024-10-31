@@ -7,7 +7,8 @@ async function fetchMediumFeed() {
     const container = document.getElementById('blog-feed');
     container.innerHTML = '';
 
-    data.items.slice(0, 4).forEach(item => {
+    // Fetch the first 8 items
+    data.items.slice(0, 8).forEach(item => {
       const article = document.createElement('article');
 
       // Use item.thumbnail directly, and strip <figure> tags from the description
