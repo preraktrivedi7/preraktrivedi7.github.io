@@ -547,6 +547,185 @@
             color: var(--fg3);
         }
 
+        /* Case Studies Section */
+        .case-study-card {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 32px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .case-study-card:hover {
+            border-color: var(--accent);
+            box-shadow: 0 4px 20px rgba(240, 106, 106, 0.08);
+        }
+
+        .case-study-card.active {
+            border-color: var(--accent);
+        }
+
+        .case-study-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .case-study-header-left {
+            flex: 1;
+        }
+
+        .case-study-meta {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+        }
+
+        .case-study-company {
+            font-family: 'Space Mono', monospace;
+            font-size: 12px;
+            text-transform: uppercase;
+            color: var(--accent);
+            letter-spacing: 1.5px;
+        }
+
+        .case-study-year {
+            font-size: 13px;
+            color: var(--fg3);
+        }
+
+        .case-study-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: var(--fg);
+        }
+
+        .case-study-summary {
+            font-size: 14px;
+            color: var(--fg2);
+            line-height: 1.6;
+        }
+
+        .case-study-toggle {
+            flex-shrink: 0;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: var(--accent-soft);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .case-study-card.active .case-study-toggle {
+            transform: rotate(45deg);
+            background: var(--accent);
+            color: white;
+        }
+
+        .case-study-details {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+        }
+
+        .case-study-card.active .case-study-details {
+            max-height: 2000px;
+        }
+
+        .case-study-content {
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            margin-top: 20px;
+        }
+
+        .case-study-section {
+            margin-bottom: 24px;
+        }
+
+        .case-study-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .case-study-section h4 {
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent);
+            margin-bottom: 12px;
+        }
+
+        .case-study-section p {
+            font-size: 14px;
+            color: var(--fg2);
+            line-height: 1.65;
+            margin-bottom: 12px;
+        }
+
+        .case-study-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .case-study-section li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: var(--fg2);
+            line-height: 1.65;
+        }
+
+        .case-study-section li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 10px;
+            width: 6px;
+            height: 6px;
+            background: var(--accent-mid);
+            border-radius: 50%;
+        }
+
+        .case-study-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        .metric-box {
+            background: var(--bg);
+            padding: 16px;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+        }
+
+        .metric-label {
+            font-size: 11px;
+            color: var(--fg3);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+
+        .metric-value {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--accent);
+        }
+
         /* Contact Section */
         .contact-section {
             padding: 80px 0;
@@ -700,6 +879,18 @@
             .btn {
                 justify-content: center;
             }
+
+            .case-study-header {
+                flex-direction: column;
+            }
+
+            .case-study-toggle {
+                align-self: flex-end;
+            }
+
+            .case-study-metrics {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -709,7 +900,7 @@
             <a href="#" class="nav-logo">prerak<span class="dot">.</span></a>
             <div class="nav-links">
                 <a href="#experience">Experience</a>
-                <a href="#thinking">Thinking</a>
+                <a href="#case-studies">Case Studies</a>
                 <a href="#skills">Skills</a>
                 <a href="https://www.linkedin.com/in/preraktrivedi7" target="_blank" rel="noopener">LinkedIn</a>
             </div>
@@ -836,6 +1027,167 @@
                     </ul>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="case-studies">
+        <div class="container">
+            <div class="section-label">Product Work</div>
+            <h2 class="section-title">Case studies</h2>
+            <p class="section-desc">Deep dives into products I've built and scaled. Click to expand.</p>
+
+            <!-- CASE STUDY 1: JustReva - Easy to copy this entire block to add more -->
+            <div class="case-study-card fade-up">
+                <div class="case-study-header">
+                    <div class="case-study-header-left">
+                        <div class="case-study-meta">
+                            <span class="case-study-company">JustReva</span>
+                            <span class="case-study-year">2024 — Present</span>
+                        </div>
+                        <h3 class="case-study-title">Building a Voice AI Product from Zero</h3>
+                        <p class="case-study-summary">Founded and shipped a HIPAA-compliant voice AI receptionist for healthcare. Built the full stack, GTM strategy, and onboarded first paying customers.</p>
+                    </div>
+                    <div class="case-study-toggle">+</div>
+                </div>
+                <div class="case-study-details">
+                    <div class="case-study-content">
+                        <div class="case-study-section">
+                            <h4>The Problem</h4>
+                            <p>Healthcare clinics lose 30% of inbound calls due to staff shortages and after-hours gaps. Patients get frustrated, clinics lose revenue, and competitors with better availability win.</p>
+                        </div>
+                        <div class="case-study-section">
+                            <h4>My Approach</h4>
+                            <ul>
+                                <li><strong>0-to-1 product discovery:</strong> Interviewed 20+ clinic owners to validate pain points and willingness to pay</li>
+                                <li><strong>Technical architecture:</strong> Designed LLM orchestration pipeline (ASR → intent classification → LLM routing → TTS) with sub-3s latency</li>
+                                <li><strong>Build-vs-buy decisions:</strong> Evaluated 8+ AI providers across cost, HIPAA compliance, and latency. Chose hybrid approach (3rd-party voice + custom LLM layer)</li>
+                                <li><strong>GTM from scratch:</strong> Built live voice demo, tiered pricing ($499/mo starting tier), and inbound funnel with no marketing budget</li>
+                                <li><strong>Enterprise pilot program:</strong> Designed onboarding flow, SLA framework, and feedback loops for first 10 customers</li>
+                            </ul>
+                        </div>
+                        <div class="case-study-section">
+                            <h4>Impact</h4>
+                            <div class="case-study-metrics">
+                                <div class="metric-box">
+                                    <div class="metric-label">Status</div>
+                                    <div class="metric-value">Live Pilots</div>
+                                </div>
+                                <div class="metric-box">
+                                    <div class="metric-label">Geography</div>
+                                    <div class="metric-value">US + Canada</div>
+                                </div>
+                                <div class="metric-box">
+                                    <div class="metric-label">Revenue Model</div>
+                                    <div class="metric-value">SaaS</div>
+                                </div>
+                            </div>
+                            <p style="margin-top: 16px;">Sole founder — owned product, engineering decisions, pricing, and first customer conversations. This is my biggest differentiator: I didn't just PM an AI product, I built one.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CASE STUDY 2: TD Fraud Platform -->
+            <div class="case-study-card fade-up">
+                <div class="case-study-header">
+                    <div class="case-study-header-left">
+                        <div class="case-study-meta">
+                            <span class="case-study-company">TD Bank</span>
+                            <span class="case-study-year">2025</span>
+                        </div>
+                        <h3 class="case-study-title">AI-Powered Fraud Detection at Enterprise Scale</h3>
+                        <p class="case-study-summary">Led delivery of real-time fraud detection platform covering 100K+ employees, saving $5M+ annually.</p>
+                    </div>
+                    <div class="case-study-toggle">+</div>
+                </div>
+                <div class="case-study-details">
+                    <div class="case-study-content">
+                        <div class="case-study-section">
+                            <h4>The Problem</h4>
+                            <p>TD Bank faced increasing insider fraud risk across 100K+ employees. Existing detection was manual, reactive, and failed to catch sophisticated patterns. The ask: build a platform that scales across multiple business lines without creating alert fatigue.</p>
+                        </div>
+                        <div class="case-study-section">
+                            <h4>My Approach</h4>
+                            <ul>
+                                <li><strong>Cross-functional alignment:</strong> Ran workshops with 12+ senior stakeholders across fraud, compliance, legal, and engineering to define success metrics and non-negotiables</li>
+                                <li><strong>Build-vs-buy evaluation:</strong> Led vendor assessment of 5 AI/ML platforms. Chose hybrid approach: 3rd-party ML engine + custom business logic layer</li>
+                                <li><strong>Roadmap prioritization:</strong> Sequenced rollout across 5 product areas based on fraud impact vs. implementation complexity. Delivered MVP in 4 months vs. 12-month original estimate</li>
+                                <li><strong>Performance tuning:</strong> Worked with data science team to optimize false positive rate from 40% to 8% through iterative model retraining and rule refinement</li>
+                            </ul>
+                        </div>
+                        <div class="case-study-section">
+                            <h4>Impact</h4>
+                            <div class="case-study-metrics">
+                                <div class="metric-box">
+                                    <div class="metric-label">Coverage</div>
+                                    <div class="metric-value">100K+ Users</div>
+                                </div>
+                                <div class="metric-box">
+                                    <div class="metric-label">Annual Savings</div>
+                                    <div class="metric-value">$5M+</div>
+                                </div>
+                                <div class="metric-box">
+                                    <div class="metric-label">False Positive Rate</div>
+                                    <div class="metric-value">8%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CASE STUDY 3: Personalization Engine -->
+            <div class="case-study-card fade-up">
+                <div class="case-study-header">
+                    <div class="case-study-header-left">
+                        <div class="case-study-meta">
+                            <span class="case-study-company">TD Bank</span>
+                            <span class="case-study-year">2022 — 2025</span>
+                        </div>
+                        <h3 class="case-study-title">ML Personalization for 2.5M Daily Users</h3>
+                        <p class="case-study-summary">Led product for ML-powered recommendations that drove 15% engagement lift and $2M+ revenue contribution.</p>
+                    </div>
+                    <div class="case-study-toggle">+</div>
+                </div>
+                <div class="case-study-details">
+                    <div class="case-study-content">
+                        <div class="case-study-section">
+                            <h4>The Problem</h4>
+                            <p>TD's digital banking platform had generic, one-size-fits-all content. Users weren't discovering relevant products, leading to low engagement and missed cross-sell opportunities. The business wanted personalization but had no ML infrastructure or experimentation culture.</p>
+                        </div>
+                        <div class="case-study-section">
+                            <h4>My Approach</h4>
+                            <ul>
+                                <li><strong>Experimentation framework:</strong> Built org-wide A/B testing standards — test design, sample size calculation, evaluation metrics. Ran 30+ experiments in first year</li>
+                                <li><strong>Funnel optimization:</strong> Identified drop-off points across 5-step onboarding flow. Redesigned CTAs, copy, and placement based on user segments — improved activation by 12%</li>
+                                <li><strong>ML model collaboration:</strong> Partnered with data science to define features, labels, and success metrics for recommendation engine. Iterated on 4 model versions to optimize click-through vs. conversion</li>
+                                <li><strong>0-to-1 innovation pipeline:</strong> Built business cases for new AI initiatives, presented to VPs, secured budget for projects with no precedent</li>
+                            </ul>
+                        </div>
+                        <div class="case-study-section">
+                            <h4>Impact</h4>
+                            <div class="case-study-metrics">
+                                <div class="metric-box">
+                                    <div class="metric-label">Scale</div>
+                                    <div class="metric-value">2.5M DAU</div>
+                                </div>
+                                <div class="metric-box">
+                                    <div class="metric-label">Engagement Lift</div>
+                                    <div class="metric-value">+15%</div>
+                                </div>
+                                <div class="metric-box">
+                                    <div class="metric-label">Revenue Impact</div>
+                                    <div class="metric-value">$2M+</div>
+                                </div>
+                            </div>
+                            <p style="margin-top: 16px;">Created experimentation playbook that became org-wide standard. Framework now used by 8+ product teams across the bank.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TO ADD MORE: Copy any case-study-card block above and edit the content -->
+
         </div>
     </section>
 
@@ -1021,6 +1373,23 @@
         }, observerOptions);
 
         fadeUpElements.forEach(el => observer.observe(el));
+
+        // Case study expand/collapse
+        const caseStudyCards = document.querySelectorAll('.case-study-card');
+
+        caseStudyCards.forEach(card => {
+            card.addEventListener('click', () => {
+                // Close other cards
+                caseStudyCards.forEach(otherCard => {
+                    if (otherCard !== card && otherCard.classList.contains('active')) {
+                        otherCard.classList.remove('active');
+                    }
+                });
+
+                // Toggle clicked card
+                card.classList.toggle('active');
+            });
+        });
     </script>
 </body>
 </html>
