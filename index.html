@@ -1,488 +1,1026 @@
-<!DOCTYPE HTML>
-<!--
-	Trying to implement Portfolio
--->
-<html>
-	<head>
-		
-		<title>Prerak Trivedi's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="apple-mobile-web-app-title" content="HTML5 UP">
-<meta property="og:site_name" content="Prerak Trivedi's Portfolio"><meta property="og:type" content="article">
-<meta property="og:locale" content="en_US"><meta property="og:title" content="Prerak Trivedi's Portfolio">
-<meta property="og:image" content="/full-stack-developer.png">
-<!-- <meta property="og:description" content="This is Massively, a text-heavy, article-oriented design built around a huge background image (with a new parallax implementation I'm testing) and scroll effects (powered by Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one that fulfills a few user requests and makes use of some new techniques I've been wanting to try out. Enjoy it :)"> -->
-<meta property="og:url" content="https://preraktrivedi7.github.io">
-<link rel="canonical" href="https://preraktrivedi7.github.io">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon-precomposed" href="/assets/icons/apple-touch-icon-precomposed.png">
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-<meta http-equiv='cache-control' content='no-cache'> 
-<meta http-equiv='expires' content='0'> 
-<meta http-equiv='pragma' content='no-cache'>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prerak Trivedi — PM & AI Builder</title>
+    <meta name="description" content="Product Manager building AI/ML platforms at TD Bank and Founder of JustReva, a voice AI product for healthcare. Based in Toronto, open to Vancouver.">
+    <meta property="og:title" content="Prerak Trivedi — PM & AI Builder">
+    <meta property="og:description" content="Product Manager building AI/ML platforms at TD Bank and Founder of JustReva, a voice AI product for healthcare. Based in Toronto, open to Vancouver.">
+    <meta property="og:type" content="website">
 
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		
-	</head>
-	<body class="is-preload">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    <style>
+        :root {
+            --fg: #1a1a1f;
+            --fg2: #3a3a42;
+            --fg3: #6b6b76;
+            --accent: #F06A6A;
+            --accent-soft: #fef0f0;
+            --accent-mid: #fcd4d4;
+            --bg: #fafaf9;
+            --card: #ffffff;
+            --border: #e8e8e5;
+            --radius: 14px;
+        }
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Prerak<br />
-						Trivedi
-						</h1>
-						<h2>
-							I am a
-							<span
-								class="txt-rotate"
-								data-period="2000"
-								data-rotate='[ "Product Owner.", "Data Scientist.", "ML Engineer.", "Content Writer." ]'>
-							</span>
-						</h2>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-				<!-- Header --> <!-- DOWNLOAD RESUME (AN OPTION) -->
-					<header id="header">
-						<a href="index.html" class="logo">Portfolio</a>
-					</header>
+        html {
+            scroll-behavior: smooth;
+        }
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">About Me</a></li>
-							<li><a href="projects.html">Projects</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="contactme.html">Contact Me</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.github.com/preraktrivedi7" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="https://www.medium.com/@preraktrivedi7" class="icon brands fa-medium-m" aria-hidden="true"><span class="label">Medium</span></a></li>
-							<li><a href="mailto:prerak.portfolio@gmail.com" class="icon solid fa-envelope"><span class="label">E-Mail</span></a></li>
-							<li><a href="https://www.linkedin.com/in/preraktrivedi7" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://www.kaggle.com/preraktrivedi7" class="icon brands fa-kaggle"><span class="label">Kaggle</span></a></li>
-						</ul>
-					</nav>
+        body {
+            font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-size: 16px;
+            line-height: 1.65;
+            color: var(--fg);
+            background: var(--bg);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
 
-				<!-- Main -->
-					<div id="main">
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            background: rgba(250, 250, 249, 0.85);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            z-index: 100;
+            transition: box-shadow 0.3s ease;
+        }
 
-						<!-- Featured Post -->
-							<article class="major">
-								
-									<!-- <span class="date">April 25, 2017</span> -->
-									<!-- <h2><a href="Prerak_Trivedi_Resume.pdf">Download My Resume</a></h2> -->
-									<p style="font-weight: 500 ;"><span class="image right"><img src="images/product-manager.gif" style="height: 3%;width: 3%x;", alt="" /></span>
-										Hi there <span class="wave">👋</span> I am a passionate Data Product Specialist based in the vibrant province of Ontario, Canada, driven by 
-										a relentless curiosity to link business objectives with data-driven insights. My forte lies in meticulously crafting strategic roadmaps and 
-										delivery plans, ensuring a seamless translation of complex goals into tangible outcomes.
-									</p>
-									<p>
-										<i>
-											Thriving on challenges, I find immense pleasure in transforming intricate problems into elegant, intuitive code, thereby reflecting simplicity amidst complexity. 
-											Off the clock, I revel in stirring up culinary delights, nurturing my lush garden, indulging in a compelling read, 
-											or soaking up nature's wonders during a leisurely walk in the park.
-										</i>
-									</p>
-									<br>
-									<hr />
-									<section id="Work Experience">
-										<h2>
-											Work Experience
-										</h2>
-									<a href="https://www.td.com/about-tdbfg/corporate-information/corporate-profile/profile.jsp">
-									<span class="image left"><img src="images/td-logo.png" style="height: 25px;width: 25px;", alt="TD Logo" /></span></a>
-									<font size ="+1.5" ><b>Senior Product Analyst</b>, TD Bank Group </font><br>
-									<p>
-										<ul class="list", class="major">
-											<li><u>Strategic Problem-Solving and Solutioning:</u> Define and address key customer pain points through comprehensive root cause analyses, driving solutions that led to a 20% increase in customer engagement with our products.</li>
-											<li><u>Driving Growth and Innovation:</u> Identify potential areas for growth leveraging domain expertise, creating innovative strategies that boosted business performance by 15% while ensuring alignment with customer needs.</li>
-											<li><u>Cross-Functional Leadership and Collaboration:</u> Facilitate cross-functional collaboration to expedite product development, implementing detailed roadmaps and Agile methodologies that improved project delivery efficiency by 30%. Utilize data-driven decision-making processes to balance trade-offs, resulting in a 25% improvement in prioritization of key objectives.</li>
-											<li><u>Research and Product Management:</u> Conduct market research to understand the competitive landscape and emerging trends, thereby informing product roadmap. Introduced a feature set that captured a new customer segment, increasing market share by 10%.</li>
-										</ul>
-									</p>
-										
-									<a href="https://summatti.com/">
-										<span class="image left"><img src="images/summatti-logo.png" style="height: 25px;width: 25px;", alt="Summatti Logo" /></span></a>
-										<font size ="+1.5" ><b>Data Scientist (NLP, R&D)</b>, Summatti </font><br>
-										<p>
-											<ul class="list", class="major">
-												<li><u>Data-Driven Product Enhancement:</u> Implemented analytical strategies and algorithms that increased the unique customer interaction points for products by over 3+ times, contributing to better user engagement and product understanding.</li>
-												<li><u>Machine Learning Application:</u> Designed, maintained, and deployed 4+ scalable machine learning models and pipelines, significantly advancing product development and testing processes.</li>
-												<li><u>Product Success Planning:</u> Developed product success metrics, strategies, and conducted market research, resulting in a 15% increase in user engagement and aiding in prioritizing the product development pipeline.</li>
-												<li><u>Cross-Functional Collaboration:</u> Collaborated across various teams, enhancing the delivery of 5+ data products by effectively engaging and communicating with stakeholders, including the CEO, developers, and the business team.</li>
-											</ul>
-										</p>										
-									
-									<a href="https://www.justdial.com/Vadodara/Turtle-Tec-Inc/">
-										<span class="image left"><img src="images/turtletech.jpg" style="height: 25px;width: 25px;", alt="TurtleTech Logo" /></span></a>
-										<font size ="+1.5" ><b>Data Science Consultant</b>, TurtleTech Inc </font><br>
-										<p>
-											<ul class="list", class="major">
-												
-												<li><u>Advanced Data Analytics & Prediction:</u> Utilized Python and R to deploy time series models, analyzing large datasets for decision-making and traffic management, enhancing strategic foresight and operational efficiency.</li>
-												<li><u>Project Management & Efficiency Optimization:</u> Optimized project deployment time by 35% and achieved 86% accuracy by identifying project priorities and implementing efficient resource allocation strategies, leading to significant improvements in project delivery and outcomes.</li>
-												<li><u>Stakeholder Engagement & Revenue Impact:</u> Collaborated with stakeholders to boost product performance, leading to a $100K increase in revenue through enhanced consumer satisfaction and product-market fit.</li>
-											</ul>
-										</p>
-									<a href="https://www.justdial.com/Vadodara/Turtle-Tec-Inc/">
-										<span class="image left"><img src="images/turtletech.jpg" style="height: 25px;width: 25px;", alt="TurtleTech Logo" /></span></a>
-										<font size ="+1.5" ><b>Data Analyst</b>, TurtleTech Inc </font><br>
-										<p>
-											<ul class="list", class="major">
-												<li><u>Data Maintenance & Operational Efficiency:</u> Enhanced operational efficiency by 10% through meticulous data maintenance and analysis, identifying and resolving model issues to streamline business operations.</li>
-												<li><u>Solution Development & System Improvement:</u> Developed and implemented solutions to rectify faults in data pipelines, boosting the existing system's effectiveness by 25% through strategic improvements and technical innovations.</li>
-												<li><u>Visualization Design & Reporting Solutions:</u> Designed and simplified over 10 visualizations weekly, creating impactful reporting solutions for ad-hoc analysis, thereby facilitating data-driven decision-making across teams.</li>
-											</ul>
-										</p>		
-									
-									</section>
+        nav.scrolled {
+            box-shadow: 0 1px 12px rgba(0, 0, 0, 0.06);
+        }
 
-									
-							</article>
+        .nav-container {
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 0 28px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
 
-												
-							
-									
-							<article><section id="skills">
-							<!-- SKILLS -->
-							
-							
-							<h2>Tech Skills</h2>
-							<div class="table-wrapper">
-								<table class="alt">
-									<thead>
-										
-									</thead>
-									
-									<tbody>
-										<tr>
-											<td><b>Python</b></td>
-										</tr>
-										<tr>
-											<td>Capable of performing various tasks based on arrays and dataframes. 
-												Perform various visualizations, classification and clustering techniques.</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="1"></td>
-											<td></td>
-										</tr>
-									</tfoot>
-								</table>
-							
+        .nav-logo {
+            font-size: 17px;
+            font-weight: 700;
+            color: var(--fg);
+            text-decoration: none;
+        }
 
-							
-								<table class="alt">
-									<thead>
-										
-									</thead>
-									<tbody>
-										<tr>
-											<td><b>R Programming</b></td>
-										</tr>
-										<tr>
-											<td>Perform various tasks like visualization, statistical analysis, text analysis and 
-												machine learning models using libraries such as tidyr, ggplot, CART, superml.</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="1"></td>
-											<td></td>
-										</tr>
-									</tfoot>
-								</table>
+        .nav-logo .dot {
+            color: var(--accent);
+        }
 
-								<table class="alt">
-									<thead>
-										
-									</thead>
-									<tbody>
-										<tr>
-											<td><b>SQL</b></td>
-										</tr>
-										<tr>
-											<td>Can perform SQL database management, design database queries and obtain relevant results. 
-												Can design basic database structures by creating relations between tables. </td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="1"></td>
-											<td></td>
-										</tr>
-									</tfoot>
-								</table>
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            align-items: center;
+        }
 
-								<table class="alt">
-									<thead>
-										
-									</thead>
-									<tbody>
-										<tr>
-											<td><b>Machine Learning</b></td>
-										</tr>
-										<tr>
-											<td>Have implemented various models like Neural Networks, CNN, Random Forest, Regression, SVM etc. using
-												libraries like TensorFlow, Keras, Scikit-learn, PyTorch in R and Python.  </td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="1"></td>
-											<td></td>
-										</tr>
-									</tfoot>
-								</table>
+        .nav-links a {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--fg3);
+            text-decoration: none;
+            transition: color 0.25s;
+        }
 
-								<table class="alt">
-									<thead>
-										
-									</thead>
-									<tbody>
-										<tr>
-											<td><b>Computer Vision</b></td>
-										</tr>
-										<tr>
-											<td>Hands on experience for the image classification, recognition and object detection. Also aware of
-												transfer learning technique along with pre-trained models like VGG16 and Inception V3.</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="1"></td>
-											<td></td>
-										</tr>
-									</tfoot>
-								</table>
+        .nav-links a:hover {
+            color: var(--accent);
+        }
 
-								<table class="alt">
-									<thead>
-										
-									</thead>
-									<tbody>
-										<tr>
-											<td><b>Big Data Technologies</b></td>
-										</tr>
-										<tr>
-											<td>Familiar with cloud services like AWS and Google Cloud. Familiar with NoSQL databases
-												using MongoDB, Cassandra and Hadoop. Hands on experience with PySpark using Docker for Machine Learning.
-											</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="1"></td>
-											<td></td>
-										</tr>
-									</tfoot>
-								</table>
+        /* Container */
+        .container {
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 0 28px;
+        }
 
+        section {
+            padding: 72px 0;
+        }
 
-								<h2>Soft Skills</h2>
-								<div class="table-wrapper">
-									<table class="alt">
-										<thead>
-											
-										</thead>
-										
-										<tbody>
-											<tr>
-												<td><b>Problem-Solving</b></td>
-											</tr>
-											<tr>
-												<td>Strong analytical skills with a proven track record of leveraging data to solve complex problems and improve business outcomes.</td>
-											</tr>
-										</tbody>
-										<tfoot>
-											<tr>
-												<td colspan="1"></td>
-												<td></td>
-											</tr>
-										</tfoot>
-									</table>
+        /* Hero Section */
+        .hero {
+            padding-top: 140px;
+            padding-bottom: 64px;
+            position: relative;
+            overflow: hidden;
+        }
 
-									<table class="alt">
-											<thead>
-												
-											</thead>
-											
-											<tbody>
-												<tr>
-													<td><b>Project Management</b></td>
-												</tr>
-												<tr>
-													<td>Experience in prioritizing tasks, optimizing resource allocation, and delivering projects on time with Agile methodologies.</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="1"></td>
-													<td></td>
-												</tr>
-											</tfoot>
-										</table>
+        .hero-glow {
+            position: absolute;
+            top: -200px;
+            right: -300px;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, var(--accent-soft) 0%, transparent 70%);
+            opacity: 0.7;
+            pointer-events: none;
+        }
 
-											<table class="alt">
-												<thead>
-													
-												</thead>
-												
-												<tbody>
-													<tr>
-														<td><b>Strategic Thinking</b></td>
-													</tr>
-													<tr>
-														<td>Aptitude for driving growth and innovation by identifying potential areas for improvement and implementing effective strategies.</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="1"></td>
-														<td></td>
-													</tr>
-												</tfoot>
-											</table>
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
 
-											<h2>Domain Expertise</h2>
-											<div class="table-wrapper">
-												<table class="alt">
-													<thead>
-														
-													</thead>
-													
-													<tbody>
-														<tr>
-															<td><b>Product Development</b></td>
-														</tr>
-														<tr>
-															<td>Insights into product lifecycle management, from conducting market research to managing product rollouts and enhancements.</td>
-														</tr>
-													</tbody>
-													<tfoot>
-														<tr>
-															<td colspan="1"></td>
-															<td></td>
-														</tr>
-													</tfoot>
-												</table>
-			
-											<table class="alt">
-													<thead>
-														
-													</thead>
-													
-													<tbody>
-														<tr>
-															<td><b>Consumer Engagement Strategies</b></td>
-														</tr>
-														<tr>
-															<td>Ability to analyze customer interaction points, improve engagement strategies, and leverage data for customer success.</td>
-														</tr>
-													</tbody>
-													<tfoot>
-														<tr>
-															<td colspan="1"></td>
-															<td></td>
-														</tr>
-													</tfoot>
-												</table>
-		
-													<table class="alt">
-														<thead>
-															
-														</thead>
-														
-														<tbody>
-															<tr>
-																<td><b>Operational Efficiency</b></td>
-															</tr>
-															<tr>
-																<td>Experience in streamlining operations and improving business processes based on data-driven insights.</td>
-															</tr>
-														</tbody>
-														<tfoot>
-															<tr>
-																<td colspan="1"></td>
-																<td></td>
-															</tr>
-														</tfoot>
-													</table>
-		
-							</div>
-						</section>
-						</article>
-						
-							
+        .status-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--accent-soft);
+            color: var(--accent);
+            padding: 6px 14px;
+            border-radius: 999px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
 
-						
+        .status-tag::before {
+            content: '';
+            width: 7px;
+            height: 7px;
+            background: var(--accent);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
 
-					<!-- Medium -->
-						<footer>
-							<div class="pagination">
-								<!--<a href="#" class="previous">Prev</a>-->
-								<a href="index.html" class="page active">1</a>
-								<a href="projects.html">2</a>
-								<a href="blog.html">3</a>
-								<a href="contactme.html" class="page">4</a>
-							</div>
-						</footer>
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.4; transform: scale(0.8); }
+        }
 
-				</div>
-			</article>
+        .hero-headline {
+            font-size: clamp(38px, 5vw, 54px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -1.5px;
+            margin-bottom: 20px;
+            color: var(--fg);
+        }
 
-			<!-- Footer -->
-				<footer id="footer">
-					
-					
-						<section>
-						
-							<h2 class="">Contact Me:</h2>
-							<ul class="icons alt" style="padding-left: 39.5%;">
-								<li><a href="https://www.github.com/preraktrivedi7" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="https://www.medium.com/@preraktrivedi7" class="icon brands alt fa-medium-m"><span class="label">Medium</span></a></li>
-								<li><a href="https://www.kaggle.com/preraktrivedi7" class="icon brands alt fa-kaggle"><span class="label">Kaggle</span></a></li>
-								<li><a href="https://www.linkedin.com/in/preraktrivedi7" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="mailto:prerak.portfolio@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-						
-						</section>
-					
-				</footer>
+        .hero-headline em {
+            font-style: normal;
+            background: linear-gradient(135deg, var(--accent), #e05555);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
 
-			<!-- Copyright -->
-				<div id="copyright">
-					<ul><li>&copy; Prerak Trivedi 2021-Present</li></ul>
-				</div>
+        .hero-subheadline {
+            font-size: 17px;
+            line-height: 1.7;
+            color: var(--fg2);
+            max-width: 480px;
+            margin-bottom: 32px;
+        }
 
-		</div>
+        .hero-cta {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
 
-	<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.25s;
+            cursor: pointer;
+        }
 
+        .btn-primary {
+            background: var(--accent);
+            color: white;
+            border: none;
+            box-shadow: 0 2px 8px rgba(240, 106, 106, 0.2);
+        }
+
+        .btn-primary:hover {
+            background: #e05555;
+            box-shadow: 0 4px 16px rgba(240, 106, 106, 0.3);
+            transform: translateY(-1px);
+        }
+
+        .btn-ghost {
+            background: white;
+            color: var(--fg);
+            border: 1px solid var(--border);
+        }
+
+        .btn-ghost:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        /* JustReva Card */
+        .justreva-card {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 32px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
+            position: relative;
+        }
+
+        .justreva-card::before {
+            content: 'BUILDING NOW';
+            position: absolute;
+            top: -11px;
+            left: 24px;
+            background: var(--accent);
+            color: white;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            padding: 3px 12px;
+            border-radius: 6px;
+        }
+
+        .justreva-title {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .justreva-title a {
+            color: var(--fg);
+            text-decoration: none;
+        }
+
+        .justreva-title a:hover {
+            color: var(--accent);
+        }
+
+        .justreva-subtitle {
+            font-size: 14px;
+            color: var(--fg3);
+            margin-bottom: 16px;
+        }
+
+        .justreva-tags {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .tag {
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 500;
+            background: var(--accent-soft);
+            color: var(--accent);
+        }
+
+        .justreva-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .stat {
+            background: var(--bg);
+            border-radius: 10px;
+            padding: 14px;
+        }
+
+        .stat-label {
+            font-size: 11px;
+            color: var(--fg3);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .stat-value {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--fg);
+        }
+
+        .justreva-description {
+            font-size: 14px;
+            color: var(--fg2);
+            line-height: 1.6;
+        }
+
+        /* Section Headers */
+        .section-label {
+            font-family: 'Space Mono', monospace;
+            font-size: 12px;
+            text-transform: uppercase;
+            color: var(--accent);
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+        }
+
+        .section-title {
+            font-size: clamp(28px, 3.5vw, 38px);
+            font-weight: 700;
+            letter-spacing: -1px;
+            margin-bottom: 12px;
+        }
+
+        .section-desc {
+            font-size: 16px;
+            color: var(--fg3);
+            max-width: 560px;
+            margin-bottom: 48px;
+        }
+
+        /* Experience Section */
+        .experience-item {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 32px;
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .experience-item:last-child {
+            border-bottom: none;
+        }
+
+        .experience-left {
+            font-family: 'Space Mono', monospace;
+        }
+
+        .experience-date {
+            font-size: 13px;
+            color: var(--fg3);
+            margin-bottom: 8px;
+        }
+
+        .experience-company {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--fg);
+        }
+
+        .experience-role {
+            font-size: 19px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .experience-scope {
+            font-size: 13px;
+            color: var(--accent);
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+
+        .experience-bullets {
+            list-style: none;
+        }
+
+        .experience-bullets li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 12px;
+            font-size: 14.5px;
+            color: var(--fg2);
+            line-height: 1.65;
+        }
+
+        .experience-bullets li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 10px;
+            width: 6px;
+            height: 6px;
+            background: var(--accent-mid);
+            border-radius: 50%;
+        }
+
+        .experience-bullets strong {
+            color: var(--fg);
+            font-weight: 600;
+        }
+
+        /* Thinking Section */
+        .thinking-section {
+            background: var(--card);
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .thinking-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .thinking-card {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 28px;
+            transition: all 0.3s;
+        }
+
+        .thinking-card:hover {
+            border-color: var(--accent);
+            box-shadow: 0 4px 20px rgba(240, 106, 106, 0.08);
+            transform: translateY(-2px);
+        }
+
+        .thinking-icon {
+            width: 42px;
+            height: 42px;
+            border-radius: 10px;
+            background: var(--accent-soft);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            margin-bottom: 16px;
+        }
+
+        .thinking-card h3 {
+            font-weight: 700;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .thinking-card p {
+            font-size: 14px;
+            color: var(--fg3);
+            line-height: 1.6;
+        }
+
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        .skill-group h3 {
+            font-family: 'Space Mono', monospace;
+            font-size: 12px;
+            text-transform: uppercase;
+            color: var(--accent);
+            letter-spacing: 1.5px;
+            margin-bottom: 16px;
+        }
+
+        .skill-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .skill-pill {
+            padding: 7px 14px;
+            border-radius: 8px;
+            font-size: 13px;
+            background: white;
+            border: 1px solid var(--border);
+            color: var(--fg2);
+            transition: all 0.25s;
+        }
+
+        .skill-pill:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        /* Education Section */
+        .education-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .education-card {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 28px;
+        }
+
+        .education-card h3 {
+            font-size: 17px;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        .education-card .school {
+            font-size: 14px;
+            color: var(--fg3);
+            margin-bottom: 4px;
+        }
+
+        .education-card .details {
+            font-size: 13px;
+            color: var(--fg3);
+        }
+
+        /* Contact Section */
+        .contact-section {
+            padding: 80px 0;
+        }
+
+        .contact-wrapper {
+            background: var(--fg);
+            border-radius: 20px;
+            padding: 64px 48px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contact-wrapper::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(240, 106, 106, 0.15) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .contact-wrapper .section-label {
+            color: var(--accent);
+        }
+
+        .contact-wrapper .section-title {
+            color: white;
+        }
+
+        .contact-wrapper .section-desc {
+            color: rgba(255, 255, 255, 0.6);
+            margin: 0 auto 32px;
+        }
+
+        .contact-links {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .contact-link {
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.08);
+            color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-decoration: none;
+            transition: all 0.25s;
+        }
+
+        .contact-link:hover {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 24px;
+            font-size: 13px;
+            color: var(--fg3);
+        }
+
+        /* Animations */
+        .fade-up {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .fade-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav {
+                height: 56px;
+            }
+
+            .nav-container {
+                padding: 0 20px;
+            }
+
+            .nav-links {
+                gap: 16px;
+            }
+
+            .nav-links a {
+                font-size: 13px;
+            }
+
+            .hero {
+                padding-top: 100px;
+                padding-bottom: 48px;
+            }
+
+            .hero-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .hero-glow {
+                width: 400px;
+                height: 400px;
+                top: -100px;
+                right: -200px;
+            }
+
+            section {
+                padding: 56px 0;
+            }
+
+            .container {
+                padding: 0 20px;
+            }
+
+            .experience-item {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+
+            .thinking-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .education-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-wrapper {
+                padding: 48px 28px;
+            }
+
+            .hero-cta {
+                flex-direction: column;
+            }
+
+            .btn {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav id="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">prerak<span class="dot">.</span></a>
+            <div class="nav-links">
+                <a href="#experience">Experience</a>
+                <a href="#thinking">Thinking</a>
+                <a href="#skills">Skills</a>
+                <a href="https://www.linkedin.com/in/preraktrivedi7" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-glow"></div>
+        <div class="container">
+            <div class="hero-grid">
+                <div>
+                    <div class="status-tag">Open to opportunities</div>
+                    <h1 class="hero-headline">I build <em>AI products</em> that people actually use.</h1>
+                    <p class="hero-subheadline">Product Manager at TD Bank leading AI/ML platforms (100K+ users, $5M+ in annual savings). Founder of JustReva, a voice AI product built on LLM orchestration. Based in Toronto, open to Vancouver.</p>
+                    <div class="hero-cta">
+                        <a href="https://www.linkedin.com/in/preraktrivedi7" target="_blank" rel="noopener" class="btn btn-primary">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            LinkedIn
+                        </a>
+                        <a href="https://justreva.com" target="_blank" rel="noopener" class="btn btn-ghost">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            justreva.com
+                        </a>
+                        <a href="mailto:preraktrivedi7@gmail.com" class="btn btn-ghost">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            Email
+                        </a>
+                    </div>
+                </div>
+
+                <div class="justreva-card">
+                    <h3 class="justreva-title"><a href="https://justreva.com" target="_blank" rel="noopener">JustReva</a></h3>
+                    <p class="justreva-subtitle">Voice AI receptionist for healthcare</p>
+                    <div class="justreva-tags">
+                        <span class="tag">LLM Orchestration</span>
+                        <span class="tag">ASR / TTS</span>
+                        <span class="tag">HIPAA</span>
+                        <span class="tag">SaaS</span>
+                    </div>
+                    <div class="justreva-stats">
+                        <div class="stat">
+                            <div class="stat-label">Stack</div>
+                            <div class="stat-value">LLM + Voice</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-label">Stage</div>
+                            <div class="stat-value">Live Pilots</div>
+                        </div>
+                    </div>
+                    <p class="justreva-description">Founded and shipped from zero. Built the full discovery-to-trial journey: live voice demo, tiered SaaS pricing, and enterprise pilot program. Onboarding clinics in Canada and the US.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <div class="section-label">Experience</div>
+            <h2 class="section-title">Where I've built things</h2>
+            <p class="section-desc">6+ years of building AI/ML products, from enterprise platforms to a voice AI startup I founded.</p>
+
+            <div class="experience-item fade-up">
+                <div class="experience-left">
+                    <div class="experience-date">2024 — Present</div>
+                    <div class="experience-company">JustReva</div>
+                </div>
+                <div class="experience-right">
+                    <h3 class="experience-role">Founder & Technical Product Lead</h3>
+                    <div class="experience-scope">Voice AI for healthcare · LLM orchestration · HIPAA-compliant · Live product</div>
+                    <ul class="experience-bullets">
+                        <li>Founded and shipped a production conversational AI product from scratch — defined strategy, designed the LLM orchestration architecture (ASR, TTS, intent routing), and launched as sole founder</li>
+                        <li>Built the full discovery-to-trial journey: live voice demo, tiered SaaS pricing ($499/mo), and enterprise pilot program</li>
+                        <li>Evaluated and integrated third-party AI providers across cost, latency, and compliance constraints — making build-vs-buy decisions at every layer</li>
+                        <li>Own end-to-end GTM: positioning, competitive differentiation, pricing strategy, and conversion optimization for a new product category with no established playbook</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item fade-up">
+                <div class="experience-left">
+                    <div class="experience-date">May 2025 — Present</div>
+                    <div class="experience-company">TD Bank</div>
+                </div>
+                <div class="experience-right">
+                    <h3 class="experience-role">Product Manager, Data & AI Platforms</h3>
+                    <div class="experience-scope">Enterprise AI/ML · 100K+ users · Fraud detection · Vendor integrations</div>
+                    <ul class="experience-bullets">
+                        <li>Own product vision, strategy, and roadmap for enterprise AI platforms supporting <strong>100K+ users</strong> across multiple business lines</li>
+                        <li>Led delivery of an AI-powered fraud detection platform providing real-time coverage across 100K+ employees, <strong>saving $5M+ annually</strong></li>
+                        <li>Drove vendor evaluation and third-party integration for AI/ML capabilities — assessing build-vs-buy tradeoffs against scalability, performance, and compliance</li>
+                        <li>Led cross-functional workshops with <strong>12+ senior stakeholders</strong> across 5 product areas to align priorities and co-create solutions</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item fade-up">
+                <div class="experience-left">
+                    <div class="experience-date">Jun 2022 — May 2025</div>
+                    <div class="experience-company">TD Bank</div>
+                </div>
+                <div class="experience-right">
+                    <h3 class="experience-role">Product Manager, Personalization & Engagement Platforms</h3>
+                    <div class="experience-scope">ML personalization · Experimentation · Growth · Innovation pipeline</div>
+                    <ul class="experience-bullets">
+                        <li>Led ML-powered personalization platforms serving <strong>2.5M+ daily active users</strong>, driving acquisition and engagement through data-driven recommendations</li>
+                        <li>Delivered <strong>15% increase in platform engagement</strong> (~300K additional daily interactions) and improved cross-sell conversion contributing <strong>$2M+ in annual revenue</strong></li>
+                        <li>Designed and scaled experimentation frameworks: A/B testing cadences, funnel optimization strategies, and evaluation metrics that became org-wide standards</li>
+                        <li>Led 0-to-1 innovation pipeline: competitive analysis, pitch decks, VP-level presentations — secured budget for new AI-driven initiatives with no established playbook</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item fade-up">
+                <div class="experience-left">
+                    <div class="experience-date">Jul 2021 — May 2022</div>
+                    <div class="experience-company">Summatti</div>
+                </div>
+                <div class="experience-right">
+                    <h3 class="experience-role">Data Scientist, Product & Growth</h3>
+                    <div class="experience-scope">Early-stage B2B SaaS · ML recommendations · Growth experimentation</div>
+                    <ul class="experience-bullets">
+                        <li>Built and productionized ML recommendation systems powering user engagement and product discovery across multiple surfaces in a B2B SaaS product</li>
+                        <li>Operated as hybrid PM/data scientist in a resource-constrained startup — tying model improvements directly to activation and retention</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="thinking" class="thinking-section">
+        <div class="container">
+            <div class="section-label">Thinking</div>
+            <h2 class="section-title">What I care about right now</h2>
+            <p class="section-desc">The intersection of AI products, growth, and real-world deployment.</p>
+
+            <div class="thinking-grid">
+                <div class="thinking-card fade-up">
+                    <div class="thinking-icon">🤖</div>
+                    <h3>LLM Distribution</h3>
+                    <p>How products get discovered through conversational AI interfaces. ChatGPT, Claude, and Gemini are becoming acquisition channels — and most companies aren't ready for it.</p>
+                </div>
+
+                <div class="thinking-card fade-up">
+                    <div class="thinking-icon">📈</div>
+                    <h3>PLG + AI</h3>
+                    <p>Product-led growth meets AI-powered experiences. How do you build a funnel when the user's first interaction happens inside someone else's LLM?</p>
+                </div>
+
+                <div class="thinking-card fade-up">
+                    <div class="thinking-icon">🎙️</div>
+                    <h3>Voice as Interface</h3>
+                    <p>Building JustReva taught me that voice AI is finally ready for production. The stack (ASR + LLM + TTS) is cheap enough and good enough to replace real workflows.</p>
+                </div>
+
+                <div class="thinking-card fade-up">
+                    <div class="thinking-icon">🧪</div>
+                    <h3>Experimentation Culture</h3>
+                    <p>The best product teams I've been on run experiments constantly. Not just A/B tests — real hypothesis-driven product discovery at every stage of the funnel.</p>
+                </div>
+
+                <div class="thinking-card fade-up">
+                    <div class="thinking-icon">🤝</div>
+                    <h3>Platform Partnerships</h3>
+                    <p>Building on third-party platforms (APIs, integrations, ecosystems) is a distribution superpower. The best PMs treat partnerships as a product surface.</p>
+                </div>
+
+                <div class="thinking-card fade-up">
+                    <div class="thinking-icon">🏗️</div>
+                    <h3>0-to-1 Building</h3>
+                    <p>I'm drawn to the earliest stage of a product — when there's no playbook, no data, and the job is to figure out what to build and why anyone would care.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <div class="section-label">Toolkit</div>
+            <h2 class="section-title">What I work with</h2>
+            <p class="section-desc">The tools and methods I use to build, ship, and grow AI products.</p>
+
+            <div class="skills-grid">
+                <div class="skill-group fade-up">
+                    <h3>Product & Growth</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Product Strategy</span>
+                        <span class="skill-pill">Roadmapping & OKRs</span>
+                        <span class="skill-pill">Funnel Optimization</span>
+                        <span class="skill-pill">A/B Testing</span>
+                        <span class="skill-pill">Growth KPIs</span>
+                        <span class="skill-pill">PLG</span>
+                        <span class="skill-pill">Go-to-Market</span>
+                        <span class="skill-pill">Pricing Strategy</span>
+                        <span class="skill-pill">Competitive Analysis</span>
+                    </div>
+                </div>
+
+                <div class="skill-group fade-up">
+                    <h3>AI & Technical</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">LLMs & LLM APIs</span>
+                        <span class="skill-pill">Conversational AI</span>
+                        <span class="skill-pill">ASR / TTS / Voice</span>
+                        <span class="skill-pill">Python</span>
+                        <span class="skill-pill">SQL</span>
+                        <span class="skill-pill">ML Platforms</span>
+                        <span class="skill-pill">AWS / GCP</span>
+                        <span class="skill-pill">Data Pipelines</span>
+                        <span class="skill-pill">Experimentation Infra</span>
+                    </div>
+                </div>
+
+                <div class="skill-group fade-up">
+                    <h3>Leadership & Methods</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Cross-Functional Leadership</span>
+                        <span class="skill-pill">Stakeholder Management</span>
+                        <span class="skill-pill">0-to-1 Product Discovery</span>
+                        <span class="skill-pill">Partnership Strategy</span>
+                        <span class="skill-pill">Innovation Pipeline</span>
+                        <span class="skill-pill">Vendor Evaluation</span>
+                    </div>
+                </div>
+
+                <div class="skill-group fade-up">
+                    <h3>Domains</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Financial Services</span>
+                        <span class="skill-pill">Healthcare / HIPAA</span>
+                        <span class="skill-pill">B2B SaaS</span>
+                        <span class="skill-pill">Enterprise AI</span>
+                        <span class="skill-pill">Personalization</span>
+                        <span class="skill-pill">Fraud Detection</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <div class="section-label">Education</div>
+            <h2 class="section-title">Background</h2>
+
+            <div class="education-grid">
+                <div class="education-card fade-up">
+                    <h3>M.Sc. Big Data Analytics</h3>
+                    <p class="school">Trent University</p>
+                    <p class="details">2019–2021 · GPA 3.9/4.0</p>
+                </div>
+
+                <div class="education-card fade-up">
+                    <h3>Product Management Certification</h3>
+                    <p class="school">Product Faculty</p>
+                    <p class="details">Hands-on training with real-world case studies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="section-label">Get in touch</div>
+                <h2 class="section-title">Let's talk about building AI products.</h2>
+                <p class="section-desc">I'm currently exploring opportunities in AI product management, growth, and partnerships. Based in Toronto, open to Vancouver.</p>
+
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/preraktrivedi7" target="_blank" rel="noopener" class="contact-link">LinkedIn</a>
+                    <a href="mailto:preraktrivedi7@gmail.com" class="contact-link">preraktrivedi7@gmail.com</a>
+                    <a href="https://justreva.com" target="_blank" rel="noopener" class="contact-link">justreva.com</a>
+                    <a href="https://www.github.com/preraktrivedi7" target="_blank" rel="noopener" class="contact-link">GitHub</a>
+                    <a href="https://www.medium.com/@preraktrivedi7" target="_blank" rel="noopener" class="contact-link">Medium</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            © 2025 Prerak Trivedi
+        </div>
+    </footer>
+
+    <script>
+        // Nav scroll effect
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', () => {
+            nav.classList.toggle('scrolled', window.scrollY > 10);
+        });
+
+        // Fade-up animation on scroll
+        const fadeUpElements = document.querySelectorAll('.fade-up');
+
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -40px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.classList.add('visible');
+                    }, index * 100);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        fadeUpElements.forEach(el => observer.observe(el));
+    </script>
 </body>
 </html>
