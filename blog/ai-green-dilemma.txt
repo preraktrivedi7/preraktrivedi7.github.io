@@ -5,10 +5,10 @@
 6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
 d:I[68027,[],"default"]
-:HL["/_next/static/chunks/ebcd56e58a411181.css","style"]
+:HL["/_next/static/chunks/5db684d691709f35.css","style"]
 :HL["/_next/static/media/70bc3e132a0a741e-s.p.15008bfb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"SLipuA_Hc-s9cvFOSYyko","c":["","blog","ai-green-dilemma"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","ai-green-dilemma","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/ebcd56e58a411181.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/84142d135179b8e2.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"inter_7b064e0d-module__MOT0tq__variable jetbrains_mono_b623b980-module__35dYfa__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n          (function() {\n            try {\n              var t = localStorage.getItem('theme');\n              if (t === 'dark') document.documentElement.classList.add('dark');\n            } catch(e) {}\n          })();\n        "}}]}],["$","body",null,{"className":"antialiased bg-bg-primary text-fg-primary transition-colors duration-200","children":[["$","$L2",null,{}],["$","main",null,{"className":"pt-16 min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"py-12 border-t border-border","children":["$","div",null,{"className":"max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-fg-tertiary","children":[["$","span",null,{"children":["© ",2026," Prerak Trivedi"]}],["$","div",null,{"className":"flex items-center gap-5","children":[["$","a","LinkedIn",{"href":"https://www.linkedin.com/in/preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"LinkedIn"}],["$","a","JustReva",{"href":"https://justreva.com","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"JustReva"}],["$","a","GitHub",{"href":"https://github.com/preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"GitHub"}],["$","a","Medium",{"href":"https://medium.com/@preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"Medium"}]]}]]}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":["$L9","$La","$Lb","$Lc"]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+0:{"P":null,"b":"GOb0EI06xEs93qeFP53Fh","c":["","blog","ai-green-dilemma"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","ai-green-dilemma","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/5db684d691709f35.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/84142d135179b8e2.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"inter_7b064e0d-module__MOT0tq__variable jetbrains_mono_b623b980-module__35dYfa__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n          (function() {\n            try {\n              var t = localStorage.getItem('theme');\n              if (t === 'dark') document.documentElement.classList.add('dark');\n            } catch(e) {}\n          })();\n        "}}]}],["$","body",null,{"className":"antialiased bg-bg-primary text-fg-primary transition-colors duration-200","children":[["$","$L2",null,{}],["$","main",null,{"className":"pt-16 min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"py-12 border-t border-border","children":["$","div",null,{"className":"max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-fg-tertiary","children":[["$","span",null,{"children":["© ",2026," Prerak Trivedi"]}],["$","div",null,{"className":"flex items-center gap-5","children":[["$","a","LinkedIn",{"href":"https://www.linkedin.com/in/preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"LinkedIn"}],["$","a","JustReva",{"href":"https://justreva.com","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"JustReva"}],["$","a","GitHub",{"href":"https://github.com/preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"GitHub"}],["$","a","Medium",{"href":"https://medium.com/@preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"Medium"}]]}]]}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":["$L9","$La","$Lb","$Lc"]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
 e:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"ViewportBoundary"]
 10:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"MetadataBoundary"]
 9:null
@@ -17,7 +17,7 @@ b:["$","div",null,{"hidden":true,"children":["$","$L10",null,{"children":["$","$
 c:["$","meta",null,{"name":"next-size-adjust","content":""}]
 12:I[22016,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],""]
 13:I[36005,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],"default"]
-14:T1821,
+14:T18fb,
 Picture this: a beautiful AI-generated painting that rivals a Monet. It's the magic of Generative AI. But as I delved deeper into this fascinating realm, a niggling question arose: "What's the environmental price tag of such marvels?" Join me as we embark on this exploration together.
 
 ## Generative AI: What's the Buzz All About?
@@ -29,52 +29,58 @@ In simple terms, Generative AI is like the dreamer of the tech world. Think algo
 Now, the magic trick has a backstage. Training these massive AI models demands energy, tons of it. Think sprawling data centers running 24/7, massive energy consumption, and yes, the unavoidable e-waste. Some studies even suggest that training a large AI model emits as much carbon as five cars in their lifetimes.
 
 <div style="margin: 2rem 0; text-align: center;">
-<svg viewBox="0 0 800 350" style="max-width:700px;width:100%;border:1px solid #e8e8e3;background:#fff;" xmlns="http://www.w3.org/2000/svg">
-  <!-- Scale/balance frame -->
-  <line x1="400" y1="80" x2="400" y2="280" stroke="#1e1e1e" stroke-width="3" stroke-linecap="round"/>
-  <circle cx="400" cy="85" r="6" fill="#1e1e1e"/>
+<svg viewBox="0 0 750 360" style="max-width:720px;width:100%;border-radius:12px;" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
   
-  <!-- Left pan (tilting down) -->
-  <path d="M 300 85 L 200 120 L 200 140 L 280 140 L 280 120 Z" stroke="#1e1e1e" stroke-width="2" fill="#e8e8e3" stroke-linejoin="round"/>
+  <!-- Background -->
+  <rect width="750" height="360" fill="#f5f0eb"/>
   
-  <!-- Right pan (tilting up) -->
-  <path d="M 500 85 L 600 120 L 600 140 L 520 140 L 520 120 Z" stroke="#1e1e1e" stroke-width="2" fill="#e8e8e3" stroke-linejoin="round"/>
+  <!-- Left Column: Carbon Cost -->
+  <text x="150" y="35" text-anchor="middle" font-size="15" font-weight="bold" fill="#dc5050" font-family="system-ui, -apple-system, sans-serif">Carbon Cost</text>
   
-  <!-- Left side: Carbon Cost -->
-  <text x="140" y="60" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e1e1e">Carbon Cost</text>
+  <!-- Item 1 -->
+  <circle cx="50" cy="85" r="4" fill="#dc5050"/>
+  <text x="85" y="70" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Data Centers 24/7</text>
+  <text x="85" y="88" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Continuous energy consumption</text>
   
-  <rect x="60" y="155" width="160" height="45" rx="4" fill="#ff9999" stroke="#1e1e1e" stroke-width="1"/>
-  <text x="140" y="175" text-anchor="middle" font-size="11" fill="#1e1e1e">Data Centers</text>
-  <text x="140" y="190" text-anchor="middle" font-size="10" fill="#666">24/7 energy</text>
+  <!-- Item 2 -->
+  <circle cx="50" cy="155" r="4" fill="#dc5050"/>
+  <text x="85" y="140" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Massive Energy Use</text>
+  <text x="85" y="158" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Training compute requirements</text>
   
-  <rect x="60" y="210" width="160" height="45" rx="4" fill="#ff8888" stroke="#1e1e1e" stroke-width="1"/>
-  <text x="140" y="230" text-anchor="middle" font-size="11" fill="#1e1e1e">Training Energy</text>
-  <text x="140" y="245" text-anchor="middle" font-size="10" fill="#666">Massive compute</text>
+  <!-- Item 3 -->
+  <circle cx="50" cy="225" r="4" fill="#dc5050"/>
+  <text x="85" y="210" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">E-Waste</text>
+  <text x="85" y="228" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Hardware replacement cycles</text>
   
-  <rect x="60" y="265" width="160" height="45" rx="4" fill="#ff7777" stroke="#1e1e1e" stroke-width="1"/>
-  <text x="140" y="285" text-anchor="middle" font-size="11" fill="#1e1e1e">E-Waste</text>
-  <text x="140" y="300" text-anchor="middle" font-size="10" fill="#666">Hardware cycles</text>
+  <!-- Center Divider -->
+  <line x1="375" y1="30" x2="375" y2="260" stroke="#d4cfc7" stroke-width="2" stroke-dasharray="4,4"/>
   
-  <!-- Right side: Green Promise -->
-  <text x="660" y="60" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e1e1e">Green Promise</text>
+  <!-- Right Column: Green Promise -->
+  <text x="600" y="35" text-anchor="middle" font-size="15" font-weight="bold" fill="#4a9d77" font-family="system-ui, -apple-system, sans-serif">Green Promise</text>
   
-  <rect x="580" y="155" width="160" height="45" rx="4" fill="#99CC99" stroke="#1e1e1e" stroke-width="1"/>
-  <text x="660" y="175" text-anchor="middle" font-size="11" fill="#1e1e1e">Efficiency Gains</text>
-  <text x="660" y="190" text-anchor="middle" font-size="10" fill="#666">Optimization</text>
+  <!-- Item 1 -->
+  <circle cx="750" cy="85" r="4" fill="#4a9d77"/>
+  <text x="450" y="70" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Efficiency Gains</text>
+  <text x="450" y="88" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Optimization & waste reduction</text>
   
-  <rect x="580" y="210" width="160" height="45" rx="4" fill="#88BB88" stroke="#1e1e1e" stroke-width="1"/>
-  <text x="660" y="230" text-anchor="middle" font-size="11" fill="#1e1e1e">Materials Discovery</text>
-  <text x="660" y="245" text-anchor="middle" font-size="10" fill="#666">Eco-friendly options</text>
+  <!-- Item 2 -->
+  <circle cx="750" cy="155" r="4" fill="#4a9d77"/>
+  <text x="450" y="140" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Material Discovery</text>
+  <text x="450" y="158" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Eco-friendly options & innovations</text>
   
-  <rect x="580" y="265" width="160" height="45" rx="4" fill="#77AA77" stroke="#1e1e1e" stroke-width="1"/>
-  <text x="660" y="285" text-anchor="middle" font-size="11" fill="#1e1e1e">Climate Forecasting</text>
-  <text x="660" y="300" text-anchor="middle" font-size="10" fill="#666">Prediction models</text>
+  <!-- Item 3 -->
+  <circle cx="750" cy="225" r="4" fill="#4a9d77"/>
+  <text x="450" y="210" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Climate Forecasting</text>
+  <text x="450" y="228" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Predictive models for prevention</text>
   
-  <!-- Scale is slightly tipped left (heavier cost) -->
-  <line x1="200" y1="140" x2="180" y2="160" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
-  <line x1="600" y1="140" x2="620" y2="160" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
-  
-  <text x="400" y="330" text-anchor="middle" font-size="12" fill="#1e1e1e" font-weight="bold">The balance: scales tipped but not hopeless</text>
+  <!-- Bottom Stat -->
+  <rect x="50" y="290" width="650" height="50" rx="8" fill="rgba(220,80,80,0.08)" stroke="#f06a6a" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="375" y="320" text-anchor="middle" font-size="12" font-weight="bold" fill="#dc5050" font-family="system-ui, -apple-system, sans-serif">Training 1 large model = 5 cars lifetime emissions</text>
 </svg>
 </div>
 

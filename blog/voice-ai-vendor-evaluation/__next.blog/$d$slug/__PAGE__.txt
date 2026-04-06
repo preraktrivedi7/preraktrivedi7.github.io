@@ -3,7 +3,7 @@
 3:I[36005,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],"default"]
 8:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
 9:"$Sreact.suspense"
-4:T1c2f,
+4:T20ba,
 If you're building a production voice AI system today, you might think the hard part is the AI. It's not. The hard part is figuring out which pieces to build yourself and which to buy.
 
 The voice AI stack has three core components: speech-to-text (STT), a language model (LLM), and text-to-speech (TTS). Each one has dozens of providers, each with different latency profiles, pricing models, and quality tradeoffs.
@@ -19,40 +19,49 @@ Here's the problem: latency compounds. If STT takes 200ms, LLM takes 500ms, and 
 The first question isn't "build or buy?" It's "where does latency matter most for my use case?"
 
 <div style="margin: 2rem 0; text-align: center;">
-<svg viewBox="0 0 800 350" style="max-width:700px;width:100%;border:1px solid #e8e8e3;background:#fff;" xmlns="http://www.w3.org/2000/svg">
-  <!-- 500ms budget annotation -->
-  <text x="400" y="30" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e1e1e">500ms Total Latency Budget</text>
+<svg viewBox="0 0 750 380" style="max-width:720px;width:100%;border-radius:12px;" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="750" height="380" fill="#f5f0eb"/>
+  
+  <!-- Latency badge -->
+  <rect x="300" y="15" width="150" height="28" rx="14" fill="#d4cfc7" stroke="#d4cfc7" stroke-width="1.5"/>
+  <text x="375" y="33" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">&lt; 500ms total latency</text>
   
   <!-- STT Box -->
-  <rect x="50" y="80" width="150" height="100" rx="8" fill="#e8e8e3" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-  <text x="125" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e1e1e">Speech-to-Text</text>
-  <text x="125" y="145" text-anchor="middle" font-size="12" fill="#1e1e1e">(STT)</text>
-  <text x="125" y="165" text-anchor="middle" font-size="11" fill="#f06a6a" font-weight="bold">Buy</text>
+  <rect x="50" y="70" width="140" height="100" rx="12" fill="rgba(74,157,119,0.08)" stroke="#4a9d77" stroke-width="1.5"/>
+  <text x="120" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">STT</text>
+  <text x="120" y="120" text-anchor="middle" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Speech-to-Text</text>
+  <text x="120" y="155" text-anchor="middle" font-size="11" font-weight="bold" fill="#4a9d77" font-family="system-ui, -apple-system, sans-serif">BUY ✓</text>
   
   <!-- LLM Box -->
-  <rect x="325" y="80" width="150" height="100" rx="8" fill="#e8e8e3" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-  <text x="400" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e1e1e">Language Model</text>
-  <text x="400" y="145" text-anchor="middle" font-size="12" fill="#1e1e1e">(LLM)</text>
-  <text x="400" y="165" text-anchor="middle" font-size="11" fill="#f06a6a" font-weight="bold">Hybrid</text>
+  <rect x="305" y="70" width="140" height="100" rx="12" fill="rgba(100,149,237,0.08)" stroke="#d4cfc7" stroke-width="1.5"/>
+  <text x="375" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">LLM</text>
+  <text x="375" y="120" text-anchor="middle" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Language Model</text>
+  <text x="375" y="155" text-anchor="middle" font-size="11" font-weight="bold" fill="#f06a6a" font-family="system-ui, -apple-system, sans-serif">HYBRID</text>
   
   <!-- TTS Box -->
-  <rect x="600" y="80" width="150" height="100" rx="8" fill="#e8e8e3" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-  <text x="675" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e1e1e">Text-to-Speech</text>
-  <text x="675" y="145" text-anchor="middle" font-size="12" fill="#1e1e1e">(TTS)</text>
-  <text x="675" y="165" text-anchor="middle" font-size="11" fill="#f06a6a" font-weight="bold">Buy</text>
+  <rect x="560" y="70" width="140" height="100" rx="12" fill="rgba(74,157,119,0.08)" stroke="#4a9d77" stroke-width="1.5"/>
+  <text x="630" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">TTS</text>
+  <text x="630" y="120" text-anchor="middle" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Text-to-Speech</text>
+  <text x="630" y="155" text-anchor="middle" font-size="11" font-weight="bold" fill="#4a9d77" font-family="system-ui, -apple-system, sans-serif">BUY ✓</text>
   
-  <!-- Arrows between components -->
-  <path d="M 200 130 L 325 130" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round"/>
-  <polygon points="325,130 315,125 320,135" fill="#1e1e1e"/>
+  <!-- Dashed arrows between top boxes -->
+  <path d="M 190 120 L 305 120" stroke="#8a8378" stroke-width="1.5" fill="none" stroke-dasharray="6,4" stroke-linecap="round"/>
+  <polygon points="305,120 298,116 300,124" fill="#8a8378"/>
   
-  <path d="M 475 130 L 600 130" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round"/>
-  <polygon points="600,130 590,125 595,135" fill="#1e1e1e"/>
+  <path d="M 445 120 L 560 120" stroke="#8a8378" stroke-width="1.5" fill="none" stroke-dasharray="6,4" stroke-linecap="round"/>
+  <polygon points="560,120 553,116 555,124" fill="#8a8378"/>
   
   <!-- Orchestration Layer Box -->
-  <rect x="100" y="220" width="600" height="80" rx="8" fill="#fff" stroke="#f06a6a" stroke-width="3" stroke-linejoin="round" stroke-dasharray="5,5"/>
-  <text x="400" y="245" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e1e1e">Orchestration Layer</text>
-  <text x="400" y="265" text-anchor="middle" font-size="11" fill="#1e1e1e">Error handling, interruption, turn-taking, fallbacks</text>
-  <text x="400" y="285" text-anchor="middle" font-size="11" fill="#f06a6a" font-weight="bold">Build</text>
+  <rect x="75" y="210" width="600" height="130" rx="12" fill="rgba(74,157,119,0.08)" stroke="#4a9d77" stroke-width="1.5"/>
+  <text x="375" y="242" text-anchor="middle" font-size="14" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Orchestration Layer</text>
+  <text x="375" y="263" text-anchor="middle" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Where differentiation lives</text>
+  
+  <!-- Stat callout -->
+  <text x="375" y="300" text-anchor="middle" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">30-40% of engineering time goes to</text>
+  <text x="375" y="316" text-anchor="middle" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">integration across all components</text>
+  
+  <text x="375" y="330" text-anchor="middle" font-size="11" font-weight="bold" fill="#f06a6a" font-family="system-ui, -apple-system, sans-serif">BUILD</text>
 </svg>
 </div>
 
@@ -118,7 +127,7 @@ Voice AI is finally production-ready. The components are good enough and cheap e
 The build vs buy decision isn't binary. It's about knowing where to spend your engineering effort. Buy the commoditizing components. Build the differentiated orchestration. Invest heavily in integration architecture.
 
 The AI is the easy part. The plumbing is hard.
-0:{"buildId":"SLipuA_Hc-s9cvFOSYyko","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["February 2026"," · ",8," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"I Evaluated 8+ Voice AI Vendors. Here's How I Would Decide What to Build vs Buy."}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","voice-ai",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"voice-ai"}],["$","span","vendor-evaluation",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"vendor-evaluation"}],["$","span","building",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"building"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":["$","$L3",null,{"content":"$4"}]}],"$L5"]}]}],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
+0:{"buildId":"GOb0EI06xEs93qeFP53Fh","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["February 2026"," · ",8," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"I Evaluated 8+ Voice AI Vendors. Here's How I Would Decide What to Build vs Buy."}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","voice-ai",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"voice-ai"}],["$","span","vendor-evaluation",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"vendor-evaluation"}],["$","span","building",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"building"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":["$","$L3",null,{"content":"$4"}]}],"$L5"]}]}],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
 5:["$","nav",null,{"className":"mt-16 pt-8 border-t border-border grid grid-cols-1 md:grid-cols-2 gap-4","children":[["$","$L2",null,{"href":"/blog/you-think-youre-shipping-a-product","className":"group","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Previous"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"You Think You're Shipping a Product? You're Actually Operating a Platform."}]]}],null]}]
 6:["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true}]
 7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]

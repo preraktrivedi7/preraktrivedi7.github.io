@@ -5,16 +5,16 @@
 6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
 a:I[68027,[],"default"]
-:HL["/_next/static/chunks/ebcd56e58a411181.css","style"]
+:HL["/_next/static/chunks/5db684d691709f35.css","style"]
 :HL["/_next/static/media/70bc3e132a0a741e-s.p.15008bfb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"SLipuA_Hc-s9cvFOSYyko","c":["","blog","skills-needed-data-scientist"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","skills-needed-data-scientist","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/ebcd56e58a411181.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/84142d135179b8e2.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"inter_7b064e0d-module__MOT0tq__variable jetbrains_mono_b623b980-module__35dYfa__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n          (function() {\n            try {\n              var t = localStorage.getItem('theme');\n              if (t === 'dark') document.documentElement.classList.add('dark');\n            } catch(e) {}\n          })();\n        "}}]}],["$","body",null,{"className":"antialiased bg-bg-primary text-fg-primary transition-colors duration-200","children":[["$","$L2",null,{}],["$","main",null,{"className":"pt-16 min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"py-12 border-t border-border","children":["$","div",null,{"className":"max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-fg-tertiary","children":[["$","span",null,{"children":["© ",2026," Prerak Trivedi"]}],["$","div",null,{"className":"flex items-center gap-5","children":[["$","a","LinkedIn",{"href":"https://www.linkedin.com/in/preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"LinkedIn"}],["$","a","JustReva",{"href":"https://justreva.com","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"JustReva"}],["$","a","GitHub",{"href":"https://github.com/preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"GitHub"}],["$","a","Medium",{"href":"https://medium.com/@preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"Medium"}]]}]]}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$L9",false]],"m":"$undefined","G":["$a",[]],"S":true}
+0:{"P":null,"b":"GOb0EI06xEs93qeFP53Fh","c":["","blog","skills-needed-data-scientist"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","skills-needed-data-scientist","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/5db684d691709f35.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/84142d135179b8e2.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"inter_7b064e0d-module__MOT0tq__variable jetbrains_mono_b623b980-module__35dYfa__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n          (function() {\n            try {\n              var t = localStorage.getItem('theme');\n              if (t === 'dark') document.documentElement.classList.add('dark');\n            } catch(e) {}\n          })();\n        "}}]}],["$","body",null,{"className":"antialiased bg-bg-primary text-fg-primary transition-colors duration-200","children":[["$","$L2",null,{}],["$","main",null,{"className":"pt-16 min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"py-12 border-t border-border","children":["$","div",null,{"className":"max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-fg-tertiary","children":[["$","span",null,{"children":["© ",2026," Prerak Trivedi"]}],["$","div",null,{"className":"flex items-center gap-5","children":[["$","a","LinkedIn",{"href":"https://www.linkedin.com/in/preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"LinkedIn"}],["$","a","JustReva",{"href":"https://justreva.com","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"JustReva"}],["$","a","GitHub",{"href":"https://github.com/preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"GitHub"}],["$","a","Medium",{"href":"https://medium.com/@preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"Medium"}]]}]]}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$L9",false]],"m":"$undefined","G":["$a",[]],"S":true}
 b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"ViewportBoundary"]
 d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"MetadataBoundary"]
 9:["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
 f:I[22016,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],""]
 10:I[36005,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],"default"]
-11:T163c,
+11:T1c9a,
 The field of Data Science comprises many stages and in no way is limited to a person belonging to the field of computers. Many people out there consider data science to be a part of the field of Information Technology. One must have heard that you need to be good at coding or have some experience in coding to even start with data, but guess what: you do not. When I was a newbie to the field, I had the same ideology pinned in my brain, but as I gained some experience and interacted with multiple people, the cloud of myths scattered. Now all I say is: anyone can be a data scientist.
 
 The list of skills that I feel, arranged according to importance, are:
@@ -26,35 +26,45 @@ The list of skills that I feel, arranged according to importance, are:
 5. Visualization
 
 <div style="margin: 2rem 0; text-align: center;">
-<svg viewBox="0 0 600 400" style="max-width:600px;width:100%;border:1px solid #e8e8e3;background:#fff;" xmlns="http://www.w3.org/2000/svg">
-  <!-- Pyramid -->
-  <!-- Base: Domain Knowledge -->
-  <polygon points="150,350 450,350 380,280 220,280" fill="#e8e8e3" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-  <text x="300" y="325" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e1e1e">Domain Knowledge</text>
-  <text x="300" y="342" text-anchor="middle" font-size="9" fill="#666">(Widest foundation)</text>
+<svg viewBox="0 0 750 480" style="max-width:720px;width:100%;border-radius:12px;" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
   
-  <!-- Level 2: Statistics -->
-  <polygon points="190,280 410,280 350,220 250,220" fill="#f0e8e3" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-  <text x="300" y="258" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e1e1e">Statistics</text>
+  <!-- Background -->
+  <rect width="750" height="480" fill="#f5f0eb"/>
   
-  <!-- Level 3: Excel/Tools -->
-  <polygon points="230,220 370,220 330,160 270,160" fill="#e8e8e3" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-  <text x="300" y="198" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e1e1e">Excel / Tools</text>
+  <!-- Card 1: Domain Knowledge (green, checked) -->
+  <rect x="40" y="20" width="670" height="75" rx="12" fill="rgba(74,157,119,0.08)" stroke="#4a9d77" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="70" y="50" font-size="14" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">✓ Domain Knowledge</text>
+  <text x="70" y="70" font-size="11" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">The most important skill — know your field deeply</text>
+  <text x="700" y="50" text-anchor="end" font-size="16" fill="#4a9d77" font-weight="bold" font-family="system-ui, -apple-system, sans-serif">1</text>
   
-  <!-- Level 4: Client Understanding -->
-  <polygon points="260,160 340,160 320,110 280,110" fill="#f0e8e3" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-  <text x="300" y="138" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e1e1e">Client</text>
-  <text x="300" y="150" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e1e1e">Understanding</text>
+  <!-- Card 2: Basic Statistics (green, checked) -->
+  <rect x="40" y="115" width="670" height="75" rx="12" fill="rgba(74,157,119,0.08)" stroke="#4a9d77" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="70" y="145" font-size="14" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">✓ Basic Statistics</text>
+  <text x="70" y="165" font-size="11" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Focus on WHY not HOW — understand the concepts, not just formulas</text>
+  <text x="700" y="145" text-anchor="end" font-size="16" fill="#4a9d77" font-weight="bold" font-family="system-ui, -apple-system, sans-serif">2</text>
   
-  <!-- Top: Visualization -->
-  <polygon points="280,110 320,110 300,60" fill="#fff" stroke="#f06a6a" stroke-width="2" stroke-linejoin="round"/>
-  <text x="300" y="85" text-anchor="middle" font-size="10" font-weight="bold" fill="#f06a6a">Visualization</text>
-  <text x="300" y="98" text-anchor="middle" font-size="8" fill="#f06a6a">(Peak)</text>
+  <!-- Card 3: Microsoft Excel (green, checked) -->
+  <rect x="40" y="210" width="670" height="75" rx="12" fill="rgba(74,157,119,0.08)" stroke="#4a9d77" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="70" y="240" font-size="14" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">✓ Microsoft Excel</text>
+  <text x="70" y="260" font-size="11" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Your first go-to tool — no coding required, incredibly powerful for analysis</text>
+  <text x="700" y="240" text-anchor="end" font-size="16" fill="#4a9d77" font-weight="bold" font-family="system-ui, -apple-system, sans-serif">3</text>
   
-  <!-- Side annotation -->
-  <text x="50" y="280" font-size="9" fill="#1e1e1e" text-anchor="end">Build</text>
-  <text x="50" y="295" font-size="9" fill="#1e1e1e" text-anchor="end">upward</text>
-  <line x1="55" y1="275" x2="140" y2="280" stroke="#1e1e1e" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Card 4: Client Understanding (blue) -->
+  <rect x="40" y="305" width="670" height="75" rx="12" fill="rgba(100,149,237,0.08)" stroke="#d4cfc7" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="70" y="335" font-size="14" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Client Understanding</text>
+  <text x="70" y="355" font-size="11" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Serve your audience — tailor insights and presentations to your clients' needs</text>
+  <text x="700" y="335" text-anchor="end" font-size="16" fill="#6b6560" font-weight="bold" font-family="system-ui, -apple-system, sans-serif">4</text>
+  
+  <!-- Card 5: Visualization (blue) -->
+  <rect x="40" y="400" width="670" height="75" rx="12" fill="rgba(100,149,237,0.08)" stroke="#d4cfc7" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="70" y="430" font-size="14" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Visualization</text>
+  <text x="70" y="450" font-size="11" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">People read graphs, not reports — make your findings clear and compelling</text>
+  <text x="700" y="430" text-anchor="end" font-size="16" fill="#6b6560" font-weight="bold" font-family="system-ui, -apple-system, sans-serif">5</text>
 </svg>
 </div>
 

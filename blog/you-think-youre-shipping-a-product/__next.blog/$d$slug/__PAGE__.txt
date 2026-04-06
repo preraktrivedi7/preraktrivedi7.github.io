@@ -3,7 +3,7 @@
 3:I[36005,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],"default"]
 8:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
 9:"$Sreact.suspense"
-4:T1f8e,
+4:T2541,
 Product work feels finite, but platform work keeps moving.
 
 If you've ever shipped what looked like a straightforward feature and then watched it become "the way things get done," you've felt this shift firsthand. A product is usually something we can scope, deliver, and evaluate in a fairly discrete way, even if we iterate later. A platform is different because it becomes an ongoing behavioral system, shaped by who depends on it, how they extend it, and what they assume it will keep doing over time.
@@ -11,51 +11,66 @@ If you've ever shipped what looked like a straightforward feature and then watch
 The tricky part is that you rarely announce you're building a platform on day one. You think you're shipping a feature, but you're actually launching a surface area that other teams, users, and even your future roadmap will start building on, sometimes faster than your language and ownership model can adapt.
 
 <div style="margin: 2rem 0; text-align: center;">
-<svg viewBox="0 0 800 320" style="max-width:700px;width:100%;border:1px solid #e8e8e3;background:#fff;" xmlns="http://www.w3.org/2000/svg">
-  <!-- Left side: Product -->
-  <rect x="50" y="100" width="200" height="140" rx="8" fill="#e8e8e3" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-  <text x="150" y="155" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e1e1e">Product</text>
-  <text x="150" y="180" text-anchor="middle" font-size="12" fill="#1e1e1e">Clear scope</text>
-  <text x="150" y="200" text-anchor="middle" font-size="12" fill="#1e1e1e">Bounded outcomes</text>
+<svg viewBox="0 0 750 380" style="max-width:720px;width:100%;border-radius:12px;" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="750" height="380" fill="#f5f0eb"/>
   
-  <!-- Arrow between -->
-  <path d="M 250 170 L 350 170" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round"/>
-  <polygon points="350,170 340,165 345,175" fill="#1e1e1e"/>
-  <text x="300" y="160" text-anchor="middle" font-size="11" fill="#f06a6a" font-weight="bold">The shift you</text>
-  <text x="300" y="175" text-anchor="middle" font-size="11" fill="#f06a6a" font-weight="bold">didn't notice</text>
+  <!-- LEFT PANEL: Product (green tint) -->
+  <rect x="30" y="50" width="300" height="200" rx="12" fill="rgba(74,157,119,0.08)" stroke="#4a9d77" stroke-width="1.5"/>
   
-  <!-- Right side: Platform (messy web) -->
-  <circle cx="550" cy="120" r="25" fill="none" stroke="#1e1e1e" stroke-width="2"/>
-  <text x="550" y="125" text-anchor="middle" font-size="11" fill="#1e1e1e">Module</text>
+  <!-- Product box -->
+  <rect x="60" y="80" width="240" height="90" rx="12" fill="#f5f0eb" stroke="#4a9d77" stroke-width="1.5"/>
+  <text x="180" y="105" text-anchor="middle" font-size="14" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Product</text>
+  <text x="180" y="125" text-anchor="middle" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Scoped. Delivered. Evaluated.</text>
   
-  <circle cx="620" cy="100" r="25" fill="none" stroke="#1e1e1e" stroke-width="2"/>
-  <text x="620" y="105" text-anchor="middle" font-size="11" fill="#1e1e1e">API</text>
+  <!-- Arrow down -->
+  <path d="M 180 170 L 180 205" stroke="#4a9d77" stroke-width="1.5" fill="none" stroke-dasharray="6,4" stroke-linecap="round"/>
+  <polygon points="180,205 176,196 184,196" fill="#4a9d77"/>
   
-  <circle cx="680" cy="140" r="25" fill="none" stroke="#1e1e1e" stroke-width="2"/>
-  <text x="680" y="145" text-anchor="middle" font-size="11" fill="#1e1e1e">Hook</text>
+  <!-- Users -->
+  <text x="180" y="235" text-anchor="middle" font-size="11" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Users</text>
   
-  <circle cx="600" cy="200" r="25" fill="none" stroke="#1e1e1e" stroke-width="2"/>
-  <text x="600" y="205" text-anchor="middle" font-size="11" fill="#1e1e1e">Event</text>
+  <!-- RIGHT PANEL: Platform (red tint) -->
+  <rect x="420" y="50" width="300" height="200" rx="12" fill="rgba(220,80,80,0.08)" stroke="#dc5050" stroke-width="1.5"/>
   
-  <circle cx="520" cy="210" r="25" fill="none" stroke="#1e1e1e" stroke-width="2"/>
-  <text x="520" y="210" text-anchor="middle" font-size="10" fill="#1e1e1e">Rules</text>
+  <!-- Center Platform box -->
+  <rect x="510" y="100" width="120" height="70" rx="12" fill="#f5f0eb" stroke="#dc5050" stroke-width="1.5"/>
+  <text x="570" y="132" text-anchor="middle" font-size="13" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Platform</text>
   
-  <circle cx="730" cy="210" r="25" fill="none" stroke="#1e1e1e" stroke-width="2"/>
-  <text x="730" y="215" text-anchor="middle" font-size="11" fill="#1e1e1e">Edge</text>
+  <!-- Surrounding nodes -->
+  <rect x="450" y="70" width="50" height="35" rx="8" fill="#f5f0eb" stroke="#dc5050" stroke-width="1"/>
+  <text x="475" y="92" text-anchor="middle" font-size="9" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Teams</text>
   
-  <!-- Interconnecting lines (messy web) -->
-  <path d="M 570 140 L 605 180" stroke="#1e1e1e" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.6"/>
-  <path d="M 645 115 L 665 130" stroke="#1e1e1e" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.6"/>
-  <path d="M 620 185 L 680 170" stroke="#1e1e1e" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.6"/>
-  <path d="M 535 230 L 580 215" stroke="#1e1e1e" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.6"/>
-  <path d="M 625 215 L 705 215" stroke="#1e1e1e" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.6"/>
-  <path d="M 545 190 L 610 145" stroke="#1e1e1e" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.6"/>
-  <path d="M 670 185 L 640 195" stroke="#1e1e1e" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.6"/>
-  <path d="M 560 130 L 640 160" stroke="#1e1e1e" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <rect x="650" y="70" width="50" height="35" rx="8" fill="#f5f0eb" stroke="#dc5050" stroke-width="1"/>
+  <text x="675" y="92" text-anchor="middle" font-size="9" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Users</text>
   
-  <!-- Platform label -->
-  <text x="620" y="290" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e1e1e">Platform</text>
-  <text x="620" y="310" text-anchor="middle" font-size="12" fill="#1e1e1e">Behavior emerges, dependencies multiply</text>
+  <rect x="430" y="155" width="60" height="35" rx="8" fill="#f5f0eb" stroke="#dc5050" stroke-width="1"/>
+  <text x="460" y="177" text-anchor="middle" font-size="9" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Roadmap</text>
+  
+  <rect x="660" y="155" width="60" height="35" rx="8" fill="#f5f0eb" stroke="#dc5050" stroke-width="1"/>
+  <text x="690" y="177" text-anchor="middle" font-size="9" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Metrics</text>
+  
+  <!-- Tangled dashed lines -->
+  <path d="M 500 87 L 540 110" stroke="#8a8378" stroke-width="1" fill="none" stroke-dasharray="4,3" opacity="0.6"/>
+  <path d="M 630 87 L 590 110" stroke="#8a8378" stroke-width="1" fill="none" stroke-dasharray="4,3" opacity="0.6"/>
+  <path d="M 460 172 L 530 150" stroke="#8a8378" stroke-width="1" fill="none" stroke-dasharray="4,3" opacity="0.6"/>
+  <path d="M 610 150 L 680 172" stroke="#8a8378" stroke-width="1" fill="none" stroke-dasharray="4,3" opacity="0.6"/>
+  <path d="M 475 105 L 515 155" stroke="#8a8378" stroke-width="1" fill="none" stroke-dasharray="4,3" opacity="0.6"/>
+  <path d="M 675 105 L 650 155" stroke="#8a8378" stroke-width="1" fill="none" stroke-dasharray="4,3" opacity="0.6"/>
+  
+  <!-- Transition arrow between panels -->
+  <path d="M 330 150 L 420 150" stroke="#f06a6a" stroke-width="2" fill="none" stroke-dasharray="6,4" stroke-linecap="round"/>
+  <polygon points="420,150 410,145 412,155" fill="#f06a6a"/>
+  <text x="375" y="140" text-anchor="middle" font-size="10" font-weight="bold" fill="#f06a6a" font-family="system-ui, -apple-system, sans-serif">The shift</text>
+  <text x="375" y="155" text-anchor="middle" font-size="10" font-weight="bold" fill="#f06a6a" font-family="system-ui, -apple-system, sans-serif">you didn't</text>
+  <text x="375" y="170" text-anchor="middle" font-size="10" font-weight="bold" fill="#f06a6a" font-family="system-ui, -apple-system, sans-serif">notice</text>
+  
+  <!-- Bottom labels -->
+  <text x="180" y="285" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Clear Scope</text>
+  <text x="180" y="305" text-anchor="middle" font-size="9" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Bounded outcomes</text>
+  
+  <text x="570" y="285" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Emergent Behavior</text>
+  <text x="570" y="305" text-anchor="middle" font-size="9" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Dependencies multiply</text>
 </svg>
 </div>
 
@@ -82,7 +97,7 @@ The quiet warning is simple: if you don't notice when your "feature" becomes inf
 ## The core takeaway
 
 Many teams don't fail at execution. They fail at recognition. They think they're shipping a bounded product, so they plan, measure, and staff it like one, even as the organization starts using it like a shared platform. Once that happens, success is no longer defined by whether a release lands, but by whether the system's behavior remains coherent as more people build on it, depend on it, and reinterpret what it's "for." If you don't name that transition early, you end up managing compounding platform behavior with product-era language, and the surprises don't stop, they just get harder to explain.
-0:{"buildId":"SLipuA_Hc-s9cvFOSYyko","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["January 2026"," · ",6," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"You Think You're Shipping a Product? You're Actually Operating a Platform."}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","product-management",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"product-management"}],["$","span","platforms",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"platforms"}],["$","span","strategy",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"strategy"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":["$","$L3",null,{"content":"$4"}]}],"$L5"]}]}],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
+0:{"buildId":"GOb0EI06xEs93qeFP53Fh","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["January 2026"," · ",6," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"You Think You're Shipping a Product? You're Actually Operating a Platform."}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","product-management",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"product-management"}],["$","span","platforms",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"platforms"}],["$","span","strategy",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"strategy"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":["$","$L3",null,{"content":"$4"}]}],"$L5"]}]}],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
 5:["$","nav",null,{"className":"mt-16 pt-8 border-t border-border grid grid-cols-1 md:grid-cols-2 gap-4","children":[["$","$L2",null,{"href":"/blog/personalization-didnt-get-creepy","className":"group","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Previous"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"Personalization Didn't Get Creepy. It Lost Its Boundaries."}]]}],["$","$L2",null,{"href":"/blog/voice-ai-vendor-evaluation","className":"group text-right","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Next"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"I Evaluated 8+ Voice AI Vendors. Here's How I Would Decide What to Build vs Buy."}]]}]]}]
 6:["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true}]
 7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]

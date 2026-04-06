@@ -3,7 +3,7 @@
 3:I[36005,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],"default"]
 8:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
 9:"$Sreact.suspense"
-4:T163c,
+4:T1c9a,
 The field of Data Science comprises many stages and in no way is limited to a person belonging to the field of computers. Many people out there consider data science to be a part of the field of Information Technology. One must have heard that you need to be good at coding or have some experience in coding to even start with data, but guess what: you do not. When I was a newbie to the field, I had the same ideology pinned in my brain, but as I gained some experience and interacted with multiple people, the cloud of myths scattered. Now all I say is: anyone can be a data scientist.
 
 The list of skills that I feel, arranged according to importance, are:
@@ -15,35 +15,45 @@ The list of skills that I feel, arranged according to importance, are:
 5. Visualization
 
 <div style="margin: 2rem 0; text-align: center;">
-<svg viewBox="0 0 600 400" style="max-width:600px;width:100%;border:1px solid #e8e8e3;background:#fff;" xmlns="http://www.w3.org/2000/svg">
-  <!-- Pyramid -->
-  <!-- Base: Domain Knowledge -->
-  <polygon points="150,350 450,350 380,280 220,280" fill="#e8e8e3" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-  <text x="300" y="325" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e1e1e">Domain Knowledge</text>
-  <text x="300" y="342" text-anchor="middle" font-size="9" fill="#666">(Widest foundation)</text>
+<svg viewBox="0 0 750 480" style="max-width:720px;width:100%;border-radius:12px;" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
   
-  <!-- Level 2: Statistics -->
-  <polygon points="190,280 410,280 350,220 250,220" fill="#f0e8e3" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-  <text x="300" y="258" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e1e1e">Statistics</text>
+  <!-- Background -->
+  <rect width="750" height="480" fill="#f5f0eb"/>
   
-  <!-- Level 3: Excel/Tools -->
-  <polygon points="230,220 370,220 330,160 270,160" fill="#e8e8e3" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-  <text x="300" y="198" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e1e1e">Excel / Tools</text>
+  <!-- Card 1: Domain Knowledge (green, checked) -->
+  <rect x="40" y="20" width="670" height="75" rx="12" fill="rgba(74,157,119,0.08)" stroke="#4a9d77" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="70" y="50" font-size="14" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">✓ Domain Knowledge</text>
+  <text x="70" y="70" font-size="11" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">The most important skill — know your field deeply</text>
+  <text x="700" y="50" text-anchor="end" font-size="16" fill="#4a9d77" font-weight="bold" font-family="system-ui, -apple-system, sans-serif">1</text>
   
-  <!-- Level 4: Client Understanding -->
-  <polygon points="260,160 340,160 320,110 280,110" fill="#f0e8e3" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-  <text x="300" y="138" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e1e1e">Client</text>
-  <text x="300" y="150" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e1e1e">Understanding</text>
+  <!-- Card 2: Basic Statistics (green, checked) -->
+  <rect x="40" y="115" width="670" height="75" rx="12" fill="rgba(74,157,119,0.08)" stroke="#4a9d77" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="70" y="145" font-size="14" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">✓ Basic Statistics</text>
+  <text x="70" y="165" font-size="11" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Focus on WHY not HOW — understand the concepts, not just formulas</text>
+  <text x="700" y="145" text-anchor="end" font-size="16" fill="#4a9d77" font-weight="bold" font-family="system-ui, -apple-system, sans-serif">2</text>
   
-  <!-- Top: Visualization -->
-  <polygon points="280,110 320,110 300,60" fill="#fff" stroke="#f06a6a" stroke-width="2" stroke-linejoin="round"/>
-  <text x="300" y="85" text-anchor="middle" font-size="10" font-weight="bold" fill="#f06a6a">Visualization</text>
-  <text x="300" y="98" text-anchor="middle" font-size="8" fill="#f06a6a">(Peak)</text>
+  <!-- Card 3: Microsoft Excel (green, checked) -->
+  <rect x="40" y="210" width="670" height="75" rx="12" fill="rgba(74,157,119,0.08)" stroke="#4a9d77" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="70" y="240" font-size="14" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">✓ Microsoft Excel</text>
+  <text x="70" y="260" font-size="11" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Your first go-to tool — no coding required, incredibly powerful for analysis</text>
+  <text x="700" y="240" text-anchor="end" font-size="16" fill="#4a9d77" font-weight="bold" font-family="system-ui, -apple-system, sans-serif">3</text>
   
-  <!-- Side annotation -->
-  <text x="50" y="280" font-size="9" fill="#1e1e1e" text-anchor="end">Build</text>
-  <text x="50" y="295" font-size="9" fill="#1e1e1e" text-anchor="end">upward</text>
-  <line x1="55" y1="275" x2="140" y2="280" stroke="#1e1e1e" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Card 4: Client Understanding (blue) -->
+  <rect x="40" y="305" width="670" height="75" rx="12" fill="rgba(100,149,237,0.08)" stroke="#d4cfc7" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="70" y="335" font-size="14" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Client Understanding</text>
+  <text x="70" y="355" font-size="11" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Serve your audience — tailor insights and presentations to your clients' needs</text>
+  <text x="700" y="335" text-anchor="end" font-size="16" fill="#6b6560" font-weight="bold" font-family="system-ui, -apple-system, sans-serif">4</text>
+  
+  <!-- Card 5: Visualization (blue) -->
+  <rect x="40" y="400" width="670" height="75" rx="12" fill="rgba(100,149,237,0.08)" stroke="#d4cfc7" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="70" y="430" font-size="14" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Visualization</text>
+  <text x="70" y="450" font-size="11" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">People read graphs, not reports — make your findings clear and compelling</text>
+  <text x="700" y="430" text-anchor="end" font-size="16" fill="#6b6560" font-weight="bold" font-family="system-ui, -apple-system, sans-serif">5</text>
 </svg>
 </div>
 
@@ -68,7 +78,7 @@ This is the important part of a Data Scientist's job. If you are not able to ser
 Visualization is an integral part of representing all your work. The companies might demand a detailed report on the analysis but what the real world sees is mostly graphs and pictures. In the 21st century, people do not have time to read a couple of thousand words but they sure try and understand graphs. The type and display of graphs vary according to requirements. If you are generating graphs for kids, they need to be cute and colorful. If a graph is for the banks and companies, they can be complicated comprising of many components or subplots.
 
 The world now has many softwares developed that can generate analysis just by a couple of clicks. These softwares have pre-designed dashboards that generate analysis by selection, drag and drop and a few mouse clicks to ease everyone's access to the field.
-0:{"buildId":"SLipuA_Hc-s9cvFOSYyko","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["August 2020"," · ",5," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"Skills Needed to Be a Data Scientist"}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","data-science",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"data-science"}],["$","span","career",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"career"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":["$","$L3",null,{"content":"$4"}]}],"$L5"]}]}],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
+0:{"buildId":"GOb0EI06xEs93qeFP53Fh","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["August 2020"," · ",5," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"Skills Needed to Be a Data Scientist"}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","data-science",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"data-science"}],["$","span","career",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"career"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":["$","$L3",null,{"content":"$4"}]}],"$L5"]}]}],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
 5:["$","nav",null,{"className":"mt-16 pt-8 border-t border-border grid grid-cols-1 md:grid-cols-2 gap-4","children":[["$","div",null,{}],["$","$L2",null,{"href":"/blog/machine-learning-for-everyone","className":"group text-right","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Next"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"Machine Learning IS for Everyone"}]]}]]}]
 6:["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true}]
 7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]

@@ -5,16 +5,16 @@
 6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
 a:I[68027,[],"default"]
-:HL["/_next/static/chunks/ebcd56e58a411181.css","style"]
+:HL["/_next/static/chunks/5db684d691709f35.css","style"]
 :HL["/_next/static/media/70bc3e132a0a741e-s.p.15008bfb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"SLipuA_Hc-s9cvFOSYyko","c":["","blog","personalization-didnt-get-creepy"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","personalization-didnt-get-creepy","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/ebcd56e58a411181.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/84142d135179b8e2.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"inter_7b064e0d-module__MOT0tq__variable jetbrains_mono_b623b980-module__35dYfa__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n          (function() {\n            try {\n              var t = localStorage.getItem('theme');\n              if (t === 'dark') document.documentElement.classList.add('dark');\n            } catch(e) {}\n          })();\n        "}}]}],["$","body",null,{"className":"antialiased bg-bg-primary text-fg-primary transition-colors duration-200","children":[["$","$L2",null,{}],["$","main",null,{"className":"pt-16 min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"py-12 border-t border-border","children":["$","div",null,{"className":"max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-fg-tertiary","children":[["$","span",null,{"children":["© ",2026," Prerak Trivedi"]}],["$","div",null,{"className":"flex items-center gap-5","children":[["$","a","LinkedIn",{"href":"https://www.linkedin.com/in/preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"LinkedIn"}],["$","a","JustReva",{"href":"https://justreva.com","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"JustReva"}],["$","a","GitHub",{"href":"https://github.com/preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"GitHub"}],["$","a","Medium",{"href":"https://medium.com/@preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"Medium"}]]}]]}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$L9",false]],"m":"$undefined","G":["$a",[]],"S":true}
+0:{"P":null,"b":"GOb0EI06xEs93qeFP53Fh","c":["","blog","personalization-didnt-get-creepy"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","personalization-didnt-get-creepy","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/5db684d691709f35.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/84142d135179b8e2.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"inter_7b064e0d-module__MOT0tq__variable jetbrains_mono_b623b980-module__35dYfa__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n          (function() {\n            try {\n              var t = localStorage.getItem('theme');\n              if (t === 'dark') document.documentElement.classList.add('dark');\n            } catch(e) {}\n          })();\n        "}}]}],["$","body",null,{"className":"antialiased bg-bg-primary text-fg-primary transition-colors duration-200","children":[["$","$L2",null,{}],["$","main",null,{"className":"pt-16 min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"py-12 border-t border-border","children":["$","div",null,{"className":"max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-fg-tertiary","children":[["$","span",null,{"children":["© ",2026," Prerak Trivedi"]}],["$","div",null,{"className":"flex items-center gap-5","children":[["$","a","LinkedIn",{"href":"https://www.linkedin.com/in/preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"LinkedIn"}],["$","a","JustReva",{"href":"https://justreva.com","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"JustReva"}],["$","a","GitHub",{"href":"https://github.com/preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"GitHub"}],["$","a","Medium",{"href":"https://medium.com/@preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"Medium"}]]}]]}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$L9",false]],"m":"$undefined","G":["$a",[]],"S":true}
 b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"ViewportBoundary"]
 d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"MetadataBoundary"]
 9:["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
 f:I[22016,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],""]
 10:I[36005,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],"default"]
-11:T213e,
+11:T22e1,
 Most personalization systems don't fail because AI inferred something wrong. They fail because no one decided what the system should never infer in the first place.
 
 This isn't where ethics or governance start. It's where product design failed first. And the failure only becomes visible at scale.
@@ -40,68 +40,69 @@ When it gets it wrong, there is no obvious trigger to fix. No clear rule to roll
 In both cases, the mistake is the same: the system made a claim about the user it wasn't entitled to make. The difference is that older systems made those claims loudly. Today's systems make them quietly, continuously, and at scale.
 
 <div style="margin: 2rem 0; text-align: center;">
-<svg viewBox="0 0 800 350" style="max-width:700px;width:100%;border:1px solid #e8e8e3;background:#fff;" xmlns="http://www.w3.org/2000/svg">
-  <!-- Left side: Rules-Based -->
-  <rect x="40" y="20" width="320" height="40" rx="4" fill="#e8e8e3" stroke="#1e1e1e" stroke-width="2" text-anchor="middle"/>
-  <text x="200" y="48" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e1e1e">Rules-Based (Before)</text>
+<svg viewBox="0 0 750 380" style="max-width:720px;width:100%;border-radius:12px;" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="750" height="380" fill="#f5f0eb"/>
   
-  <!-- Flowchart boxes -->
-  <rect x="80" y="90" width="100" height="60" rx="6" fill="#fff" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-  <text x="130" y="120" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e1e1e">Rule</text>
-  <text x="130" y="138" text-anchor="middle" font-size="10" fill="#1e1e1e">"Buy baby</text>
-  <text x="130" y="150" text-anchor="middle" font-size="10" fill="#1e1e1e">products"</text>
+  <!-- Divider line -->
+  <line x1="375" y1="0" x2="375" y2="380" stroke="#d4cfc7" stroke-width="1.5" opacity="0.7"/>
   
-  <!-- Arrow -->
-  <path d="M 180 120 L 240 120" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round"/>
-  <polygon points="240,120 230,115 235,125" fill="#1e1e1e"/>
+  <!-- LEFT COLUMN: Before (green tint) -->
+  <rect x="15" y="20" width="330" height="60" rx="12" fill="rgba(74,157,119,0.08)" stroke="#4a9d77" stroke-width="1.5"/>
+  <text x="180" y="50" text-anchor="middle" font-size="13" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Before: Rules-Based</text>
   
-  <rect x="240" y="90" width="100" height="60" rx="6" fill="#fff" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-  <text x="290" y="120" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e1e1e">Check</text>
-  <text x="290" y="138" text-anchor="middle" font-size="10" fill="#1e1e1e">Match data?</text>
+  <!-- Left flow -->
+  <rect x="35" y="110" width="85" height="60" rx="12" fill="#f5f0eb" stroke="#4a9d77" stroke-width="1.5"/>
+  <text x="77" y="138" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Rule</text>
   
-  <!-- Arrow -->
-  <path d="M 340 120 L 400 120" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round"/>
-  <polygon points="400,120 390,115 395,125" fill="#1e1e1e"/>
+  <!-- Arrow right -->
+  <path d="M 120 140 L 160 140" stroke="#4a9d77" stroke-width="1.5" fill="none" stroke-dasharray="6,4" stroke-linecap="round"/>
+  <polygon points="160,140 153,136 155,144" fill="#4a9d77"/>
   
-  <rect x="400" y="90" width="100" height="60" rx="6" fill="#fff" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-  <text x="450" y="120" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e1e1e">Result</text>
-  <text x="450" y="138" text-anchor="middle" font-size="10" fill="#1e1e1e">Show ads</text>
+  <rect x="160" y="110" width="85" height="60" rx="12" fill="#f5f0eb" stroke="#4a9d77" stroke-width="1.5"/>
+  <text x="202" y="138" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Check</text>
   
-  <!-- Label -->
-  <text x="200" y="180" text-anchor="middle" font-size="11" fill="#1e1e1e">Visible, legible, obvious when wrong</text>
+  <!-- Arrow right -->
+  <path d="M 245 140 L 285 140" stroke="#4a9d77" stroke-width="1.5" fill="none" stroke-dasharray="6,4" stroke-linecap="round"/>
+  <polygon points="285,140 278,136 280,144" fill="#4a9d77"/>
   
-  <!-- Right side: AI Inference -->
-  <rect x="460" y="20" width="300" height="40" rx="4" fill="#e8e8e3" stroke="#1e1e1e" stroke-width="2"/>
-  <text x="610" y="48" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e1e1e">AI Inference (Now)</text>
+  <rect x="285" y="110" width="85" height="60" rx="12" fill="#f5f0eb" stroke="#4a9d77" stroke-width="1.5"/>
+  <text x="327" y="138" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Result</text>
   
-  <!-- Signals cloud -->
-  <circle cx="510" cy="110" r="18" fill="none" stroke="#1e1e1e" stroke-width="2"/>
-  <text x="510" y="115" text-anchor="middle" font-size="9" fill="#1e1e1e">Browse</text>
+  <!-- Left label -->
+  <text x="180" y="205" text-anchor="middle" font-size="10" font-weight="bold" fill="#4a9d77" font-family="system-ui, -apple-system, sans-serif">Visible. Obvious. Fixable.</text>
   
-  <circle cx="560" cy="90" r="18" fill="none" stroke="#1e1e1e" stroke-width="2"/>
-  <text x="560" y="95" text-anchor="middle" font-size="9" fill="#1e1e1e">Time</text>
+  <!-- RIGHT COLUMN: Now (red tint) -->
+  <rect x="405" y="20" width="330" height="60" rx="12" fill="rgba(220,80,80,0.08)" stroke="#dc5050" stroke-width="1.5"/>
+  <text x="570" y="50" text-anchor="middle" font-size="13" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Now: AI Inference</text>
   
-  <circle cx="610" cy="100" r="18" fill="none" stroke="#1e1e1e" stroke-width="2"/>
-  <text x="610" y="105" text-anchor="middle" font-size="9" fill="#1e1e1e">Device</text>
+  <!-- Signal nodes -->
+  <circle cx="420" cy="130" r="18" fill="#f5f0eb" stroke="#dc5050" stroke-width="1"/>
+  <text x="420" y="135" text-anchor="middle" font-size="8" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Browse</text>
   
-  <circle cx="660" cy="110" r="18" fill="none" stroke="#1e1e1e" stroke-width="2"/>
-  <text x="660" y="115" text-anchor="middle" font-size="9" fill="#1e1e1e">Location</text>
+  <circle cx="470" cy="110" r="18" fill="#f5f0eb" stroke="#dc5050" stroke-width="1"/>
+  <text x="470" y="115" text-anchor="middle" font-size="8" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Time</text>
+  
+  <circle cx="520" cy="115" r="18" fill="#f5f0eb" stroke="#dc5050" stroke-width="1"/>
+  <text x="520" y="120" text-anchor="middle" font-size="8" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Device</text>
+  
+  <circle cx="570" cy="130" r="18" fill="#f5f0eb" stroke="#dc5050" stroke-width="1"/>
+  <text x="570" y="135" text-anchor="middle" font-size="8" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Location</text>
   
   <!-- Arrows to model -->
-  <path d="M 525 128 L 580 160" stroke="#1e1e1e" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.7"/>
-  <path d="M 570 108 L 580 160" stroke="#1e1e1e" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.7"/>
-  <path d="M 610 118 L 610 160" stroke="#1e1e1e" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.7"/>
-  <path d="M 650 128 L 620 160" stroke="#1e1e1e" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 432 148 L 500 185" stroke="#8a8378" stroke-width="1" fill="none" stroke-dasharray="4,3" opacity="0.6"/>
+  <path d="M 478 128 L 510 180" stroke="#8a8378" stroke-width="1" fill="none" stroke-dasharray="4,3" opacity="0.6"/>
+  <path d="M 520 133 L 520 180" stroke="#8a8378" stroke-width="1" fill="none" stroke-dasharray="4,3" opacity="0.6"/>
+  <path d="M 562 148 L 540 180" stroke="#8a8378" stroke-width="1" fill="none" stroke-dasharray="4,3" opacity="0.6"/>
   
-  <!-- Black box (model) -->
-  <rect x="540" y="160" width="140" height="80" rx="6" fill="#2a2a2a" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-  <text x="610" y="185" text-anchor="middle" font-size="12" font-weight="bold" fill="#e8e8e3">Model</text>
-  <text x="610" y="205" text-anchor="middle" font-size="11" fill="#f06a6a">Inference</text>
-  <text x="610" y="228" text-anchor="middle" font-size="20" fill="#f06a6a">?</text>
+  <!-- Model box (dark) -->
+  <rect x="460" y="185" width="120" height="75" rx="12" fill="#3a3a36" stroke="#dc5050" stroke-width="1.5"/>
+  <text x="520" y="210" text-anchor="middle" font-size="11" font-weight="bold" fill="#f5f0eb" font-family="system-ui, -apple-system, sans-serif">Model</text>
+  <text x="520" y="230" text-anchor="middle" font-size="10" fill="#f06a6a" font-family="system-ui, -apple-system, sans-serif">Inference</text>
+  <text x="520" y="250" text-anchor="middle" font-size="18" fill="#f06a6a" font-family="system-ui, -apple-system, sans-serif">?</text>
   
-  <!-- Characteristics -->
-  <text x="610" y="280" text-anchor="middle" font-size="11" fill="#1e1e1e">No visible rules, quiet, scale-hidden</text>
-  <text x="610" y="298" text-anchor="middle" font-size="11" fill="#f06a6a" font-weight="bold">Dangerous when underbounded</text>
+  <!-- Right label -->
+  <text x="570" y="305" text-anchor="middle" font-size="10" font-weight="bold" fill="#dc5050" font-family="system-ui, -apple-system, sans-serif">Quiet. Continuous. Invisible.</text>
 </svg>
 </div>
 

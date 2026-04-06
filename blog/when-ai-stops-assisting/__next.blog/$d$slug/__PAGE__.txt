@@ -3,7 +3,7 @@
 3:I[36005,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],"default"]
 8:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
 9:"$Sreact.suspense"
-4:T171c,
+4:T20c2,
 AI capability is no longer the limiting factor for most organizations. Decision ownership is.
 
 Models are getting better, cheaper, and easier to deploy at a pace few teams planned for. What hasn't scaled at the same rate is the organization's ability to stand behind the decisions those systems now influence, or quietly make.
@@ -15,36 +15,66 @@ This tension shows up structurally: decision authority remains centralized, whil
 That shift is subtle, and easy to miss.
 
 <div style="margin: 2rem 0; text-align: center;">
-<svg viewBox="0 0 800 200" style="max-width:700px;width:100%;border:1px solid #e8e8e3;background:#fff;" xmlns="http://www.w3.org/2000/svg">
-  <!-- Gradient bar background -->
+<svg viewBox="0 0 750 380" style="max-width:720px;width:100%;border-radius:12px;" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="750" height="380" fill="#f5f0eb"/>
+  
+  <!-- Box 1: Informing -->
+  <rect x="30" y="50" width="140" height="90" rx="12" fill="rgba(74,157,119,0.08)" stroke="#4a9d77" stroke-width="1.5"/>
+  <text x="100" y="75" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Informing</text>
+  <text x="100" y="95" text-anchor="middle" font-size="9" fill="#4a9d77" font-family="system-ui, -apple-system, sans-serif">→</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 170 95 L 210 95" stroke="#8a8378" stroke-width="1.5" fill="none" stroke-dasharray="6,4" stroke-linecap="round"/>
+  <polygon points="210,95 203,91 205,99" fill="#8a8378"/>
+  
+  <!-- Box 2: Suggesting -->
+  <rect x="210" y="50" width="140" height="90" rx="12" fill="rgba(100,149,237,0.08)" stroke="#6495ed" stroke-width="1.5"/>
+  <text x="280" y="75" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Suggesting</text>
+  <text x="280" y="95" text-anchor="middle" font-size="9" fill="#6495ed" font-family="system-ui, -apple-system, sans-serif">→</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 350 95 L 390 95" stroke="#8a8378" stroke-width="1.5" fill="none" stroke-dasharray="6,4" stroke-linecap="round"/>
+  <polygon points="390,95 383,91 385,99" fill="#8a8378"/>
+  
+  <!-- Box 3: Deciding -->
+  <rect x="390" y="50" width="140" height="90" rx="12" fill="rgba(220,150,80,0.08)" stroke="#c9963d" stroke-width="1.5"/>
+  <text x="460" y="75" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Deciding</text>
+  <text x="460" y="95" text-anchor="middle" font-size="9" fill="#c9963d" font-family="system-ui, -apple-system, sans-serif">→</text>
+  
+  <!-- Arrow 3 -->
+  <path d="M 530 95 L 570 95" stroke="#8a8378" stroke-width="1.5" fill="none" stroke-dasharray="6,4" stroke-linecap="round"/>
+  <polygon points="570,95 563,91 565,99" fill="#8a8378"/>
+  
+  <!-- Box 4: Acting -->
+  <rect x="570" y="50" width="140" height="90" rx="12" fill="rgba(220,80,80,0.08)" stroke="#dc5050" stroke-width="1.5"/>
+  <text x="640" y="75" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Acting</text>
+  <text x="640" y="95" text-anchor="middle" font-size="9" fill="#dc5050" font-family="system-ui, -apple-system, sans-serif">→</text>
+  
+  <!-- Gradient bar -->
   <defs>
-    <linearGradient id="spectrum" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#e8e8e3;stop-opacity:1" />
-      <stop offset="25%" style="stop-color:#f5d4d4;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#f0a7a7;stop-opacity:1" />
-      <stop offset="75%" style="stop-color:#e87878;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#d65555;stop-opacity:1" />
+    <linearGradient id="accountability" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4a9d77;stop-opacity:1" />
+      <stop offset="33%" style="stop-color:#6495ed;stop-opacity:1" />
+      <stop offset="66%" style="stop-color:#c9963d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc5050;stop-opacity:1" />
     </linearGradient>
   </defs>
+  <rect x="30" y="165" width="680" height="20" rx="10" fill="url(#accountability)"/>
   
-  <!-- Main bar -->
-  <rect x="80" y="50" width="650" height="50" rx="6" fill="url(#spectrum)" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Accountability labels -->
+  <text x="30" y="220" text-anchor="start" font-size="10" fill="#4a9d77" font-weight="bold" font-family="system-ui, -apple-system, sans-serif">← Clear accountability</text>
   
-  <!-- Stage labels -->
-  <text x="120" y="105" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e1e1e">Informing</text>
-  <text x="250" y="105" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e1e1e">Suggesting</text>
-  <text x="410" y="105" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e1e1e">Deciding</text>
-  <text x="560" y="105" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e1e1e">Acting</text>
+  <text x="710" y="220" text-anchor="end" font-size="10" fill="#dc5050" font-weight="bold" font-family="system-ui, -apple-system, sans-serif">Accountability gap →</text>
   
-  <!-- Divider lines -->
-  <line x1="180" y1="50" x2="180" y2="100" stroke="#1e1e1e" stroke-width="1" opacity="0.5"/>
-  <line x1="330" y1="50" x2="330" y2="100" stroke="#1e1e1e" stroke-width="1" opacity="0.5"/>
-  <line x1="485" y1="50" x2="485" y2="100" stroke="#1e1e1e" stroke-width="1" opacity="0.5"/>
+  <!-- Callout for Deciding box -->
+  <line x1="460" y1="40" x2="460" y2="15" stroke="#f06a6a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="460" y="12" text-anchor="middle" font-size="9" fill="#f06a6a" font-weight="bold" font-family="system-ui, -apple-system, sans-serif">Most teams notice</text>
+  <text x="460" y="24" text-anchor="middle" font-size="9" fill="#f06a6a" font-weight="bold" font-family="system-ui, -apple-system, sans-serif">the shift here ↑</text>
   
-  <!-- Bottom annotation -->
-  <path d="M 80 140 L 730 140" stroke="#f06a6a" stroke-width="2" fill="none" stroke-linecap="round"/>
-  <polygon points="730,140 720,135 720,145" fill="#f06a6a"/>
-  <text x="400" y="165" text-anchor="middle" font-size="12" fill="#f06a6a" font-weight="bold">Accountability gap widens</text>
+  <!-- Bottom stat -->
+  <text x="375" y="285" text-anchor="middle" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">The shift from assistance to authority happens gradually.</text>
+  <text x="375" y="305" text-anchor="middle" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Accountability dissolves in the middle.</text>
 </svg>
 </div>
 
@@ -107,7 +137,7 @@ Scaling AI isn't about shipping smarter models faster. It's about building syste
 The next AI advantage won't come from prediction quality alone.
 
 It will come from operationalized judgment, designed on purpose and made visible at scale.
-0:{"buildId":"SLipuA_Hc-s9cvFOSYyko","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["December 2025"," · ",6," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"When AI Stops Assisting and Starts Deciding"}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","ai-products",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"ai-products"}],["$","span","autonomy",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"autonomy"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":["$","$L3",null,{"content":"$4"}]}],"$L5"]}]}],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
+0:{"buildId":"GOb0EI06xEs93qeFP53Fh","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["December 2025"," · ",6," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"When AI Stops Assisting and Starts Deciding"}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","ai-products",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"ai-products"}],["$","span","autonomy",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"autonomy"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":["$","$L3",null,{"content":"$4"}]}],"$L5"]}]}],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
 5:["$","nav",null,{"className":"mt-16 pt-8 border-t border-border grid grid-cols-1 md:grid-cols-2 gap-4","children":[["$","$L2",null,{"href":"/blog/building-a-product-vision","className":"group","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Previous"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"Building a Product Vision: The Blueprint to Long-Term Success"}]]}],["$","$L2",null,{"href":"/blog/when-ai-fails","className":"group text-right","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Next"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"When AI Fails, It's Rarely Because the Model Was Wrong"}]]}]]}]
 6:["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true}]
 7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
