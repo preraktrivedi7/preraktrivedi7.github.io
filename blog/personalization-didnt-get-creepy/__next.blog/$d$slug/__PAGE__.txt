@@ -3,124 +3,164 @@
 3:I[36005,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],"default"]
 8:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
 9:"$Sreact.suspense"
-4:T22e1,
-Most personalization systems don't fail because AI inferred something wrong. They fail because no one decided what the system should never infer in the first place.
+4:T3451,
+Every AI personalization product eventually faces the same question: how much is too much?
 
-This isn't where ethics or governance start. It's where product design failed first. And the failure only becomes visible at scale.
+The answer isn't technical. It's a product decision. And most teams get it wrong by defaulting to "more personalization is always better."
 
-## We have seen this failure before
+It's not. Here's why.
 
-Personalization failures are often explained as an AI problem. The models inferred too much. The system crossed a line. Users felt watched. But that explanation misses something important. This failure mode existed long before AI.
+## The Personalization Spectrum
 
-What changed is not what personalization does, but what stops it.
-
-Earlier generations of personalization lived inside visible constraints. Rules-based segments. Declared preferences. CRM attributes users knowingly provided. When systems got it wrong, the mistake was obvious. The logic was legible. Trust eroded loudly.
-
-Those systems failed visibly, and therefore were easier to correct.
-
-Here's an example: before AI, a retailer might personalize emails based on a simple rule. Customers who bought baby products received promotions for diapers, formula, and toys. The logic was crude, but visible. When it went wrong, a gift purchase triggering months of baby-related emails, the mistake was obvious. Customers complained. Teams adjusted the rule. The system learned where it had overreached.
-
-The error wasn't subtle. It announced itself.
-
-Today with AI, the same mistake happens differently. A model infers life stage, intent, or emotional context from a constellation of weak signals: browsing patterns, timing, device usage, location. No single rule fires. No explicit assumption is made. The system simply "knows."
-
-When it gets it wrong, there is no obvious trigger to fix. No clear rule to roll back. Just a growing sense that the product understands too much, or something it never should have inferred at all.
-
-In both cases, the mistake is the same: the system made a claim about the user it wasn't entitled to make. The difference is that older systems made those claims loudly. Today's systems make them quietly, continuously, and at scale.
-
-<div style="margin: 2rem 0; text-align: center;">
-<svg viewBox="0 0 750 380" style="max-width:720px;width:100%;border-radius:12px;" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="750" height="380" fill="#f5f0eb"/>
-  
-  <!-- Divider line -->
-  <line x1="375" y1="0" x2="375" y2="380" stroke="#d4cfc7" stroke-width="1.5" opacity="0.7"/>
-  
-  <!-- LEFT COLUMN: Before (green tint) -->
-  <rect x="15" y="20" width="330" height="60" rx="12" fill="rgba(74,157,119,0.08)" stroke="#4a9d77" stroke-width="1.5"/>
-  <text x="180" y="50" text-anchor="middle" font-size="13" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Before: Rules-Based</text>
-  
-  <!-- Left flow -->
-  <rect x="35" y="110" width="85" height="60" rx="12" fill="#f5f0eb" stroke="#4a9d77" stroke-width="1.5"/>
-  <text x="77" y="138" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Rule</text>
-  
-  <!-- Arrow right -->
-  <path d="M 120 140 L 160 140" stroke="#4a9d77" stroke-width="1.5" fill="none" stroke-dasharray="6,4" stroke-linecap="round"/>
-  <polygon points="160,140 153,136 155,144" fill="#4a9d77"/>
-  
-  <rect x="160" y="110" width="85" height="60" rx="12" fill="#f5f0eb" stroke="#4a9d77" stroke-width="1.5"/>
-  <text x="202" y="138" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Check</text>
-  
-  <!-- Arrow right -->
-  <path d="M 245 140 L 285 140" stroke="#4a9d77" stroke-width="1.5" fill="none" stroke-dasharray="6,4" stroke-linecap="round"/>
-  <polygon points="285,140 278,136 280,144" fill="#4a9d77"/>
-  
-  <rect x="285" y="110" width="85" height="60" rx="12" fill="#f5f0eb" stroke="#4a9d77" stroke-width="1.5"/>
-  <text x="327" y="138" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Result</text>
-  
-  <!-- Left label -->
-  <text x="180" y="205" text-anchor="middle" font-size="10" font-weight="bold" fill="#4a9d77" font-family="system-ui, -apple-system, sans-serif">Visible. Obvious. Fixable.</text>
-  
-  <!-- RIGHT COLUMN: Now (red tint) -->
-  <rect x="405" y="20" width="330" height="60" rx="12" fill="rgba(220,80,80,0.08)" stroke="#dc5050" stroke-width="1.5"/>
-  <text x="570" y="50" text-anchor="middle" font-size="13" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Now: AI Inference</text>
-  
-  <!-- Signal nodes -->
-  <circle cx="420" cy="130" r="18" fill="#f5f0eb" stroke="#dc5050" stroke-width="1"/>
-  <text x="420" y="135" text-anchor="middle" font-size="8" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Browse</text>
-  
-  <circle cx="470" cy="110" r="18" fill="#f5f0eb" stroke="#dc5050" stroke-width="1"/>
-  <text x="470" y="115" text-anchor="middle" font-size="8" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Time</text>
-  
-  <circle cx="520" cy="115" r="18" fill="#f5f0eb" stroke="#dc5050" stroke-width="1"/>
-  <text x="520" y="120" text-anchor="middle" font-size="8" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Device</text>
-  
-  <circle cx="570" cy="130" r="18" fill="#f5f0eb" stroke="#dc5050" stroke-width="1"/>
-  <text x="570" y="135" text-anchor="middle" font-size="8" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Location</text>
-  
-  <!-- Arrows to model -->
-  <path d="M 432 148 L 500 185" stroke="#8a8378" stroke-width="1" fill="none" stroke-dasharray="4,3" opacity="0.6"/>
-  <path d="M 478 128 L 510 180" stroke="#8a8378" stroke-width="1" fill="none" stroke-dasharray="4,3" opacity="0.6"/>
-  <path d="M 520 133 L 520 180" stroke="#8a8378" stroke-width="1" fill="none" stroke-dasharray="4,3" opacity="0.6"/>
-  <path d="M 562 148 L 540 180" stroke="#8a8378" stroke-width="1" fill="none" stroke-dasharray="4,3" opacity="0.6"/>
-  
-  <!-- Model box (dark) -->
-  <rect x="460" y="185" width="120" height="75" rx="12" fill="#3a3a36" stroke="#dc5050" stroke-width="1.5"/>
-  <text x="520" y="210" text-anchor="middle" font-size="11" font-weight="bold" fill="#f5f0eb" font-family="system-ui, -apple-system, sans-serif">Model</text>
-  <text x="520" y="230" text-anchor="middle" font-size="10" fill="#f06a6a" font-family="system-ui, -apple-system, sans-serif">Inference</text>
-  <text x="520" y="250" text-anchor="middle" font-size="18" fill="#f06a6a" font-family="system-ui, -apple-system, sans-serif">?</text>
-  
-  <!-- Right label -->
-  <text x="570" y="305" text-anchor="middle" font-size="10" font-weight="bold" fill="#dc5050" font-family="system-ui, -apple-system, sans-serif">Quiet. Continuous. Invisible.</text>
+<svg viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="250" fill="#fafafa" rx="8"/>
+  <text x="400" y="35" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#1a1a2e" font-weight="600">The Personalization Spectrum</text>
+  <line x1="100" y1="100" x2="700" y2="100" stroke="#e5e7eb" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="150" cy="100" r="12" fill="#16a34a"/>
+  <text x="150" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#166534" font-weight="600">Helpful</text>
+  <text x="150" y="158" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">"Based on your</text>
+  <text x="150" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">past orders"</text>
+  <circle cx="350" cy="100" r="12" fill="#f59e0b"/>
+  <text x="350" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#b45309" font-weight="600">Convenient</text>
+  <text x="350" y="158" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">"People like you</text>
+  <text x="350" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">also bought"</text>
+  <circle cx="500" cy="100" r="12" fill="#f97316"/>
+  <text x="500" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#c2410c" font-weight="600">Presumptuous</text>
+  <text x="500" y="158" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">"We noticed you</text>
+  <text x="500" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">were looking at..."</text>
+  <circle cx="650" cy="100" r="12" fill="#dc2626"/>
+  <text x="650" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#991b1b" font-weight="600">Creepy</text>
+  <text x="650" y="158" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">"We know you're</text>
+  <text x="650" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">pregnant"</text>
+  <rect x="420" y="190" width="280" height="40" rx="6" fill="#fee2e2" stroke="#dc2626" stroke-width="1"/>
+  <text x="560" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#991b1b">Most teams optimize into this zone</text>
 </svg>
-</div>
 
-## When inference enters product surfaces
+The problem is that most personalization systems optimize for engagement metrics. And engagement metrics don't capture the moment when helpful becomes creepy.
 
-The line isn't crossed noisily anymore. It's crossed quietly, because no one defined where inference should stop.
+## Why "More Personalization" Fails
 
-Modern systems infer continuously without explicit decision points about what assumptions are permissible. A model may infer life stage, intent, or emotional context from weak signals like browsing patterns, timing, and device usage. Rather than inference happening solely within systems, it's embedded directly into product experiences through personalization that adapts continuously without clear human authorization of which claims systems can make about users.
+I built a personalization platform serving 2.5M daily users. We learned this lesson the hard way.
 
-## Why value scales or collapses
+Early on, we optimized purely for click-through rate. The algorithm got good at predicting what users would click. Too good.
 
-Successful AI deployment requires deliberate embedding into decision workflows with early-defined scope and boundaries. Companies that lag allow systems to expand opportunistically, creating trust decay that outpaces value creation.
+<svg viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="280" fill="#fafafa" rx="8"/>
+  <text x="400" y="35" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#1a1a2e" font-weight="600">The Optimization Trap</text>
+  <rect x="60" y="60" width="200" height="100" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="160" y="95" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#166534" font-weight="600">What We Measured</text>
+  <text x="160" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#16a34a">Click-through rate</text>
+  <text x="160" y="138" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#16a34a">Time on page</text>
+  <text x="160" y="156" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#16a34a">Conversion rate</text>
+  <path d="M 270 110 L 320 110" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow3)"/>
+  <rect x="330" y="60" width="200" height="100" rx="12" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="430" y="95" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#b45309" font-weight="600">What Got Optimized</text>
+  <text x="430" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#f59e0b">Attention-grabbing content</text>
+  <text x="430" y="138" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#f59e0b">Curiosity gaps</text>
+  <text x="430" y="156" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#f59e0b">FOMO triggers</text>
+  <path d="M 540 110 L 590 110" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow3)"/>
+  <rect x="600" y="60" width="140" height="100" rx="12" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="670" y="95" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#991b1b" font-weight="600">What Happened</text>
+  <text x="670" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dc2626">Users felt</text>
+  <text x="670" y="138" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dc2626">manipulated</text>
+  <rect x="180" y="190" width="440" height="70" rx="10" fill="#1e293b"/>
+  <text x="400" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#f1f5f9" font-weight="600">The metric improved. Trust eroded.</text>
+  <text x="400" y="245" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">Short-term engagement up. Long-term retention down.</text>
+  <defs>
+    <marker id="arrow3" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>
 
-This is not a philosophical debate. It's a product design question with direct impact on retention, brand trust, and long-term growth.
+## The Boundary Framework
 
-## Personalization as decisioning, not optimization
+The fix wasn't less personalization. It was bounded personalization.
 
-Every personalization system is a decisioning system. It makes claims about users: their intent, their values, their likely next action. Each inference is a trust bet.
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="400" fill="#fafafa" rx="8"/>
+  <text x="400" y="35" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#1a1a2e" font-weight="600">The Boundary Framework</text>
+  <rect x="60" y="60" width="330" height="85" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="95" cy="102" r="22" fill="#3b82f6"/>
+  <text x="95" y="109" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="white" font-weight="700">1</text>
+  <text x="130" y="90" font-family="system-ui, sans-serif" font-size="13" fill="#1e40af" font-weight="600">Transparency Boundary</text>
+  <text x="130" y="110" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Users should understand WHY they're</text>
+  <text x="130" y="125" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">seeing something. "Because you bought X"</text>
+  <rect x="410" y="60" width="330" height="85" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="2"/>
+  <circle cx="445" cy="102" r="22" fill="#10b981"/>
+  <text x="445" y="109" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="white" font-weight="700">2</text>
+  <text x="480" y="90" font-family="system-ui, sans-serif" font-size="13" fill="#047857" font-weight="600">Expectation Boundary</text>
+  <text x="480" y="110" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Don't use data from contexts users</text>
+  <text x="480" y="125" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">wouldn't expect to be connected.</text>
+  <rect x="60" y="165" width="330" height="85" rx="10" fill="#ffffff" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="95" cy="207" r="22" fill="#f59e0b"/>
+  <text x="95" y="214" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="white" font-weight="700">3</text>
+  <text x="130" y="195" font-family="system-ui, sans-serif" font-size="13" fill="#b45309" font-weight="600">Control Boundary</text>
+  <text x="130" y="215" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Users must be able to opt out, correct,</text>
+  <text x="130" y="230" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">or reset personalization at any time.</text>
+  <rect x="410" y="165" width="330" height="85" rx="10" fill="#ffffff" stroke="#8b5cf6" stroke-width="2"/>
+  <circle cx="445" cy="207" r="22" fill="#8b5cf6"/>
+  <text x="445" y="214" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="white" font-weight="700">4</text>
+  <text x="480" y="195" font-family="system-ui, sans-serif" font-size="13" fill="#6d28d9" font-weight="600">Sensitivity Boundary</text>
+  <text x="480" y="215" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Some data categories (health, finance,</text>
+  <text x="480" y="230" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">relationships) require explicit consent.</text>
+  <rect x="150" y="280" width="500" height="100" rx="12" fill="#1e293b"/>
+  <text x="400" y="315" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#f1f5f9" font-weight="600">The Rule:</text>
+  <text x="400" y="340" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#fbbf24">If a user would be surprised to learn HOW you knew</text>
+  <text x="400" y="360" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#fbbf24">something about them, you've crossed a boundary.</text>
+</svg>
 
-When those bets are unbounded, when no one has decided what the system is and isn't allowed to learn, teams compensate retroactively with guardrails, exceptions, and manual reviews. The system works, technically. But the product experience erodes.
+## What We Changed
 
-## The core problem
+After implementing boundaries, our metrics told a different story:
 
-The question product leaders need to answer is not "how do we make personalization more accurate?" It's "what claims about a user is this system authorized to make, and who is accountable when those claims are wrong?"
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="200" fill="#fafafa" rx="8"/>
+  <rect x="80" y="40" width="180" height="120" rx="12" fill="#ffffff" stroke="#f59e0b" stroke-width="2"/>
+  <text x="170" y="75" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#b45309" font-weight="600">Short-term CTR</text>
+  <text x="170" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" fill="#f59e0b" font-weight="700">-8%</text>
+  <text x="170" y="135" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Less clickbait = fewer clicks</text>
+  <rect x="310" y="40" width="180" height="120" rx="12" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+  <text x="400" y="75" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#166534" font-weight="600">Long-term Retention</text>
+  <text x="400" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" fill="#16a34a" font-weight="700">+23%</text>
+  <text x="400" y="135" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Trust = stickiness</text>
+  <rect x="540" y="40" width="180" height="120" rx="12" fill="#ffffff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="630" y="75" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#1e40af" font-weight="600">Complaint Rate</text>
+  <text x="630" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" fill="#3b82f6" font-weight="700">-67%</text>
+  <text x="630" y="135" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">"How did you know?" → 0</text>
+</svg>
 
-Responsibility doesn't vanish when these decisions happen implicitly rather than explicitly. It diffuses. And diffused responsibility, at scale, is how trust dies quietly.
+The short-term engagement dip was real. The long-term trust gain was worth it.
 
-The systems that personalize well aren't the ones with the best models. They're the ones where someone decided, early and explicitly, where inference should stop.
-0:{"buildId":"GOb0EI06xEs93qeFP53Fh","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["January 2026"," · ",7," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"Personalization Didn't Get Creepy. It Lost Its Boundaries."}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","personalization",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"personalization"}],["$","span","ai-products",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"ai-products"}],["$","span","growth",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"growth"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":["$","$L3",null,{"content":"$4"}]}],"$L5"]}]}],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
+## The Product Decision
+
+This is why personalization boundaries are product decisions, not technical ones.
+
+The algorithm can optimize for anything you tell it to. The question is: what should it optimize for?
+
+| Optimize for... | You get... |
+|-----------------|-----------|
+| Clicks | Attention-grabbing, manipulative content |
+| Time on site | Rabbit holes, dark patterns |
+| Conversions | High-pressure tactics |
+| Trust | Sustainable engagement |
+
+The last one is harder to measure. It's also the only one that compounds.
+
+## Key Takeaways
+
+1. **Personalization has diminishing returns.** Past a certain point, "more personalized" means "more invasive."
+
+2. **Metrics don't capture trust erosion.** Short-term engagement metrics can improve while long-term trust degrades.
+
+3. **Boundaries are features, not constraints.** Users value predictability. Knowing what data you'll use (and won't use) builds trust.
+
+4. **The "surprise test" works.** If a user would be surprised to learn how you knew something, you've probably crossed a line.
+
+5. **This is a product decision.** The algorithm will optimize for whatever you tell it to. Choose wisely.
+
+Personalization didn't get creepy because the technology advanced. It got creepy because product teams stopped asking where the line should be.
+0:{"buildId":"f-aE6i_or5OF_aMl4jwdP","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["January 2026"," · ",7," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"Personalization Didn't Get Creepy. It Lost Its Boundaries."}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","personalization",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"personalization"}],["$","span","ai-products",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"ai-products"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":["$","$L3",null,{"content":"$4"}]}],"$L5"]}]}],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
 5:["$","nav",null,{"className":"mt-16 pt-8 border-t border-border grid grid-cols-1 md:grid-cols-2 gap-4","children":[["$","$L2",null,{"href":"/blog/when-ai-fails","className":"group","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Previous"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"When AI Fails, It's Rarely Because the Model Was Wrong"}]]}],["$","$L2",null,{"href":"/blog/you-think-youre-shipping-a-product","className":"group text-right","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Next"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"You Think You're Shipping a Product? You're Actually Operating a Platform."}]]}]]}]
 6:["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true}]
 7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]

@@ -1,0 +1,159 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],""]
+3:I[36005,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],"default"]
+8:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
+9:"$Sreact.suspense"
+4:T3408,
+Most experimentation platforms fail. Not because the statistics are wrong. Because nobody uses them.
+
+I built one that 10+ teams actually adopted. Here's how and the mistakes that almost killed it.
+
+## The Problem With Most Experimentation Platforms
+
+<svg viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="280" fill="#fafafa" rx="8"/>
+  <text x="400" y="35" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#1a1a2e" font-weight="600">Why Experimentation Platforms Fail</text>
+  <rect x="60" y="60" width="200" height="90" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="160" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#dc2626" font-weight="700">Too Complex</text>
+  <text x="160" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">PhD required to</text>
+  <text x="160" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">interpret results</text>
+  <rect x="300" y="60" width="200" height="90" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="400" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#dc2626" font-weight="700">Too Slow</text>
+  <text x="400" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Weeks to set up</text>
+  <text x="400" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">a simple test</text>
+  <rect x="540" y="60" width="200" height="90" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="640" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#dc2626" font-weight="700">Too Siloed</text>
+  <text x="640" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Data science owns it,</text>
+  <text x="640" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">PMs can't self-serve</text>
+  <rect x="180" y="180" width="440" height="80" rx="12" fill="#1e293b"/>
+  <text x="400" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#f1f5f9" font-weight="600">The Result:</text>
+  <text x="400" y="235" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#fbbf24">Teams ship without testing. Or worse — they test wrong.</text>
+</svg>
+
+## What I Built Instead
+
+The goal wasn't a perfect statistical engine. It was an experimentation system that PMs would actually use.
+
+<svg viewBox="0 0 800 350" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="350" fill="#fafafa" rx="8"/>
+  <text x="400" y="35" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#1a1a2e" font-weight="600">The Framework That Works</text>
+  <rect x="60" y="60" width="200" height="100" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <circle cx="95" cy="90" r="20" fill="#16a34a"/>
+  <text x="95" y="96" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="white" font-weight="700">1</text>
+  <text x="165" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#166534" font-weight="600">Self-Service</text>
+  <text x="165" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">PMs create tests</text>
+  <text x="165" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">without eng help</text>
+  <text x="165" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#16a34a">5 min setup</text>
+  <path d="M 260 110 L 295 110" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow7)"/>
+  <rect x="300" y="60" width="200" height="100" rx="12" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="335" cy="90" r="20" fill="#3b82f6"/>
+  <text x="335" y="96" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="white" font-weight="700">2</text>
+  <text x="405" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af" font-weight="600">Guardrails</text>
+  <text x="405" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Auto-stops bad</text>
+  <text x="405" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">experiments</text>
+  <text x="405" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#3b82f6">Safety built in</text>
+  <path d="M 500 110 L 535 110" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow7)"/>
+  <rect x="540" y="60" width="200" height="100" rx="12" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="575" cy="90" r="20" fill="#f59e0b"/>
+  <text x="575" y="96" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="white" font-weight="700">3</text>
+  <text x="645" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#b45309" font-weight="600">Clear Results</text>
+  <text x="645" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Win/Lose/Inconclusive</text>
+  <text x="645" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">No statistics degree</text>
+  <text x="645" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#f59e0b">One dashboard</text>
+  <rect x="180" y="190" width="200" height="100" rx="12" fill="#e0e7ff" stroke="#6366f1" stroke-width="2"/>
+  <circle cx="215" cy="220" r="20" fill="#6366f1"/>
+  <text x="215" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="white" font-weight="700">4</text>
+  <text x="285" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#4338ca" font-weight="600">Learning Library</text>
+  <text x="285" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Past experiments</text>
+  <text x="285" y="255" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">searchable</text>
+  <text x="285" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#6366f1">Knowledge compounds</text>
+  <rect x="420" y="190" width="200" height="100" rx="12" fill="#fce7f3" stroke="#ec4899" stroke-width="2"/>
+  <circle cx="455" cy="220" r="20" fill="#ec4899"/>
+  <text x="455" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="white" font-weight="700">5</text>
+  <text x="525" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#be185d" font-weight="600">Decision Support</text>
+  <text x="525" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Recommended actions</text>
+  <text x="525" y="255" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">not just data</text>
+  <text x="525" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#ec4899">Ship or iterate</text>
+  <defs>
+    <marker id="arrow7" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>
+
+## The Guardrails That Saved Us
+
+The most important feature wasn't statistical rigor. It was automatic guardrails.
+
+<svg viewBox="0 0 800 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="240" fill="#fafafa" rx="8"/>
+  <text x="400" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#1a1a2e" font-weight="600">Auto-Guardrails</text>
+  <rect x="80" y="55" width="180" height="75" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+  <text x="170" y="80" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dc2626" font-weight="600">Revenue Drop</text>
+  <text x="170" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#dc2626" font-weight="700">&gt;5%</text>
+  <text x="170" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">Auto-pause experiment</text>
+  <rect x="310" y="55" width="180" height="75" rx="8" fill="#ffffff" stroke="#f59e0b" stroke-width="2"/>
+  <text x="400" y="80" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#f59e0b" font-weight="600">Error Rate Spike</text>
+  <text x="400" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#f59e0b" font-weight="700">&gt;2x</text>
+  <text x="400" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">Auto-rollback variant</text>
+  <rect x="540" y="55" width="180" height="75" rx="8" fill="#ffffff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="630" y="80" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#3b82f6" font-weight="600">Sample Pollution</text>
+  <text x="630" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#3b82f6" font-weight="700">Detected</text>
+  <text x="630" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">Quarantine + alert</text>
+  <rect x="200" y="155" width="400" height="65" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="400" y="180" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#166534" font-weight="600">Result: Teams experiment fearlessly</text>
+  <text x="400" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#16a34a">The system catches mistakes before customers feel them.</text>
+</svg>
+
+## The Adoption Curve
+
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="200" fill="#fafafa" rx="8"/>
+  <text x="400" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#1a1a2e" font-weight="600">Platform Adoption</text>
+  <rect x="100" y="55" width="160" height="100" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="180" y="85" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af" font-weight="600">Month 1</text>
+  <text x="180" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" fill="#3b82f6" font-weight="700">2</text>
+  <text x="180" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">teams</text>
+  <rect x="320" y="55" width="160" height="100" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="2"/>
+  <text x="400" y="85" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#047857" font-weight="600">Month 3</text>
+  <text x="400" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" fill="#10b981" font-weight="700">6</text>
+  <text x="400" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">teams</text>
+  <rect x="540" y="55" width="160" height="100" rx="10" fill="#ffffff" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="620" y="85" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6d28d9" font-weight="600">Month 6</text>
+  <text x="620" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" fill="#8b5cf6" font-weight="700">10+</text>
+  <text x="620" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">teams</text>
+  <path d="M 260 105 L 310 105" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow7b)"/>
+  <path d="M 480 105 L 530 105" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow7b)"/>
+  <defs>
+    <marker id="arrow7b" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>
+
+## What Made It Stick
+
+| What We Did | Why It Worked |
+|------------|---------------|
+| 5-minute setup | Removed friction for PMs |
+| Auto-guardrails | Built trust with leadership |
+| Clear verdicts | No statistics debates |
+| Learning library | Knowledge compounds |
+| Slack integration | Results where teams work |
+
+## Key Takeaways
+
+1. **Usability beats sophistication.** A simple system that teams use beats a sophisticated system they avoid.
+
+2. **Guardrails enable experimentation.** When teams trust the safety net, they test more.
+
+3. **Results should be decisions, not data.** "Ship variant B" is better than "p-value 0.03."
+
+4. **Make knowledge searchable.** Past experiments should inform future ones.
+
+5. **Meet teams where they work.** Slack notifications beat dashboard logins.
+0:{"buildId":"f-aE6i_or5OF_aMl4jwdP","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["March 2026"," · ",7," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"The Experimentation Framework That Actually Works"}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","experimentation",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"experimentation"}],["$","span","a-b-testing",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"a-b-testing"}],["$","span","product-development",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"product-development"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":["$","$L3",null,{"content":"$4"}]}],"$L5"]}]}],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
+5:["$","nav",null,{"className":"mt-16 pt-8 border-t border-border grid grid-cols-1 md:grid-cols-2 gap-4","children":[["$","$L2",null,{"href":"/blog/build-vs-buy-decision","className":"group","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Previous"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"The $5M Build vs Buy Decision: A Framework for When Vendors Fail You"}]]}],["$","$L2",null,{"href":"/blog/ai-pm-survival-guide","className":"group text-right","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Next"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"The AI Product Manager's Survival Guide"}]]}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true}]
+7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

@@ -1,0 +1,163 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],""]
+3:I[36005,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],"default"]
+8:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
+9:"$Sreact.suspense"
+4:T398a,
+I stopped building features three years ago. I started building platforms instead.
+
+The difference? Features solve one problem for one team. Platforms solve many problems for many teams.
+
+## The Feature Trap
+
+Early in my career, I shipped features constantly. New button. New report. New workflow.
+
+Each one made someone happy. Each one created technical debt. Each one was impossible to maintain at scale.
+
+<svg viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="280" fill="#fafafa" rx="8"/>
+  <text x="400" y="35" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#1a1a2e" font-weight="600">The Feature Trap</text>
+  <rect x="100" y="60" width="80" height="40" rx="5" fill="#fee2e2" stroke="#dc2626" stroke-width="2" transform="rotate(-3, 140, 80)"/>
+  <text x="140" y="85" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#dc2626">Feature A</text>
+  <rect x="200" y="55" width="80" height="40" rx="5" fill="#fee2e2" stroke="#dc2626" stroke-width="2" transform="rotate(2, 240, 75)"/>
+  <text x="240" y="80" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#dc2626">Feature B</text>
+  <rect x="300" y="65" width="80" height="40" rx="5" fill="#fee2e2" stroke="#dc2626" stroke-width="2" transform="rotate(-2, 340, 85)"/>
+  <text x="340" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#dc2626">Feature C</text>
+  <rect x="400" y="58" width="80" height="40" rx="5" fill="#fee2e2" stroke="#dc2626" stroke-width="2" transform="rotate(3, 440, 78)"/>
+  <text x="440" y="83" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#dc2626">Feature D</text>
+  <rect x="500" y="62" width="80" height="40" rx="5" fill="#fee2e2" stroke="#dc2626" stroke-width="2" transform="rotate(-1, 540, 82)"/>
+  <text x="540" y="87" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#dc2626">Feature E</text>
+  <rect x="600" y="55" width="80" height="40" rx="5" fill="#fee2e2" stroke="#dc2626" stroke-width="2" transform="rotate(2, 640, 75)"/>
+  <text x="640" y="80" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#dc2626">Feature F</text>
+  <rect x="150" y="115" width="80" height="40" rx="5" fill="#fee2e2" stroke="#dc2626" stroke-width="2" transform="rotate(1, 190, 135)"/>
+  <text x="190" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#dc2626">Feature G</text>
+  <rect x="350" y="118" width="80" height="40" rx="5" fill="#fee2e2" stroke="#dc2626" stroke-width="2" transform="rotate(-2, 390, 138)"/>
+  <text x="390" y="143" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#dc2626">Feature H</text>
+  <rect x="550" y="112" width="80" height="40" rx="5" fill="#fee2e2" stroke="#dc2626" stroke-width="2" transform="rotate(2, 590, 132)"/>
+  <text x="590" y="137" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#dc2626">Feature I</text>
+  <path d="M 180 80 Q 200 90 220 75" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,2"/>
+  <path d="M 280 75 Q 300 85 320 80" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,2"/>
+  <path d="M 380 85 Q 400 75 420 78" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,2"/>
+  <path d="M 480 80 Q 500 90 520 82" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="120" y="185" width="180" height="70" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+  <text x="210" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dc2626">✗ Technical debt compounds</text>
+  <text x="210" y="235" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dc2626">✗ No reusability</text>
+  <rect x="320" y="185" width="180" height="70" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+  <text x="410" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dc2626">✗ Each team rebuilds</text>
+  <text x="410" y="235" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dc2626">✗ Siloed knowledge</text>
+  <rect x="520" y="185" width="160" height="70" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+  <text x="600" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dc2626">✗ Maintenance</text>
+  <text x="600" y="235" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dc2626">impossible</text>
+</svg>
+
+## The Platform Mindset
+
+The shift happened when I started asking a different question:
+
+<svg viewBox="0 0 800 140" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="140" fill="#fafafa" rx="8"/>
+  <rect x="80" y="30" width="280" height="80" rx="12" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="220" y="60" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#dc2626" font-weight="600">Old Question:</text>
+  <text x="220" y="85" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#991b1b">"How do I solve this problem?"</text>
+  <text x="400" y="75" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" fill="#64748b">→</text>
+  <rect x="440" y="30" width="280" height="80" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="580" y="60" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#16a34a" font-weight="600">New Question:</text>
+  <text x="580" y="85" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#166534">"How do I make this solvable for anyone?"</text>
+</svg>
+
+## A Concrete Example
+
+Here's how the same request plays out with each mindset:
+
+<svg viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="380" fill="#fafafa" rx="8"/>
+  <rect x="250" y="20" width="300" height="50" rx="8" fill="#e0e7ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="400" y="42" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#4338ca" font-weight="600">Request from Product Team:</text>
+  <text x="400" y="58" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#4338ca">"We need personalized recommendations"</text>
+  <line x1="350" y1="70" x2="200" y2="100" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="450" y1="70" x2="600" y2="100" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="60" y="100" width="260" height="100" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="190" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#dc2626" font-weight="700">Feature Response</text>
+  <text x="190" y="150" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#1e293b">Build recommendations for Product A.</text>
+  <text x="190" y="175" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Ships in 3 months. Works for 1 product.</text>
+  <rect x="480" y="100" width="260" height="100" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="610" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#16a34a" font-weight="700">Platform Response</text>
+  <text x="610" y="150" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#1e293b">Build a recommendation engine</text>
+  <text x="610" y="168" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#1e293b">any product can plug into.</text>
+  <text x="610" y="190" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Ships in 4 months. Works for every product.</text>
+  <text x="400" y="235" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">12 months later...</text>
+  <rect x="60" y="255" width="260" height="80" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+  <text x="190" y="285" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dc2626">5 separate recommendation</text>
+  <text x="190" y="302" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dc2626">systems built by 5 teams</text>
+  <text x="190" y="322" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">All slightly different. All unmaintainable.</text>
+  <rect x="480" y="255" width="260" height="80" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+  <text x="610" y="285" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#16a34a">1 platform powering</text>
+  <text x="610" y="302" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#16a34a">30+ ML models, 10+ teams</text>
+  <text x="610" y="322" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">Shared standards. Continuous improvement.</text>
+  <rect x="300" y="350" width="200" height="25" rx="5" fill="#fbbf24"/>
+  <text x="400" y="367" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#1e293b" font-weight="600">Same initial effort. 10x value.</text>
+</svg>
+
+## The Numbers
+
+<svg viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="120" fill="#fafafa" rx="8"/>
+  <rect x="100" y="20" width="180" height="80" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="190" y="50" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" fill="#3b82f6" font-weight="700">2.5M</text>
+  <text x="190" y="75" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">daily users</text>
+  <rect x="310" y="20" width="180" height="80" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="2"/>
+  <text x="400" y="50" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" fill="#10b981" font-weight="700">30+</text>
+  <text x="400" y="75" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">ML models</text>
+  <rect x="520" y="20" width="180" height="80" rx="10" fill="#ffffff" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="610" y="50" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" fill="#8b5cf6" font-weight="700">10+</text>
+  <text x="610" y="75" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">consuming teams</text>
+</svg>
+
+One platform. Hundreds of use cases. That's the power of thinking in platforms.
+
+## When to Build a Platform
+
+Not everything should be a platform. Here's the decision framework:
+
+<svg viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="280" fill="#fafafa" rx="8"/>
+  <text x="400" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#1a1a2e" font-weight="600">Build a Platform When...</text>
+  <rect x="60" y="50" width="330" height="65" rx="8" fill="#ffffff" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="92" cy="82" r="18" fill="#3b82f6"/>
+  <text x="92" y="88" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="white" font-weight="700">1</text>
+  <text x="120" y="75" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af" font-weight="600">3+ teams need similar capabilities</text>
+  <text x="120" y="95" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">If only 1 team needs it, build a feature.</text>
+  <rect x="410" y="50" width="330" height="65" rx="8" fill="#ffffff" stroke="#10b981" stroke-width="2"/>
+  <circle cx="442" cy="82" r="18" fill="#10b981"/>
+  <text x="442" y="88" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="white" font-weight="700">2</text>
+  <text x="470" y="75" font-family="system-ui, sans-serif" font-size="12" fill="#047857" font-weight="600">The capability is core to the business</text>
+  <text x="470" y="95" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Peripheral needs don't justify platform investment.</text>
+  <rect x="60" y="130" width="330" height="65" rx="8" fill="#ffffff" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="92" cy="162" r="18" fill="#f59e0b"/>
+  <text x="92" y="168" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="white" font-weight="700">3</text>
+  <text x="120" y="155" font-family="system-ui, sans-serif" font-size="12" fill="#b45309" font-weight="600">The problem space is stable</text>
+  <text x="120" y="175" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Platforms for volatile domains become obsolete.</text>
+  <rect x="410" y="130" width="330" height="65" rx="8" fill="#ffffff" stroke="#8b5cf6" stroke-width="2"/>
+  <circle cx="442" cy="162" r="18" fill="#8b5cf6"/>
+  <text x="442" y="168" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="white" font-weight="700">4</text>
+  <text x="470" y="155" font-family="system-ui, sans-serif" font-size="12" fill="#6d28d9" font-weight="600">You have platform engineering capacity</text>
+  <text x="470" y="175" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Platforms need dedicated investment.</text>
+  <rect x="200" y="215" width="400" height="50" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="400" y="238" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#92400e" font-weight="600">⚠️ The trap: Building a platform when you</text>
+  <text x="400" y="255" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#92400e">should have built a feature first.</text>
+</svg>
+
+## Key Takeaways
+
+1. **Features solve problems. Platforms solve problem categories.** Think about the class of problems, not the specific instance.
+
+2. **Platforms compound value over time.** Each new consumer multiplies the return on your initial investment.
+
+3. **Start with the abstraction, not the implementation.** Design the interface multiple teams would use.
+
+4. **Not everything should be a platform.** If only one team needs it, build a feature. Graduate when the pattern repeats.
+0:{"buildId":"f-aE6i_or5OF_aMl4jwdP","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["February 2026"," · ",6," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"Why I Build Platforms, Not Features"}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","platforms",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"platforms"}],["$","span","product-strategy",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"product-strategy"}],["$","span","architecture",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"architecture"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":["$","$L3",null,{"content":"$4"}]}],"$L5"]}]}],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
+5:["$","nav",null,{"className":"mt-16 pt-8 border-t border-border grid grid-cols-1 md:grid-cols-2 gap-4","children":[["$","$L2",null,{"href":"/blog/voice-ai-vendor-evaluation","className":"group","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Previous"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"I Evaluated 8+ Voice AI Vendors. Here's How I Would Decide What to Build vs Buy."}]]}],["$","$L2",null,{"href":"/blog/scaling-to-2-5m-users","className":"group text-right","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Next"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"From 0 to 2.5M Users: What Nobody Tells You About Scale"}]]}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true}]
+7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

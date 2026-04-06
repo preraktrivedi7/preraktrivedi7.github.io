@@ -1,0 +1,139 @@
+1:"$Sreact.fragment"
+2:I[47280,["/_next/static/chunks/84142d135179b8e2.js"],"default"]
+3:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"default"]
+4:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"default"]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[68027,[],"default"]
+:HL["/_next/static/chunks/b43d4455e07a8ee6.css","style"]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.15008bfb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"f-aE6i_or5OF_aMl4jwdP","c":["","blog","build-vs-buy-decision"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","build-vs-buy-decision","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/b43d4455e07a8ee6.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/84142d135179b8e2.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"inter_7b064e0d-module__MOT0tq__variable jetbrains_mono_b623b980-module__35dYfa__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n          (function() {\n            try {\n              var t = localStorage.getItem('theme');\n              if (t === 'dark') document.documentElement.classList.add('dark');\n            } catch(e) {}\n          })();\n        "}}]}],["$","body",null,{"className":"antialiased bg-bg-primary text-fg-primary transition-colors duration-200","children":[["$","$L2",null,{}],["$","main",null,{"className":"pt-16 min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"py-12 border-t border-border","children":["$","div",null,{"className":"max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-fg-tertiary","children":[["$","span",null,{"children":["© ",2026," Prerak Trivedi"]}],["$","div",null,{"className":"flex items-center gap-5","children":[["$","a","LinkedIn",{"href":"https://www.linkedin.com/in/preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"LinkedIn"}],["$","a","JustReva",{"href":"https://justreva.com","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"JustReva"}],["$","a","GitHub",{"href":"https://github.com/preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"GitHub"}],["$","a","Medium",{"href":"https://medium.com/@preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"Medium"}]]}]]}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$L9",false]],"m":"$undefined","G":["$a",[]],"S":true}
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"ViewportBoundary"]
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"MetadataBoundary"]
+9:["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+f:I[22016,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],""]
+10:I[36005,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],"default"]
+11:T28d2,
+Last year I made a decision that saved my company $5 million. I killed a vendor contract and built the platform ourselves.
+
+Not because the vendor was bad. Because they couldn't meet our compliance requirements.
+
+Here's the framework I wish I had before those three wasted months of vendor evaluations.
+
+## The Setup
+
+We needed an enterprise AI platform for insider risk detection. Budget was $2M per year for a vendor solution. Timeline was 6 months to production.
+
+Simple, right? Find a vendor, sign a contract, go live.
+
+Three vendors. Three months of evaluations. All three failed the same test: our compliance requirements.
+
+## The 4-Question Framework
+
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="420" fill="#fafafa" rx="8"/>
+  <text x="400" y="35" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#1a1a2e" font-weight="600">4 Questions Before You Buy</text>
+  <rect x="60" y="60" width="330" height="85" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="95" cy="102" r="22" fill="#3b82f6"/>
+  <text x="95" y="109" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="white" font-weight="700">1</text>
+  <text x="130" y="90" font-family="system-ui, sans-serif" font-size="13" fill="#1e40af" font-weight="600">Can they meet YOUR compliance?</text>
+  <text x="130" y="110" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Not "HIPAA compliant" checkbox.</text>
+  <text x="130" y="125" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">YOUR specific requirements.</text>
+  <rect x="410" y="60" width="330" height="85" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="2"/>
+  <circle cx="445" cy="102" r="22" fill="#10b981"/>
+  <text x="445" y="109" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="white" font-weight="700">2</text>
+  <text x="480" y="90" font-family="system-ui, sans-serif" font-size="13" fill="#047857" font-weight="600">Will you be a top-10 customer?</text>
+  <text x="480" y="110" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">If not, your feature requests go to</text>
+  <text x="480" y="125" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">the backlog graveyard.</text>
+  <rect x="60" y="165" width="330" height="85" rx="10" fill="#ffffff" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="95" cy="207" r="22" fill="#f59e0b"/>
+  <text x="95" y="214" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="white" font-weight="700">3</text>
+  <text x="130" y="195" font-family="system-ui, sans-serif" font-size="13" fill="#b45309" font-weight="600">How fast do they ship your needs?</text>
+  <text x="130" y="215" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Ask for their last 3 feature requests</text>
+  <text x="130" y="230" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">from similar customers. Check timelines.</text>
+  <rect x="410" y="165" width="330" height="85" rx="10" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+  <circle cx="445" cy="207" r="22" fill="#dc2626"/>
+  <text x="445" y="214" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="white" font-weight="700">4</text>
+  <text x="480" y="195" font-family="system-ui, sans-serif" font-size="13" fill="#991b1b" font-weight="600">What's the switching cost in 3 years?</text>
+  <text x="480" y="215" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Data portability, contract terms,</text>
+  <text x="480" y="230" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">integration dependencies.</text>
+  <rect x="200" y="280" width="400" height="60" rx="12" fill="#1e293b"/>
+  <text x="400" y="305" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#f1f5f9">If 2+ answers are "no"</text>
+  <text x="400" y="328" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#fbbf24" font-weight="700">→ BUILD</text>
+  <rect x="250" y="360" width="300" height="45" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="400" y="388" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#92400e">We answered "no" to all 4. Decision made.</text>
+</svg>
+
+## The Math
+
+Here's the calculation that convinced our CFO:
+
+<svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="260" fill="#fafafa" rx="8"/>
+  <rect x="80" y="30" width="280" height="180" rx="12" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="220" y="60" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#dc2626" font-weight="700">Vendor Route</text>
+  <text x="100" y="95" font-family="system-ui, sans-serif" font-size="12" fill="#1e293b">Year 1-5 license:</text>
+  <text x="320" y="95" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" fill="#1e293b" font-weight="600">$2M/year</text>
+  <text x="100" y="120" font-family="system-ui, sans-serif" font-size="12" fill="#1e293b">Customization fees:</text>
+  <text x="320" y="120" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" fill="#1e293b" font-weight="600">$500K</text>
+  <text x="100" y="145" font-family="system-ui, sans-serif" font-size="12" fill="#1e293b">Integration work:</text>
+  <text x="320" y="145" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" fill="#1e293b" font-weight="600">$300K</text>
+  <line x1="100" y1="160" x2="340" y2="160" stroke="#dc2626" stroke-width="2"/>
+  <text x="100" y="185" font-family="system-ui, sans-serif" font-size="14" fill="#dc2626" font-weight="700">5-Year Total:</text>
+  <text x="320" y="185" text-anchor="end" font-family="system-ui, sans-serif" font-size="16" fill="#dc2626" font-weight="700">$10.8M</text>
+  <text x="400" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" fill="#64748b">vs</text>
+  <rect x="440" y="30" width="280" height="180" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="580" y="60" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#16a34a" font-weight="700">Build In-House</text>
+  <text x="460" y="95" font-family="system-ui, sans-serif" font-size="12" fill="#1e293b">Initial build:</text>
+  <text x="680" y="95" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" fill="#1e293b" font-weight="600">$500K</text>
+  <text x="460" y="120" font-family="system-ui, sans-serif" font-size="12" fill="#1e293b">Year 1-5 maintenance:</text>
+  <text x="680" y="120" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" fill="#1e293b" font-weight="600">$200K/yr</text>
+  <text x="460" y="145" font-family="system-ui, sans-serif" font-size="12" fill="#1e293b">Infrastructure:</text>
+  <text x="680" y="145" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" fill="#1e293b" font-weight="600">$100K/yr</text>
+  <line x1="460" y1="160" x2="700" y2="160" stroke="#16a34a" stroke-width="2"/>
+  <text x="460" y="185" font-family="system-ui, sans-serif" font-size="14" fill="#16a34a" font-weight="700">5-Year Total:</text>
+  <text x="680" y="185" text-anchor="end" font-family="system-ui, sans-serif" font-size="16" fill="#16a34a" font-weight="700">$2M</text>
+  <rect x="280" y="220" width="240" height="30" rx="6" fill="#fbbf24"/>
+  <text x="400" y="241" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#1e293b" font-weight="700">5-Year Savings: $8.8M</text>
+</svg>
+
+## The Execution
+
+Once we committed to building, we moved fast:
+
+<svg viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="150" fill="#fafafa" rx="8"/>
+  <rect x="80" y="35" width="180" height="80" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="170" y="65" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" fill="#3b82f6" font-weight="700">25</text>
+  <text x="170" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">engineers</text>
+  <text x="170" y="105" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">across 4 squads</text>
+  <rect x="310" y="35" width="180" height="80" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="2"/>
+  <text x="400" y="65" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" fill="#10b981" font-weight="700">4</text>
+  <text x="400" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">months</text>
+  <text x="400" y="105" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">to production</text>
+  <rect x="540" y="35" width="180" height="80" rx="10" fill="#ffffff" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="630" y="65" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" fill="#8b5cf6" font-weight="700">100K+</text>
+  <text x="630" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">users</text>
+  <text x="630" y="105" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">on day one</text>
+</svg>
+
+The key was designing the architecture for our specific compliance requirements from day one, instead of bolting them on after.
+
+## Key Takeaways
+
+1. **Vendors optimize for their average customer.** You are not average. The more specific your requirements, the worse the fit.
+
+2. **"Enterprise-ready" is marketing.** It usually means SSO and a compliance checkbox, not actual compliance with your specific requirements.
+
+3. **The build vs buy decision isn't about cost.** It's about control. When you build, you own the roadmap. When you buy, you rent it.
+
+4. **The hidden cost of buying is customization.** Every customization request goes into a backlog you don't control. At scale, this becomes a strategic liability.
+
+5. **Sometimes the expensive choice is the cheap one.** Three months of failed vendor evaluations cost more than the delta between build and buy.
+5:["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$Lf",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["February 2026"," · ",7," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"The $5M Build vs Buy Decision: A Framework for When Vendors Fail You"}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","build-vs-buy",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"build-vs-buy"}],["$","span","enterprise",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"enterprise"}],["$","span","ai-platforms",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"ai-platforms"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":["$","$L10",null,{"content":"$11"}]}],"$L12"]}]}]
+12:["$","nav",null,{"className":"mt-16 pt-8 border-t border-border grid grid-cols-1 md:grid-cols-2 gap-4","children":[["$","$Lf",null,{"href":"/blog/scaling-to-2-5m-users","className":"group","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Previous"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"From 0 to 2.5M Users: What Nobody Tells You About Scale"}]]}],["$","$Lf",null,{"href":"/blog/experimentation-framework","className":"group text-right","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Next"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"The Experimentation Framework That Actually Works"}]]}]]}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"IconMark"]
+8:null
+e:[["$","title","0",{"children":"The $5M Build vs Buy Decision: A Framework for When Vendors Fail You | Prerak Trivedi"}],["$","meta","1",{"name":"description","content":"How I killed a vendor contract and built an enterprise AI platform in-house and the framework I wish I had before wasting three months on evaluations."}],["$","meta","2",{"property":"og:title","content":"Prerak Trivedi"}],["$","meta","3",{"property":"og:description","content":"Product Manager building AI/ML platforms at TD Bank and Founder of JustReva, a voice AI product for healthcare."}],["$","meta","4",{"property":"og:url","content":"https://preraktrivedi7.github.io"}],["$","meta","5",{"property":"og:image","content":"https://preraktrivedi7.github.io/og-image.png"}],["$","meta","6",{"property":"og:image:width","content":"1200"}],["$","meta","7",{"property":"og:image:height","content":"630"}],["$","meta","8",{"property":"og:image:alt","content":"Prerak Trivedi - Product Manager, AI Builder, Founder"}],["$","meta","9",{"property":"og:type","content":"website"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:title","content":"Prerak Trivedi"}],["$","meta","12",{"name":"twitter:description","content":"Product Manager building AI/ML platforms at TD Bank and Founder of JustReva, a voice AI product for healthcare."}],["$","meta","13",{"name":"twitter:image","content":"https://preraktrivedi7.github.io/og-image.png"}],["$","link","14",{"rel":"icon","href":"/favicon.ico?favicon.78ad60ab.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L13","15",{}]]

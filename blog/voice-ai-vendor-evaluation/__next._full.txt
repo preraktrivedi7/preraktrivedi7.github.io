@@ -5,21 +5,55 @@
 6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
 a:I[68027,[],"default"]
-:HL["/_next/static/chunks/5db684d691709f35.css","style"]
+:HL["/_next/static/chunks/b43d4455e07a8ee6.css","style"]
 :HL["/_next/static/media/70bc3e132a0a741e-s.p.15008bfb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"GOb0EI06xEs93qeFP53Fh","c":["","blog","voice-ai-vendor-evaluation"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","voice-ai-vendor-evaluation","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/5db684d691709f35.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/84142d135179b8e2.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"inter_7b064e0d-module__MOT0tq__variable jetbrains_mono_b623b980-module__35dYfa__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n          (function() {\n            try {\n              var t = localStorage.getItem('theme');\n              if (t === 'dark') document.documentElement.classList.add('dark');\n            } catch(e) {}\n          })();\n        "}}]}],["$","body",null,{"className":"antialiased bg-bg-primary text-fg-primary transition-colors duration-200","children":[["$","$L2",null,{}],["$","main",null,{"className":"pt-16 min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"py-12 border-t border-border","children":["$","div",null,{"className":"max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-fg-tertiary","children":[["$","span",null,{"children":["© ",2026," Prerak Trivedi"]}],["$","div",null,{"className":"flex items-center gap-5","children":[["$","a","LinkedIn",{"href":"https://www.linkedin.com/in/preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"LinkedIn"}],["$","a","JustReva",{"href":"https://justreva.com","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"JustReva"}],["$","a","GitHub",{"href":"https://github.com/preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"GitHub"}],["$","a","Medium",{"href":"https://medium.com/@preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"Medium"}]]}]]}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$L9",false]],"m":"$undefined","G":["$a",[]],"S":true}
+0:{"P":null,"b":"f-aE6i_or5OF_aMl4jwdP","c":["","blog","voice-ai-vendor-evaluation"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","voice-ai-vendor-evaluation","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/b43d4455e07a8ee6.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/84142d135179b8e2.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"inter_7b064e0d-module__MOT0tq__variable jetbrains_mono_b623b980-module__35dYfa__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n          (function() {\n            try {\n              var t = localStorage.getItem('theme');\n              if (t === 'dark') document.documentElement.classList.add('dark');\n            } catch(e) {}\n          })();\n        "}}]}],["$","body",null,{"className":"antialiased bg-bg-primary text-fg-primary transition-colors duration-200","children":[["$","$L2",null,{}],["$","main",null,{"className":"pt-16 min-h-screen","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"py-12 border-t border-border","children":["$","div",null,{"className":"max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-fg-tertiary","children":[["$","span",null,{"children":["© ",2026," Prerak Trivedi"]}],["$","div",null,{"className":"flex items-center gap-5","children":[["$","a","LinkedIn",{"href":"https://www.linkedin.com/in/preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"LinkedIn"}],["$","a","JustReva",{"href":"https://justreva.com","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"JustReva"}],["$","a","GitHub",{"href":"https://github.com/preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"GitHub"}],["$","a","Medium",{"href":"https://medium.com/@preraktrivedi7","target":"_blank","rel":"noopener noreferrer","className":"hover:text-fg-primary transition-colors duration-200","children":"Medium"}]]}]]}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$L9",false]],"m":"$undefined","G":["$a",[]],"S":true}
 b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"ViewportBoundary"]
 d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"MetadataBoundary"]
 9:["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
 f:I[22016,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],""]
 10:I[36005,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],"default"]
-11:T20ba,
+11:T39d1,
 If you're building a production voice AI system today, you might think the hard part is the AI. It's not. The hard part is figuring out which pieces to build yourself and which to buy.
 
 The voice AI stack has three core components: speech-to-text (STT), a language model (LLM), and text-to-speech (TTS). Each one has dozens of providers, each with different latency profiles, pricing models, and quality tradeoffs.
 
 And you need all three working together in under 500 milliseconds to feel like a real conversation.
+
+## The Voice AI Stack
+
+<svg viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="280" fill="#fafafa" rx="8"/>
+  <text x="400" y="35" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#1a1a2e" font-weight="600">The Voice AI Pipeline</text>
+  <rect x="60" y="70" width="140" height="80" rx="12" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="130" y="105" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#1e40af" font-weight="600">STT</text>
+  <text x="130" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#3b82f6">Speech-to-Text</text>
+  <text x="130" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">~150-200ms</text>
+  <path d="M 200 110 L 250 110" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow1)"/>
+  <rect x="260" y="70" width="140" height="80" rx="12" fill="#d1fae5" stroke="#10b981" stroke-width="2"/>
+  <text x="330" y="105" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#047857" font-weight="600">LLM</text>
+  <text x="330" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#10b981">Language Model</text>
+  <text x="330" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">~300-500ms</text>
+  <path d="M 400 110 L 450 110" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow1)"/>
+  <rect x="460" y="70" width="140" height="80" rx="12" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="530" y="105" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#b45309" font-weight="600">TTS</text>
+  <text x="530" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#f59e0b">Text-to-Speech</text>
+  <text x="530" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">~100-150ms</text>
+  <path d="M 600 110 L 650 110" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow1)"/>
+  <rect x="660" y="70" width="100" height="80" rx="12" fill="#e0e7ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="710" y="105" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#4338ca" font-weight="600">User</text>
+  <text x="710" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6366f1">Hears</text>
+  <text x="710" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Response</text>
+  <rect x="200" y="190" width="400" height="60" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="400" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#991b1b" font-weight="600">Total: 550-850ms+ (before network overhead)</text>
+  <text x="400" y="235" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dc2626">Human conversation tolerance: 300-500ms</text>
+  <defs>
+    <marker id="arrow1" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>
 
 ## The Latency Problem Nobody Talks About
 
@@ -27,58 +61,58 @@ Human conversation operates within a 300 to 500ms response window. Delays beyond
 
 Here's the problem: latency compounds. If STT takes 200ms, LLM takes 500ms, and TTS takes 150ms, you're already at 850ms before network overhead. That's too slow.
 
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="200" fill="#fafafa" rx="8"/>
+  <text x="400" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#1a1a2e" font-weight="600">Latency Tolerance Zones</text>
+  <rect x="60" y="60" width="200" height="50" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="160" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#166534" font-weight="600">0-300ms: Natural</text>
+  <rect x="270" y="60" width="200" height="50" rx="6" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="370" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#b45309" font-weight="600">300-500ms: Acceptable</text>
+  <rect x="480" y="60" width="260" height="50" rx="6" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="610" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#991b1b" font-weight="600">500ms+: Users repeat/hang up</text>
+  <line x1="60" y1="140" x2="740" y2="140" stroke="#e5e7eb" stroke-width="2"/>
+  <circle cx="160" cy="140" r="6" fill="#16a34a"/>
+  <text x="160" y="165" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">300ms</text>
+  <circle cx="370" cy="140" r="6" fill="#f59e0b"/>
+  <text x="370" y="165" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">500ms</text>
+  <circle cx="610" cy="140" r="6" fill="#dc2626"/>
+  <text x="610" y="165" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">800ms+</text>
+</svg>
+
 The first question isn't "build or buy?" It's "where does latency matter most for my use case?"
 
-<div style="margin: 2rem 0; text-align: center;">
-<svg viewBox="0 0 750 380" style="max-width:720px;width:100%;border-radius:12px;" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="750" height="380" fill="#f5f0eb"/>
-  
-  <!-- Latency badge -->
-  <rect x="300" y="15" width="150" height="28" rx="14" fill="#d4cfc7" stroke="#d4cfc7" stroke-width="1.5"/>
-  <text x="375" y="33" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">&lt; 500ms total latency</text>
-  
-  <!-- STT Box -->
-  <rect x="50" y="70" width="140" height="100" rx="12" fill="rgba(74,157,119,0.08)" stroke="#4a9d77" stroke-width="1.5"/>
-  <text x="120" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">STT</text>
-  <text x="120" y="120" text-anchor="middle" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Speech-to-Text</text>
-  <text x="120" y="155" text-anchor="middle" font-size="11" font-weight="bold" fill="#4a9d77" font-family="system-ui, -apple-system, sans-serif">BUY ✓</text>
-  
-  <!-- LLM Box -->
-  <rect x="305" y="70" width="140" height="100" rx="12" fill="rgba(100,149,237,0.08)" stroke="#d4cfc7" stroke-width="1.5"/>
-  <text x="375" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">LLM</text>
-  <text x="375" y="120" text-anchor="middle" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Language Model</text>
-  <text x="375" y="155" text-anchor="middle" font-size="11" font-weight="bold" fill="#f06a6a" font-family="system-ui, -apple-system, sans-serif">HYBRID</text>
-  
-  <!-- TTS Box -->
-  <rect x="560" y="70" width="140" height="100" rx="12" fill="rgba(74,157,119,0.08)" stroke="#4a9d77" stroke-width="1.5"/>
-  <text x="630" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">TTS</text>
-  <text x="630" y="120" text-anchor="middle" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Text-to-Speech</text>
-  <text x="630" y="155" text-anchor="middle" font-size="11" font-weight="bold" fill="#4a9d77" font-family="system-ui, -apple-system, sans-serif">BUY ✓</text>
-  
-  <!-- Dashed arrows between top boxes -->
-  <path d="M 190 120 L 305 120" stroke="#8a8378" stroke-width="1.5" fill="none" stroke-dasharray="6,4" stroke-linecap="round"/>
-  <polygon points="305,120 298,116 300,124" fill="#8a8378"/>
-  
-  <path d="M 445 120 L 560 120" stroke="#8a8378" stroke-width="1.5" fill="none" stroke-dasharray="6,4" stroke-linecap="round"/>
-  <polygon points="560,120 553,116 555,124" fill="#8a8378"/>
-  
-  <!-- Orchestration Layer Box -->
-  <rect x="75" y="210" width="600" height="130" rx="12" fill="rgba(74,157,119,0.08)" stroke="#4a9d77" stroke-width="1.5"/>
-  <text x="375" y="242" text-anchor="middle" font-size="14" font-weight="bold" fill="#2d2a26" font-family="system-ui, -apple-system, sans-serif">Orchestration Layer</text>
-  <text x="375" y="263" text-anchor="middle" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">Where differentiation lives</text>
-  
-  <!-- Stat callout -->
-  <text x="375" y="300" text-anchor="middle" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">30-40% of engineering time goes to</text>
-  <text x="375" y="316" text-anchor="middle" font-size="10" fill="#6b6560" font-family="system-ui, -apple-system, sans-serif">integration across all components</text>
-  
-  <text x="375" y="330" text-anchor="middle" font-size="11" font-weight="bold" fill="#f06a6a" font-family="system-ui, -apple-system, sans-serif">BUILD</text>
+## Build vs Buy Decision Matrix
+
+After researching 8+ vendors and reviewing real-world benchmarks, here's the decision matrix I landed on:
+
+<svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="320" fill="#fafafa" rx="8"/>
+  <text x="400" y="35" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#1a1a2e" font-weight="600">Build vs Buy Decision Matrix</text>
+  <rect x="60" y="60" width="160" height="100" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="140" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#166534" font-weight="700">STT</text>
+  <text x="140" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#16a34a" font-weight="700">BUY</text>
+  <text x="140" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Deepgram primary</text>
+  <text x="140" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Whisper fallback</text>
+  <rect x="240" y="60" width="160" height="100" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="320" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#b45309" font-weight="700">LLM</text>
+  <text x="320" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#f59e0b" font-weight="700">HYBRID</text>
+  <text x="320" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Buy: reasoning</text>
+  <text x="320" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Build: turn-taking</text>
+  <rect x="420" y="60" width="160" height="100" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="500" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#166534" font-weight="700">TTS</text>
+  <text x="500" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#16a34a" font-weight="700">BUY</text>
+  <text x="500" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">ElevenLabs premium</text>
+  <text x="500" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Polly for transactional</text>
+  <rect x="600" y="60" width="140" height="100" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="670" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#991b1b" font-weight="700">Orchestration</text>
+  <text x="670" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#dc2626" font-weight="700">BUILD</text>
+  <text x="670" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">This is your</text>
+  <text x="670" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">differentiation</text>
+  <rect x="150" y="200" width="500" height="100" rx="12" fill="#1e293b"/>
+  <text x="400" y="235" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#f1f5f9" font-weight="600">Key Insight</text>
+  <text x="400" y="260" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8">Components are commoditizing. Orchestration is not.</text>
+  <text x="400" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8">Build the glue. Buy the pieces.</text>
 </svg>
-</div>
-
-## What I Actually Tested
-
-I evaluated providers across three dimensions: latency, accuracy, and cost. After researching 8+ vendors and reviewing real-world benchmarks, here's what stands out.
 
 ## Speech-to-Text: Buy
 
@@ -113,11 +147,24 @@ The orchestration layer is where product differentiation lives. The individual c
 
 ## The Hidden Cost: Integration Complexity
 
+<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="220" fill="#fafafa" rx="8"/>
+  <text x="400" y="35" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#1a1a2e" font-weight="600">Cost Reality Check</text>
+  <rect x="100" y="60" width="250" height="130" rx="12" fill="#ffffff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="225" y="95" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#1e40af" font-weight="600">At Scale (10K calls/mo)</text>
+  <text x="225" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="32" fill="#3b82f6" font-weight="700">$3,500</text>
+  <text x="225" y="155" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">per month in AI costs alone</text>
+  <text x="225" y="175" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">(5 min avg call duration)</text>
+  <rect x="450" y="60" width="250" height="130" rx="12" fill="#ffffff" stroke="#f59e0b" stroke-width="2"/>
+  <text x="575" y="95" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#b45309" font-weight="600">Engineering Time</text>
+  <text x="575" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="32" fill="#f59e0b" font-weight="700">30-40%</text>
+  <text x="575" y="155" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">spent on integration work</text>
+  <text x="575" y="175" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">(even in "buy everything" scenario)</text>
+</svg>
+
 One thing teams consistently underestimate: the integration tax. Every vendor has different authentication patterns, streaming protocols, error handling, and billing models.
 
 Even if you buy everything, you're still building the glue. And that glue becomes critical infrastructure.
-
-At scale, 10,000 calls per month at 5 min average means $3,500 per month in AI costs alone.
 
 Budget 30 to 40% of engineering time for integration work, even in a "buy everything" scenario. Build abstraction layers from day one. You will switch vendors.
 
@@ -139,7 +186,7 @@ The build vs buy decision isn't binary. It's about knowing where to spend your e
 
 The AI is the easy part. The plumbing is hard.
 5:["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$Lf",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["February 2026"," · ",8," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"I Evaluated 8+ Voice AI Vendors. Here's How I Would Decide What to Build vs Buy."}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","voice-ai",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"voice-ai"}],["$","span","vendor-evaluation",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"vendor-evaluation"}],["$","span","building",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"building"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":["$","$L10",null,{"content":"$11"}]}],"$L12"]}]}]
-12:["$","nav",null,{"className":"mt-16 pt-8 border-t border-border grid grid-cols-1 md:grid-cols-2 gap-4","children":[["$","$Lf",null,{"href":"/blog/you-think-youre-shipping-a-product","className":"group","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Previous"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"You Think You're Shipping a Product? You're Actually Operating a Platform."}]]}],null]}]
+12:["$","nav",null,{"className":"mt-16 pt-8 border-t border-border grid grid-cols-1 md:grid-cols-2 gap-4","children":[["$","$Lf",null,{"href":"/blog/you-think-youre-shipping-a-product","className":"group","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Previous"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"You Think You're Shipping a Product? You're Actually Operating a Platform."}]]}],["$","$Lf",null,{"href":"/blog/platforms-vs-features","className":"group text-right","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Next"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"Why I Build Platforms, Not Features"}]]}]]}]
 c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 13:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"IconMark"]
 8:null

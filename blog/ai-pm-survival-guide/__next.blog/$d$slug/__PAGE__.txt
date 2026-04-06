@@ -1,0 +1,161 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],""]
+3:I[36005,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],"default"]
+8:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
+9:"$Sreact.suspense"
+4:T3d44,
+Most AI product managers fail. Not because they don't understand AI. Because they manage AI products like software products.
+
+They're not the same. Here's the survival guide I wish I had.
+
+## The Fundamental Difference
+
+<svg viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="280" fill="#fafafa" rx="8"/>
+  <text x="400" y="35" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#1a1a2e" font-weight="600">Software vs AI Products</text>
+  <rect x="80" y="60" width="280" height="140" rx="12" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="220" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#1e40af" font-weight="700">Software Products</text>
+  <text x="220" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Deterministic</text>
+  <text x="220" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Same input → same output</text>
+  <text x="220" y="165" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Bugs are reproducible</text>
+  <text x="220" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Ship it and move on</text>
+  <text x="400" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" fill="#64748b">vs</text>
+  <rect x="440" y="60" width="280" height="140" rx="12" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="580" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#b45309" font-weight="700">AI Products</text>
+  <text x="580" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Probabilistic</text>
+  <text x="580" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Same input → different outputs</text>
+  <text x="580" y="165" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Bugs are statistical</text>
+  <text x="580" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Ship it and keep tuning</text>
+  <rect x="250" y="220" width="300" height="45" rx="8" fill="#1e293b"/>
+  <text x="400" y="248" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#fbbf24">Different mental model. Different processes.</text>
+</svg>
+
+## The 5 Mistakes AI PMs Make
+
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="500" fill="#fafafa" rx="8"/>
+  <text x="400" y="35" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#1a1a2e" font-weight="600">5 AI PM Mistakes</text>
+  <rect x="60" y="60" width="330" height="75" rx="10" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+  <circle cx="95" cy="97" r="20" fill="#dc2626"/>
+  <text x="95" y="103" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="white" font-weight="700">1</text>
+  <text x="130" y="85" font-family="system-ui, sans-serif" font-size="12" fill="#dc2626" font-weight="600">Promising exact accuracy</text>
+  <text x="130" y="105" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">"It will be 95% accurate"</text>
+  <text x="130" y="120" font-family="system-ui, sans-serif" font-size="9" fill="#94a3b8">Reality: accuracy varies by use case</text>
+  <rect x="410" y="60" width="330" height="75" rx="10" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+  <circle cx="445" cy="97" r="20" fill="#dc2626"/>
+  <text x="445" y="103" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="white" font-weight="700">2</text>
+  <text x="480" y="85" font-family="system-ui, sans-serif" font-size="12" fill="#dc2626" font-weight="600">Shipping without monitoring</text>
+  <text x="480" y="105" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">"We tested it, it works"</text>
+  <text x="480" y="120" font-family="system-ui, sans-serif" font-size="9" fill="#94a3b8">Reality: models drift, distributions shift</text>
+  <rect x="60" y="155" width="330" height="75" rx="10" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+  <circle cx="95" cy="192" r="20" fill="#dc2626"/>
+  <text x="95" y="198" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="white" font-weight="700">3</text>
+  <text x="130" y="180" font-family="system-ui, sans-serif" font-size="12" fill="#dc2626" font-weight="600">Ignoring edge cases</text>
+  <text x="130" y="200" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">"It handles 99% of cases"</text>
+  <text x="130" y="215" font-family="system-ui, sans-serif" font-size="9" fill="#94a3b8">Reality: the 1% destroys trust</text>
+  <rect x="410" y="155" width="330" height="75" rx="10" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+  <circle cx="445" cy="192" r="20" fill="#dc2626"/>
+  <text x="445" y="198" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="white" font-weight="700">4</text>
+  <text x="480" y="180" font-family="system-ui, sans-serif" font-size="12" fill="#dc2626" font-weight="600">Underestimating data work</text>
+  <text x="480" y="200" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">"We have the data"</text>
+  <text x="480" y="215" font-family="system-ui, sans-serif" font-size="9" fill="#94a3b8">Reality: 80% of time is data prep</text>
+  <rect x="235" y="250" width="330" height="75" rx="10" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+  <circle cx="270" cy="287" r="20" fill="#dc2626"/>
+  <text x="270" y="293" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="white" font-weight="700">5</text>
+  <text x="305" y="275" font-family="system-ui, sans-serif" font-size="12" fill="#dc2626" font-weight="600">Treating ML as a black box</text>
+  <text x="305" y="295" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">"The data scientists handle that"</text>
+  <text x="305" y="310" font-family="system-ui, sans-serif" font-size="9" fill="#94a3b8">Reality: PMs need to understand tradeoffs</text>
+  <rect x="200" y="360" width="400" height="120" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="400" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#166534" font-weight="700">What Works Instead</text>
+  <text x="400" y="415" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#16a34a">✓ Promise ranges, not absolutes</text>
+  <text x="400" y="435" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#16a34a">✓ Ship with monitoring from day one</text>
+  <text x="400" y="455" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#16a34a">✓ Design graceful degradation for edge cases</text>
+  <text x="400" y="475" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#16a34a">✓ Budget 60%+ time for data work</text>
+</svg>
+
+## The AI PM Toolkit
+
+<svg viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="280" fill="#fafafa" rx="8"/>
+  <text x="400" y="35" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#1a1a2e" font-weight="600">The AI PM Toolkit</text>
+  <rect x="60" y="60" width="200" height="95" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="160" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#1e40af" font-weight="600">Metrics Dashboard</text>
+  <text x="160" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Precision, recall, F1</text>
+  <text x="160" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">by segment</text>
+  <text x="160" y="148" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#3b82f6">Real-time monitoring</text>
+  <rect x="300" y="60" width="200" height="95" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="2"/>
+  <text x="400" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#047857" font-weight="600">Error Analysis</text>
+  <text x="400" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Systematic review of</text>
+  <text x="400" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">failure modes</text>
+  <text x="400" y="148" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#10b981">Weekly cadence</text>
+  <rect x="540" y="60" width="200" height="95" rx="10" fill="#ffffff" stroke="#f59e0b" stroke-width="2"/>
+  <text x="640" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#b45309" font-weight="600">Feedback Loop</text>
+  <text x="640" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">User corrections</text>
+  <text x="640" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">back to training</text>
+  <text x="640" y="148" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#f59e0b">Continuous improvement</text>
+  <rect x="180" y="180" width="200" height="95" rx="10" fill="#ffffff" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="280" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6d28d9" font-weight="600">A/B Framework</text>
+  <text x="280" y="235" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Model versions</text>
+  <text x="280" y="250" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">tested in production</text>
+  <text x="280" y="268" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#8b5cf6">Statistical significance</text>
+  <rect x="420" y="180" width="200" height="95" rx="10" fill="#ffffff" stroke="#ec4899" stroke-width="2"/>
+  <text x="520" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#be185d" font-weight="600">Fallback System</text>
+  <text x="520" y="235" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Graceful degradation</text>
+  <text x="520" y="250" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">when confidence is low</text>
+  <text x="520" y="268" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#ec4899">Human-in-loop backup</text>
+</svg>
+
+## The Confidence-Action Matrix
+
+One framework I use constantly: matching model confidence to user actions.
+
+<svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;height:auto;margin:2rem auto;display:block;">
+  <rect width="800" height="320" fill="#fafafa" rx="8"/>
+  <text x="400" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#1a1a2e" font-weight="600">Confidence → Action Matrix</text>
+  <text x="80" y="100" font-family="system-ui, sans-serif" font-size="11" fill="#64748b" transform="rotate(-90, 80, 180)">MODEL CONFIDENCE</text>
+  <text x="400" y="300" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">ACTION IMPACT</text>
+  <line x1="120" y1="260" x2="700" y2="260" stroke="#e5e7eb" stroke-width="2"/>
+  <line x1="120" y1="260" x2="120" y2="60" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="200" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">Low</text>
+  <text x="600" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">High</text>
+  <text x="100" y="230" text-anchor="end" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">Low</text>
+  <text x="100" y="90" text-anchor="end" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">High</text>
+  <rect x="140" y="170" width="180" height="80" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="230" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#166534" font-weight="600">Auto-execute</text>
+  <text x="230" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">High confidence + Low impact</text>
+  <text x="230" y="238" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#16a34a">e.g., email sorting</text>
+  <rect x="340" y="170" width="180" height="80" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="430" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#b45309" font-weight="600">Suggest + Confirm</text>
+  <text x="430" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">High confidence + High impact</text>
+  <text x="430" y="238" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#f59e0b">e.g., fraud detection</text>
+  <rect x="140" y="75" width="180" height="80" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="230" y="105" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#1e40af" font-weight="600">Show Options</text>
+  <text x="230" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">Low confidence + Low impact</text>
+  <text x="230" y="143" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#3b82f6">e.g., recommendations</text>
+  <rect x="340" y="75" width="180" height="80" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="430" y="105" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dc2626" font-weight="600">Human Review</text>
+  <text x="430" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">Low confidence + High impact</text>
+  <text x="430" y="143" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#dc2626">e.g., insider risk alerts</text>
+  <rect x="540" y="115" width="150" height="100" rx="10" fill="#1e293b"/>
+  <text x="615" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#f1f5f9" font-weight="600">Key Insight:</text>
+  <text x="615" y="165" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#fbbf24">Never auto-execute</text>
+  <text x="615" y="180" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#fbbf24">high-impact actions</text>
+  <text x="615" y="195" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#fbbf24">at low confidence.</text>
+</svg>
+
+## Key Takeaways
+
+1. **AI products are probabilistic.** Embrace uncertainty in how you communicate and design.
+
+2. **Monitoring is not optional.** Models drift. Distributions shift. Ship with observability.
+
+3. **Edge cases destroy trust.** Design graceful degradation before launch.
+
+4. **Data work dominates.** Budget 60%+ of engineering time for data pipelines.
+
+5. **Match confidence to action.** High-impact decisions need human oversight when confidence is low.
+0:{"buildId":"f-aE6i_or5OF_aMl4jwdP","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["March 2026"," · ",8," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"The AI Product Manager's Survival Guide"}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","ai-products",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"ai-products"}],["$","span","product-management",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"product-management"}],["$","span","ml",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"ml"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":["$","$L3",null,{"content":"$4"}]}],"$L5"]}]}],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
+5:["$","nav",null,{"className":"mt-16 pt-8 border-t border-border grid grid-cols-1 md:grid-cols-2 gap-4","children":[["$","$L2",null,{"href":"/blog/experimentation-framework","className":"group","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Previous"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"The Experimentation Framework That Actually Works"}]]}],null]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true}]
+7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null
