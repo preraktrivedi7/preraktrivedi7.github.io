@@ -1,0 +1,27 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#FAFAF9"/>
+  <rect x="0" y="0" width="1200" height="4" fill="#F06A6A"/>
+
+  <!-- Name -->
+  <text x="80" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700" fill="#1A1A1F">Prerak Trivedi</text>
+
+  <!-- Role -->
+  <text x="80" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#6B6B76">Product Manager / AI Builder / Founder</text>
+
+  <!-- Divider -->
+  <rect x="80" y="320" width="60" height="3" fill="#F06A6A" rx="1.5"/>
+
+  <!-- Description -->
+  <text x="80" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#6B6B76">Building AI/ML platforms at TD Bank</text>
+  <text x="80" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#6B6B76">Founder of JustReva, voice AI for healthcare</text>
+
+  <!-- Stats -->
+  <text x="80" y="510" font-family="monospace" font-size="20" fill="#F06A6A">100K+ users</text>
+  <text x="320" y="510" font-family="monospace" font-size="20" fill="#9CA3AF">|</text>
+  <text x="360" y="510" font-family="monospace" font-size="20" fill="#F06A6A">$5M+ savings</text>
+  <text x="620" y="510" font-family="monospace" font-size="20" fill="#9CA3AF">|</text>
+  <text x="660" y="510" font-family="monospace" font-size="20" fill="#F06A6A">0 to 1 builder</text>
+
+  <!-- URL -->
+  <text x="80" y="580" font-family="monospace" font-size="18" fill="#9CA3AF">preraktrivedi7.github.io</text>
+</svg>
