@@ -1,23 +1,126 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/6f4b62c4de77fcc9.js"],""]
-14:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-15:"$Sreact.suspense"
-0:{"buildId":"3lpD4pinvSNEeEf-6lis0","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["January 2026"," · ",7," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"Personalization Didn't Get Creepy. It Lost Its Boundaries."}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","personalization",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"personalization"}],["$","span","ai-products",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"ai-products"}],["$","span","growth",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"growth"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":[["$","p",null,{"children":"Most personalization systems don't fail because AI inferred something wrong. They fail because no one decided what the system should never infer in the first place."}],"\n",["$","p",null,{"children":"This isn't where ethics or governance start. It's where product design failed first. And the failure only becomes visible at scale."}],"\n",["$","h2",null,{"children":"We have seen this failure before"}],"\n",["$","p",null,{"children":"Personalization failures are often explained as an AI problem. The models inferred too much. The system crossed a line. Users felt watched. But that explanation misses something important. This failure mode existed long before AI."}],"\n",["$","p",null,{"children":"What changed is not what personalization does, but what stops it."}],"\n",["$","p",null,{"children":"Earlier generations of personalization lived inside visible constraints. Rules-based segments. Declared preferences. CRM attributes users knowingly provided. When systems got it wrong, the mistake was obvious. The logic was legible. Trust eroded loudly."}],"\n",["$","p",null,{"children":"Those systems failed visibly, and therefore were easier to correct."}],"\n",["$","p",null,{"children":"Here's an example: before AI, a retailer might personalize emails based on a simple rule. Customers who bought baby products received promotions for diapers, formula, and toys. The logic was crude, but visible. When it went wrong, a gift purchase triggering months of baby-related emails, the mistake was obvious. Customers complained. Teams adjusted the rule. The system learned where it had overreached."}],"\n",["$","p",null,{"children":"The error wasn't subtle. It announced itself."}],"\n",["$","p",null,{"children":"Today with AI, the same mistake happens differently. A model infers life stage, intent, or emotional context from a constellation of weak signals: browsing patterns, timing, device usage, location. No single rule fires. No explicit assumption is made. The system simply \"knows.\""}],"\n","$L3","\n","$L4","\n","$L5","\n","$L6","\n","$L7","\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11"]}],"$L12"]}]}],null,"$L13"]}],"loading":null,"isPartial":false}
-3:["$","p",null,{"children":"When it gets it wrong, there is no obvious trigger to fix. No clear rule to roll back. Just a growing sense that the product understands too much, or something it never should have inferred at all."}]
-4:["$","p",null,{"children":"In both cases, the mistake is the same: the system made a claim about the user it wasn't entitled to make. The difference is that older systems made those claims loudly. Today's systems make them quietly, continuously, and at scale."}]
-5:["$","h2",null,{"children":"When inference enters product surfaces"}]
-6:["$","p",null,{"children":"The line isn't crossed noisily anymore. It's crossed quietly, because no one defined where inference should stop."}]
-7:["$","p",null,{"children":"Modern systems infer continuously without explicit decision points about what assumptions are permissible. A model may infer life stage, intent, or emotional context from weak signals like browsing patterns, timing, and device usage. Rather than inference happening solely within systems, it's embedded directly into product experiences through personalization that adapts continuously without clear human authorization of which claims systems can make about users."}]
-8:["$","h2",null,{"children":"Why value scales or collapses"}]
-9:["$","p",null,{"children":"Successful AI deployment requires deliberate embedding into decision workflows with early-defined scope and boundaries. Companies that lag allow systems to expand opportunistically, creating trust decay that outpaces value creation."}]
-a:["$","p",null,{"children":"This is not a philosophical debate. It's a product design question with direct impact on retention, brand trust, and long-term growth."}]
-b:["$","h2",null,{"children":"Personalization as decisioning, not optimization"}]
-c:["$","p",null,{"children":"Every personalization system is a decisioning system. It makes claims about users: their intent, their values, their likely next action. Each inference is a trust bet."}]
-d:["$","p",null,{"children":"When those bets are unbounded, when no one has decided what the system is and isn't allowed to learn, teams compensate retroactively with guardrails, exceptions, and manual reviews. The system works, technically. But the product experience erodes."}]
-e:["$","h2",null,{"children":"The core problem"}]
-f:["$","p",null,{"children":"The question product leaders need to answer is not \"how do we make personalization more accurate?\" It's \"what claims about a user is this system authorized to make, and who is accountable when those claims are wrong?\""}]
-10:["$","p",null,{"children":"Responsibility doesn't vanish when these decisions happen implicitly rather than explicitly. It diffuses. And diffused responsibility, at scale, is how trust dies quietly."}]
-11:["$","p",null,{"children":"The systems that personalize well aren't the ones with the best models. They're the ones where someone decided, early and explicitly, where inference should stop."}]
-12:["$","nav",null,{"className":"mt-16 pt-8 border-t border-border grid grid-cols-1 md:grid-cols-2 gap-4","children":[["$","$L2",null,{"href":"/blog/when-ai-fails","className":"group","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Previous"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"When AI Fails, It's Rarely Because the Model Was Wrong"}]]}],["$","$L2",null,{"href":"/blog/you-think-youre-shipping-a-product","className":"group text-right","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Next"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"You Think You're Shipping a Product? You're Actually Operating a Platform."}]]}]]}]
-13:["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]
-16:null
+2:I[22016,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],""]
+3:I[36005,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],"default"]
+8:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
+9:"$Sreact.suspense"
+4:T213e,
+Most personalization systems don't fail because AI inferred something wrong. They fail because no one decided what the system should never infer in the first place.
+
+This isn't where ethics or governance start. It's where product design failed first. And the failure only becomes visible at scale.
+
+## We have seen this failure before
+
+Personalization failures are often explained as an AI problem. The models inferred too much. The system crossed a line. Users felt watched. But that explanation misses something important. This failure mode existed long before AI.
+
+What changed is not what personalization does, but what stops it.
+
+Earlier generations of personalization lived inside visible constraints. Rules-based segments. Declared preferences. CRM attributes users knowingly provided. When systems got it wrong, the mistake was obvious. The logic was legible. Trust eroded loudly.
+
+Those systems failed visibly, and therefore were easier to correct.
+
+Here's an example: before AI, a retailer might personalize emails based on a simple rule. Customers who bought baby products received promotions for diapers, formula, and toys. The logic was crude, but visible. When it went wrong, a gift purchase triggering months of baby-related emails, the mistake was obvious. Customers complained. Teams adjusted the rule. The system learned where it had overreached.
+
+The error wasn't subtle. It announced itself.
+
+Today with AI, the same mistake happens differently. A model infers life stage, intent, or emotional context from a constellation of weak signals: browsing patterns, timing, device usage, location. No single rule fires. No explicit assumption is made. The system simply "knows."
+
+When it gets it wrong, there is no obvious trigger to fix. No clear rule to roll back. Just a growing sense that the product understands too much, or something it never should have inferred at all.
+
+In both cases, the mistake is the same: the system made a claim about the user it wasn't entitled to make. The difference is that older systems made those claims loudly. Today's systems make them quietly, continuously, and at scale.
+
+<div style="margin: 2rem 0; text-align: center;">
+<svg viewBox="0 0 800 350" style="max-width:700px;width:100%;border:1px solid #e8e8e3;background:#fff;" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left side: Rules-Based -->
+  <rect x="40" y="20" width="320" height="40" rx="4" fill="#e8e8e3" stroke="#1e1e1e" stroke-width="2" text-anchor="middle"/>
+  <text x="200" y="48" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e1e1e">Rules-Based (Before)</text>
+  
+  <!-- Flowchart boxes -->
+  <rect x="80" y="90" width="100" height="60" rx="6" fill="#fff" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
+  <text x="130" y="120" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e1e1e">Rule</text>
+  <text x="130" y="138" text-anchor="middle" font-size="10" fill="#1e1e1e">"Buy baby</text>
+  <text x="130" y="150" text-anchor="middle" font-size="10" fill="#1e1e1e">products"</text>
+  
+  <!-- Arrow -->
+  <path d="M 180 120 L 240 120" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <polygon points="240,120 230,115 235,125" fill="#1e1e1e"/>
+  
+  <rect x="240" y="90" width="100" height="60" rx="6" fill="#fff" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
+  <text x="290" y="120" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e1e1e">Check</text>
+  <text x="290" y="138" text-anchor="middle" font-size="10" fill="#1e1e1e">Match data?</text>
+  
+  <!-- Arrow -->
+  <path d="M 340 120 L 400 120" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <polygon points="400,120 390,115 395,125" fill="#1e1e1e"/>
+  
+  <rect x="400" y="90" width="100" height="60" rx="6" fill="#fff" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
+  <text x="450" y="120" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e1e1e">Result</text>
+  <text x="450" y="138" text-anchor="middle" font-size="10" fill="#1e1e1e">Show ads</text>
+  
+  <!-- Label -->
+  <text x="200" y="180" text-anchor="middle" font-size="11" fill="#1e1e1e">Visible, legible, obvious when wrong</text>
+  
+  <!-- Right side: AI Inference -->
+  <rect x="460" y="20" width="300" height="40" rx="4" fill="#e8e8e3" stroke="#1e1e1e" stroke-width="2"/>
+  <text x="610" y="48" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e1e1e">AI Inference (Now)</text>
+  
+  <!-- Signals cloud -->
+  <circle cx="510" cy="110" r="18" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+  <text x="510" y="115" text-anchor="middle" font-size="9" fill="#1e1e1e">Browse</text>
+  
+  <circle cx="560" cy="90" r="18" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+  <text x="560" y="95" text-anchor="middle" font-size="9" fill="#1e1e1e">Time</text>
+  
+  <circle cx="610" cy="100" r="18" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+  <text x="610" y="105" text-anchor="middle" font-size="9" fill="#1e1e1e">Device</text>
+  
+  <circle cx="660" cy="110" r="18" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+  <text x="660" y="115" text-anchor="middle" font-size="9" fill="#1e1e1e">Location</text>
+  
+  <!-- Arrows to model -->
+  <path d="M 525 128 L 580 160" stroke="#1e1e1e" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 570 108 L 580 160" stroke="#1e1e1e" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 610 118 L 610 160" stroke="#1e1e1e" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 650 128 L 620 160" stroke="#1e1e1e" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- Black box (model) -->
+  <rect x="540" y="160" width="140" height="80" rx="6" fill="#2a2a2a" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
+  <text x="610" y="185" text-anchor="middle" font-size="12" font-weight="bold" fill="#e8e8e3">Model</text>
+  <text x="610" y="205" text-anchor="middle" font-size="11" fill="#f06a6a">Inference</text>
+  <text x="610" y="228" text-anchor="middle" font-size="20" fill="#f06a6a">?</text>
+  
+  <!-- Characteristics -->
+  <text x="610" y="280" text-anchor="middle" font-size="11" fill="#1e1e1e">No visible rules, quiet, scale-hidden</text>
+  <text x="610" y="298" text-anchor="middle" font-size="11" fill="#f06a6a" font-weight="bold">Dangerous when underbounded</text>
+</svg>
+</div>
+
+## When inference enters product surfaces
+
+The line isn't crossed noisily anymore. It's crossed quietly, because no one defined where inference should stop.
+
+Modern systems infer continuously without explicit decision points about what assumptions are permissible. A model may infer life stage, intent, or emotional context from weak signals like browsing patterns, timing, and device usage. Rather than inference happening solely within systems, it's embedded directly into product experiences through personalization that adapts continuously without clear human authorization of which claims systems can make about users.
+
+## Why value scales or collapses
+
+Successful AI deployment requires deliberate embedding into decision workflows with early-defined scope and boundaries. Companies that lag allow systems to expand opportunistically, creating trust decay that outpaces value creation.
+
+This is not a philosophical debate. It's a product design question with direct impact on retention, brand trust, and long-term growth.
+
+## Personalization as decisioning, not optimization
+
+Every personalization system is a decisioning system. It makes claims about users: their intent, their values, their likely next action. Each inference is a trust bet.
+
+When those bets are unbounded, when no one has decided what the system is and isn't allowed to learn, teams compensate retroactively with guardrails, exceptions, and manual reviews. The system works, technically. But the product experience erodes.
+
+## The core problem
+
+The question product leaders need to answer is not "how do we make personalization more accurate?" It's "what claims about a user is this system authorized to make, and who is accountable when those claims are wrong?"
+
+Responsibility doesn't vanish when these decisions happen implicitly rather than explicitly. It diffuses. And diffused responsibility, at scale, is how trust dies quietly.
+
+The systems that personalize well aren't the ones with the best models. They're the ones where someone decided, early and explicitly, where inference should stop.
+0:{"buildId":"SLipuA_Hc-s9cvFOSYyko","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["January 2026"," · ",7," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"Personalization Didn't Get Creepy. It Lost Its Boundaries."}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","personalization",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"personalization"}],["$","span","ai-products",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"ai-products"}],["$","span","growth",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"growth"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":["$","$L3",null,{"content":"$4"}]}],"$L5"]}]}],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
+5:["$","nav",null,{"className":"mt-16 pt-8 border-t border-border grid grid-cols-1 md:grid-cols-2 gap-4","children":[["$","$L2",null,{"href":"/blog/when-ai-fails","className":"group","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Previous"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"When AI Fails, It's Rarely Because the Model Was Wrong"}]]}],["$","$L2",null,{"href":"/blog/you-think-youre-shipping-a-product","className":"group text-right","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Next"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"You Think You're Shipping a Product? You're Actually Operating a Platform."}]]}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true}]
+7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

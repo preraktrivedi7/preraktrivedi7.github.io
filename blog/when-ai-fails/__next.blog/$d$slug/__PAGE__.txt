@@ -1,24 +1,91 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/6f4b62c4de77fcc9.js"],""]
-15:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-16:"$Sreact.suspense"
-0:{"buildId":"3lpD4pinvSNEeEf-6lis0","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["December 2025"," · ",6," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"When AI Fails, It's Rarely Because the Model Was Wrong"}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","ai-products",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"ai-products"}],["$","span","integration",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"integration"}],["$","span","lessons",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"lessons"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":[["$","h2",null,{"children":"The real failure mode isn't technical"}],"\n",["$","p",null,{"children":"Most evaluations of AI systems start with the same questions. Was the model accurate? Was the data clean? Was there bias?"}],"\n",["$","p",null,{"children":"But in practice, the systems that stall in production don't fail because predictions were wrong. They fail because no one decided where the system was allowed to decide."}],"\n",["$","p",null,{"children":"As AI moves from recommendation to execution, organizations cross a quiet but consequential line. Systems stop supporting human judgment and start acting on behalf of the organization. That shift doesn't announce itself with an outage or incident. It shows up gradually through hesitation, workarounds, and a slow erosion of confidence."}],"\n",["$","p",null,{"children":"This is why so many AI pilots look successful while production deployments feel fragile."}],"\n",["$","h2",null,{"children":"When pilots succeed and production hesitates"}],"\n",["$","p",null,{"children":"Teams are generally comfortable experimenting with AI in advisory roles. Models suggest, rank, summarize, or flag. Humans remain clearly in charge."}],"\n",["$","p",null,{"children":"Friction appears when those same systems begin executing decisions in real workflows."}],"\n",["$","p",null,{"children":"At that point, the issue is rarely technical reliability. It's uncertainty around decision boundaries: who owns the outcome, when automation should pause, and how responsibility flows when something goes wrong."}],"\n",["$","p",null,{"children":"When those boundaries are unclear, organizations compensate in predictable ways. Reviews get added. Exceptions pile up. Manual steps quietly return. Velocity drops, not because AI is unsafe, but because trust was never designed into the system."}],"\n",["$","p",null,{"children":"This pattern is often misdiagnosed as a governance failure. It isn't."}],"\n","$L3","\n","$L4","\n","$L5","\n","$L6","\n","$L7","\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12"]}],"$L13"]}]}],null,"$L14"]}],"loading":null,"isPartial":false}
-3:["$","h2",null,{"children":"Human in the loop is not a safeguard. It's a design choice."}]
-4:["$","p",null,{"children":"From a product perspective, human-in-the-loop is frequently misunderstood."}]
-5:["$","p",null,{"children":"It's treated as a safety mechanism bolted on late in the process, a checkbox for risk mitigation. In reality, it is one of the most fundamental design decisions teams make when building AI systems."}]
-6:["$","p",null,{"children":"Well-designed boundaries clarify:"}]
-7:["$","ul",null,{"children":["\n",["$","li",null,{"children":"Which decisions can run autonomously end-to-end"}],"\n",["$","li",null,{"children":"Which require human confirmation"}],"\n",["$","li",null,{"children":"Which should never be automated at all"}],"\n"]}]
-8:["$","p",null,{"children":"They make escalation paths predictable. They allow teams to reason about failure modes before they occur, rather than reacting defensively afterward."}]
-9:["$","p",null,{"children":"Poorly designed boundaries do the opposite. They slow systems down, confuse ownership, and quietly undermine confidence, even when model performance is strong."}]
-a:["$","h2",null,{"children":"Where scalable AI actually comes from"}]
-b:["$","p",null,{"children":"Organizations that scale AI successfully don't remove humans from the loop entirely."}]
-c:["$","p",null,{"children":"They place them deliberately, at points of ambiguity, irreversible impact, or asymmetric risk."}]
-d:["$","p",null,{"children":"As a result, automation accelerates rather than stalls. Teams move faster because responsibility is clear, not because controls are looser."}]
-e:["$","p",null,{"children":"This is the part many teams miss: clarity doesn't reduce scale. It enables it."}]
-f:["$","h2",null,{"children":"The leadership takeaway"}]
-10:["$","p",null,{"children":"Scaling AI isn't about choosing how much to automate. It's about deciding where judgment lives, and making that decision explicit before systems are trusted to act."}]
-11:["$","p",null,{"children":"AI doesn't fail because it lacks intelligence. It fails when no one knows where responsibility begins and ends."}]
-12:["$","p",null,{"children":"That's not a governance gap. It's a product decision."}]
-13:["$","nav",null,{"className":"mt-16 pt-8 border-t border-border grid grid-cols-1 md:grid-cols-2 gap-4","children":[["$","$L2",null,{"href":"/blog/when-ai-stops-assisting","className":"group","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Previous"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"When AI Stops Assisting and Starts Deciding"}]]}],["$","$L2",null,{"href":"/blog/personalization-didnt-get-creepy","className":"group text-right","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Next"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"Personalization Didn't Get Creepy. It Lost Its Boundaries."}]]}]]}]
-14:["$","$L15",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]
-17:null
+2:I[22016,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],""]
+3:I[36005,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],"default"]
+8:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
+9:"$Sreact.suspense"
+4:T13a4,
+## The real failure mode isn't technical
+
+Most evaluations of AI systems start with the same questions. Was the model accurate? Was the data clean? Was there bias?
+
+But in practice, the systems that stall in production don't fail because predictions were wrong. They fail because no one decided where the system was allowed to decide.
+
+As AI moves from recommendation to execution, organizations cross a quiet but consequential line. Systems stop supporting human judgment and start acting on behalf of the organization. That shift doesn't announce itself with an outage or incident. It shows up gradually through hesitation, workarounds, and a slow erosion of confidence.
+
+This is why so many AI pilots look successful while production deployments feel fragile.
+
+## When pilots succeed and production hesitates
+
+Teams are generally comfortable experimenting with AI in advisory roles. Models suggest, rank, summarize, or flag. Humans remain clearly in charge.
+
+Friction appears when those same systems begin executing decisions in real workflows.
+
+At that point, the issue is rarely technical reliability. It's uncertainty around decision boundaries: who owns the outcome, when automation should pause, and how responsibility flows when something goes wrong.
+
+When those boundaries are unclear, organizations compensate in predictable ways. Reviews get added. Exceptions pile up. Manual steps quietly return. Velocity drops, not because AI is unsafe, but because trust was never designed into the system.
+
+This pattern is often misdiagnosed as a governance failure. It isn't.
+
+## Human in the loop is not a safeguard. It's a design choice.
+
+From a product perspective, human-in-the-loop is frequently misunderstood.
+
+It's treated as a safety mechanism bolted on late in the process, a checkbox for risk mitigation. In reality, it is one of the most fundamental design decisions teams make when building AI systems.
+
+<div style="margin: 2rem 0; text-align: center;">
+<svg viewBox="0 0 700 380" style="max-width:700px;width:100%;border:1px solid #e8e8e3;background:#fff;" xmlns="http://www.w3.org/2000/svg">
+  <!-- Risk scale on left -->
+  <line x1="60" y1="80" x2="60" y2="320" stroke="#1e1e1e" stroke-width="2"/>
+  <text x="25" y="85" font-size="11" fill="#1e1e1e">Risk /</text>
+  <text x="10" y="98" font-size="11" fill="#1e1e1e">Irreversibility</text>
+  
+  <!-- Zone 1: Fully Autonomous (green) -->
+  <rect x="80" y="80" width="600" height="70" rx="6" fill="#90EE90" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
+  <text x="380" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e1e1e">Fully Autonomous</text>
+  <text x="380" y="130" text-anchor="middle" font-size="11" fill="#1e1e1e">Low risk, reversible, routine decisions</text>
+  
+  <!-- Zone 2: Human Confirmation Required (yellow) -->
+  <rect x="80" y="160" width="600" height="90" rx="6" fill="#FFD700" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
+  <text x="380" y="195" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e1e1e">Human Confirmation Required</text>
+  <text x="380" y="215" text-anchor="middle" font-size="11" fill="#1e1e1e">Medium risk, partially reversible,</text>
+  <text x="380" y="230" text-anchor="middle" font-size="11" fill="#1e1e1e">requires human judgment at decision point</text>
+  
+  <!-- Zone 3: Never Automate (red) -->
+  <rect x="80" y="260" width="600" height="70" rx="6" fill="#FF6B6B" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
+  <text x="380" y="290" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e1e1e">Never Automate</text>
+  <text x="380" y="310" text-anchor="middle" font-size="11" fill="#fff">High risk, irreversible consequences</text>
+</svg>
+</div>
+
+Well-designed boundaries clarify:
+
+- Which decisions can run autonomously end-to-end
+- Which require human confirmation
+- Which should never be automated at all
+
+They make escalation paths predictable. They allow teams to reason about failure modes before they occur, rather than reacting defensively afterward.
+
+Poorly designed boundaries do the opposite. They slow systems down, confuse ownership, and quietly undermine confidence, even when model performance is strong.
+
+## Where scalable AI actually comes from
+
+Organizations that scale AI successfully don't remove humans from the loop entirely.
+
+They place them deliberately, at points of ambiguity, irreversible impact, or asymmetric risk.
+
+As a result, automation accelerates rather than stalls. Teams move faster because responsibility is clear, not because controls are looser.
+
+This is the part many teams miss: clarity doesn't reduce scale. It enables it.
+
+## The leadership takeaway
+
+Scaling AI isn't about choosing how much to automate. It's about deciding where judgment lives, and making that decision explicit before systems are trusted to act.
+
+AI doesn't fail because it lacks intelligence. It fails when no one knows where responsibility begins and ends.
+
+That's not a governance gap. It's a product decision.
+0:{"buildId":"SLipuA_Hc-s9cvFOSYyko","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["December 2025"," · ",6," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"When AI Fails, It's Rarely Because the Model Was Wrong"}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","ai-products",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"ai-products"}],["$","span","integration",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"integration"}],["$","span","lessons",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"lessons"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":["$","$L3",null,{"content":"$4"}]}],"$L5"]}]}],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
+5:["$","nav",null,{"className":"mt-16 pt-8 border-t border-border grid grid-cols-1 md:grid-cols-2 gap-4","children":[["$","$L2",null,{"href":"/blog/when-ai-stops-assisting","className":"group","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Previous"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"When AI Stops Assisting and Starts Deciding"}]]}],["$","$L2",null,{"href":"/blog/personalization-didnt-get-creepy","className":"group text-right","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Next"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"Personalization Didn't Get Creepy. It Lost Its Boundaries."}]]}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true}]
+7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

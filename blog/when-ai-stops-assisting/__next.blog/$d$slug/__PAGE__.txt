@@ -1,30 +1,114 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/6f4b62c4de77fcc9.js"],""]
-1b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-1c:"$Sreact.suspense"
-0:{"buildId":"3lpD4pinvSNEeEf-6lis0","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["December 2025"," · ",6," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"When AI Stops Assisting and Starts Deciding"}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","ai-products",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"ai-products"}],["$","span","autonomy",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"autonomy"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":[["$","p",null,{"children":"AI capability is no longer the limiting factor for most organizations. Decision ownership is."}],"\n",["$","p",null,{"children":"Models are getting better, cheaper, and easier to deploy at a pace few teams planned for. What hasn't scaled at the same rate is the organization's ability to stand behind the decisions those systems now influence, or quietly make."}],"\n",["$","p",null,{"children":"This is where many AI initiatives stall. Not because the technology fails, but because it succeeds faster than the surrounding operating model can absorb."}],"\n",["$","p",null,{"children":"This tension shows up structurally: decision authority remains centralized, while AI execution increasingly lives at the edges. Earlier waves of analytics helped humans decide. Today's systems increasingly decide on behalf of humans, even when we still describe them as \"assistive.\""}],"\n",["$","p",null,{"children":"That shift is subtle, and easy to miss."}],"\n",["$","h2",null,{"children":"When compression becomes judgment"}],"\n",["$","p",null,{"children":"Consider a familiar scenario."}],"\n",["$","p",null,{"children":"You rely on an AI-generated summary of a long document, meeting, or email thread. It's concise. Confident. Clean. It misses a nuance that felt minor at the time. A decision is made downstream based on the summary, not the source."}],"\n",["$","p",null,{"children":"Nothing \"breaks.\" No error is flagged. But the summary doesn't just inform the decision. It becomes the decision."}],"\n",["$","p",null,{"children":"At that moment, accuracy isn't the real issue anymore. The harder questions surface instead: Was this system meant to inform, or to decide? Who is accountable for what was left out? And how would anyone even know?"}],"\n",["$","p",null,{"children":"This pattern shows up far beyond summaries."}],"\n",["$","h2",null,{"children":"The wrong answer that sounds right"}],"\n",["$","p",null,{"children":"Large language models are increasingly trusted because they sound reasonable. That's their strength, and their risk."}],"\n","$L3","\n","$L4","\n","$L5","\n","$L6","\n","$L7","\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18"]}],"$L19"]}]}],null,"$L1a"]}],"loading":null,"isPartial":false}
-3:["$","p",null,{"children":"A model produces a confident answer that is plausible but wrong. Not obviously wrong. Just incomplete enough to steer action in the wrong direction. A plan is formed. A response is sent. A call is made."}]
-4:["$","p",null,{"children":"When the outcome doesn't match expectations, teams don't ask, \"Why did we trust the model?\" They ask, \"Why did this decision happen?\""}]
-5:["$","p",null,{"children":"By then, the line between assistance and authority has already blurred."}]
-6:["$","h2",null,{"children":"The agent that \"cleanly\" closes the loop"}]
-7:["$","p",null,{"children":"Automation agents add another layer."}]
-8:["$","p",null,{"children":"An AI agent routes a request, closes a ticket, or schedules work in a way that is operationally clean. From the system's point of view, the process worked. From the user's point of view, context was missed."}]
-9:["$","p",null,{"children":"Nothing crashed. Metrics look fine. But the experience feels wrong."}]
-a:["$","p",null,{"children":"This is where many teams realize they didn't design for decision boundaries, only for task completion."}]
-b:["$","h2",null,{"children":"Where product responsibility quietly expands"}]
-c:["$","p",null,{"children":"From a product perspective, these moments mark a turning point."}]
-d:["$","p",null,{"children":"Once a system is allowed to summarize, rank, approve, respond, or route at scale, it is no longer neutral. It encodes judgment: risk tolerance, escalation paths, and decision rights, whether those were explicitly designed or not."}]
-e:["$","p",null,{"children":"Most teams don't feel this during pilots. Pilots live in controlled environments. Reality arrives later, when prompts drift, edge cases accumulate, or someone asks for an explanation the system can't easily provide."}]
-f:["$","p",null,{"children":"That's when governance shows up, often late, layered on through reviews and manual checks that slow everything down."}]
-10:["$","p",null,{"children":"The teams that scale AI more reliably do something deceptively simple."}]
-11:["$","p",null,{"children":"They treat decision design as part of the product."}]
-12:["$","p",null,{"children":"They are explicit about what is automated, what is advisory, where humans intervene, and who owns outcomes when automation is wrong. As a result, governance becomes enabling rather than obstructive."}]
-13:["$","h2",null,{"children":"The durable lesson"}]
-14:["$","p",null,{"children":"The durable lesson is not to slow down AI development."}]
-15:["$","p",null,{"children":"It's to shift where rigor lives."}]
-16:["$","p",null,{"children":"Scaling AI isn't about shipping smarter models faster. It's about building systems the organization is willing to trust, repeatedly, visibly, and under real conditions."}]
-17:["$","p",null,{"children":"The next AI advantage won't come from prediction quality alone."}]
-18:["$","p",null,{"children":"It will come from operationalized judgment, designed on purpose and made visible at scale."}]
-19:["$","nav",null,{"className":"mt-16 pt-8 border-t border-border grid grid-cols-1 md:grid-cols-2 gap-4","children":[["$","$L2",null,{"href":"/blog/building-a-product-vision","className":"group","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Previous"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"Building a Product Vision: The Blueprint to Long-Term Success"}]]}],["$","$L2",null,{"href":"/blog/when-ai-fails","className":"group text-right","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Next"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"When AI Fails, It's Rarely Because the Model Was Wrong"}]]}]]}]
-1a:["$","$L1b",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
-1d:null
+2:I[22016,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],""]
+3:I[36005,["/_next/static/chunks/84142d135179b8e2.js","/_next/static/chunks/8fdad986919c1e81.js"],"default"]
+8:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
+9:"$Sreact.suspense"
+4:T171c,
+AI capability is no longer the limiting factor for most organizations. Decision ownership is.
+
+Models are getting better, cheaper, and easier to deploy at a pace few teams planned for. What hasn't scaled at the same rate is the organization's ability to stand behind the decisions those systems now influence, or quietly make.
+
+This is where many AI initiatives stall. Not because the technology fails, but because it succeeds faster than the surrounding operating model can absorb.
+
+This tension shows up structurally: decision authority remains centralized, while AI execution increasingly lives at the edges. Earlier waves of analytics helped humans decide. Today's systems increasingly decide on behalf of humans, even when we still describe them as "assistive."
+
+That shift is subtle, and easy to miss.
+
+<div style="margin: 2rem 0; text-align: center;">
+<svg viewBox="0 0 800 200" style="max-width:700px;width:100%;border:1px solid #e8e8e3;background:#fff;" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient bar background -->
+  <defs>
+    <linearGradient id="spectrum" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e8e8e3;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#f5d4d4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f0a7a7;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#e87878;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d65555;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main bar -->
+  <rect x="80" y="50" width="650" height="50" rx="6" fill="url(#spectrum)" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
+  
+  <!-- Stage labels -->
+  <text x="120" y="105" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e1e1e">Informing</text>
+  <text x="250" y="105" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e1e1e">Suggesting</text>
+  <text x="410" y="105" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e1e1e">Deciding</text>
+  <text x="560" y="105" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e1e1e">Acting</text>
+  
+  <!-- Divider lines -->
+  <line x1="180" y1="50" x2="180" y2="100" stroke="#1e1e1e" stroke-width="1" opacity="0.5"/>
+  <line x1="330" y1="50" x2="330" y2="100" stroke="#1e1e1e" stroke-width="1" opacity="0.5"/>
+  <line x1="485" y1="50" x2="485" y2="100" stroke="#1e1e1e" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Bottom annotation -->
+  <path d="M 80 140 L 730 140" stroke="#f06a6a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <polygon points="730,140 720,135 720,145" fill="#f06a6a"/>
+  <text x="400" y="165" text-anchor="middle" font-size="12" fill="#f06a6a" font-weight="bold">Accountability gap widens</text>
+</svg>
+</div>
+
+## When compression becomes judgment
+
+Consider a familiar scenario.
+
+You rely on an AI-generated summary of a long document, meeting, or email thread. It's concise. Confident. Clean. It misses a nuance that felt minor at the time. A decision is made downstream based on the summary, not the source.
+
+Nothing "breaks." No error is flagged. But the summary doesn't just inform the decision. It becomes the decision.
+
+At that moment, accuracy isn't the real issue anymore. The harder questions surface instead: Was this system meant to inform, or to decide? Who is accountable for what was left out? And how would anyone even know?
+
+This pattern shows up far beyond summaries.
+
+## The wrong answer that sounds right
+
+Large language models are increasingly trusted because they sound reasonable. That's their strength, and their risk.
+
+A model produces a confident answer that is plausible but wrong. Not obviously wrong. Just incomplete enough to steer action in the wrong direction. A plan is formed. A response is sent. A call is made.
+
+When the outcome doesn't match expectations, teams don't ask, "Why did we trust the model?" They ask, "Why did this decision happen?"
+
+By then, the line between assistance and authority has already blurred.
+
+## The agent that "cleanly" closes the loop
+
+Automation agents add another layer.
+
+An AI agent routes a request, closes a ticket, or schedules work in a way that is operationally clean. From the system's point of view, the process worked. From the user's point of view, context was missed.
+
+Nothing crashed. Metrics look fine. But the experience feels wrong.
+
+This is where many teams realize they didn't design for decision boundaries, only for task completion.
+
+## Where product responsibility quietly expands
+
+From a product perspective, these moments mark a turning point.
+
+Once a system is allowed to summarize, rank, approve, respond, or route at scale, it is no longer neutral. It encodes judgment: risk tolerance, escalation paths, and decision rights, whether those were explicitly designed or not.
+
+Most teams don't feel this during pilots. Pilots live in controlled environments. Reality arrives later, when prompts drift, edge cases accumulate, or someone asks for an explanation the system can't easily provide.
+
+That's when governance shows up, often late, layered on through reviews and manual checks that slow everything down.
+
+The teams that scale AI more reliably do something deceptively simple.
+
+They treat decision design as part of the product.
+
+They are explicit about what is automated, what is advisory, where humans intervene, and who owns outcomes when automation is wrong. As a result, governance becomes enabling rather than obstructive.
+
+## The durable lesson
+
+The durable lesson is not to slow down AI development.
+
+It's to shift where rigor lives.
+
+Scaling AI isn't about shipping smarter models faster. It's about building systems the organization is willing to trust, repeatedly, visibly, and under real conditions.
+
+The next AI advantage won't come from prediction quality alone.
+
+It will come from operationalized judgment, designed on purpose and made visible at scale.
+0:{"buildId":"SLipuA_Hc-s9cvFOSYyko","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"py-20 px-6","children":["$","div",null,{"className":"max-w-[720px] mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"text-sm text-fg-tertiary hover:text-fg-primary transition-colors duration-200 mb-8 inline-block","children":"Back to blog"}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-4","children":["December 2025"," · ",6," min read"]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-fg-primary leading-tight tracking-tight mb-4","children":"When AI Stops Assisting and Starts Deciding"}],["$","div",null,{"className":"flex gap-2 flex-wrap","children":[["$","span","ai-products",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"ai-products"}],["$","span","autonomy",{"className":"text-xs text-accent font-mono px-2 py-1 rounded bg-accent-soft","children":"autonomy"}]]}]]}],["$","div",null,{"className":"prose prose-lg max-w-none text-fg-secondary leading-relaxed prose-headings:text-fg-primary prose-headings:tracking-tight prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:mb-5 prose-strong:text-fg-primary prose-strong:font-semibold prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2 prose-li:text-fg-secondary prose-blockquote:border-l-accent prose-blockquote:text-fg-secondary prose-blockquote:italic ","children":["$","$L3",null,{"content":"$4"}]}],"$L5"]}]}],["$L6"],"$L7"]}],"loading":null,"isPartial":false}
+5:["$","nav",null,{"className":"mt-16 pt-8 border-t border-border grid grid-cols-1 md:grid-cols-2 gap-4","children":[["$","$L2",null,{"href":"/blog/building-a-product-vision","className":"group","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Previous"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"Building a Product Vision: The Blueprint to Long-Term Success"}]]}],["$","$L2",null,{"href":"/blog/when-ai-fails","className":"group text-right","children":[["$","div",null,{"className":"text-xs text-fg-tertiary font-mono mb-1","children":"Next"}],["$","div",null,{"className":"text-sm font-medium text-fg-primary group-hover:text-accent transition-colors duration-200","children":"When AI Fails, It's Rarely Because the Model Was Wrong"}]]}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/8fdad986919c1e81.js","async":true}]
+7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null
