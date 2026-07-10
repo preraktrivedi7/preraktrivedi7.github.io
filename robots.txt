@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://preraktrivedi7.github.io/sitemap.xml

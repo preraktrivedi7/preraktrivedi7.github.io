@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Prerak Trivedi — AI Product Manager & Builder",
+    "short_name": "Prerak Trivedi",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#FAFAF9",
+    "background_color": "#FAFAF9",
     "display": "standalone"
 }
