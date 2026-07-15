@@ -1,4 +1,25 @@
 User-Agent: *
 Allow: /
 
+User-Agent: OAI-SearchBot
+Allow: /
+
+User-Agent: GPTBot
+Disallow: /
+
+User-Agent: Claude-SearchBot
+Allow: /
+
+User-Agent: Claude-User
+Allow: /
+
+User-Agent: ClaudeBot
+Disallow: /
+
+User-Agent: PerplexityBot
+Allow: /
+
+User-Agent: Google-Extended
+Allow: /
+
 Sitemap: https://preraktrivedi7.github.io/sitemap.xml

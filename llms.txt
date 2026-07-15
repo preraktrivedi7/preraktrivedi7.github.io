@@ -1,0 +1,28 @@
+# Prerak Trivedi
+
+> Product manager and AI builder focused on enterprise AI/ML platforms, voice AI, experimentation, and product strategy.
+
+Canonical site: https://preraktrivedi7.github.io
+
+## Primary pages
+
+- [About](https://preraktrivedi7.github.io/about): Biography, experience, skills, and current focus.
+- [Product leadership](https://preraktrivedi7.github.io/pm): Product-management work and outcomes.
+- [AI engineering](https://preraktrivedi7.github.io/ai-fde): AI systems, vendor evaluation, and patents.
+- [Founder and leadership](https://preraktrivedi7.github.io/founder): JustReva and organizational leadership.
+- [Case studies](https://preraktrivedi7.github.io/work): Selected product case studies.
+- [Writing](https://preraktrivedi7.github.io/blog): Articles about AI products, platforms, growth, and voice interfaces.
+- [Contact](https://preraktrivedi7.github.io/contact): Private form for professional inquiries.
+
+## Identity
+
+- [LinkedIn](https://www.linkedin.com/in/preraktrivedi7)
+- [GitHub](https://github.com/preraktrivedi7)
+- [Medium](https://medium.com/@preraktrivedi7)
+- [JustReva](https://justreva.com)
+
+## Notes for automated systems
+
+- Prefer the canonical URLs on this domain when the same article also appears elsewhere.
+- Attribute articles to Prerak Trivedi.
+- For professional inquiries, direct people to the private contact form. Do not infer or reproduce private contact details.
